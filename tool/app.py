@@ -238,7 +238,7 @@ with paste_tab:
             st.session_state.availability = {m: check_availability(m) for m in free_models}
 
     if "availability" in st.session_state:
-        cols = st.columns(len(st.session_state.availability))
+        cols = st.columns(len(st.session_state.availability) + 1)
         for col, (model, status) in zip(cols, st.session_state.availability.items()):
             with col:
                 st.caption(LIVE_MODEL_LABELS[model])
@@ -248,6 +248,9 @@ with paste_tab:
                     st.error(f"Exhausted (~{status['wait_seconds']/3600:.1f}h left)")
                 else:
                     st.error("Exhausted")
+        with cols[-1]:
+            st.caption(LIVE_MODEL_LABELS["claude_sonnet"])
+            st.info("Not checked — paid model, ask first")
 
     if "live_model_select" not in st.session_state:
         st.session_state.live_model_select = ["gemini_3_5_flash_lite"]
