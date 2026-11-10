@@ -22,17 +22,23 @@ actual run. Updated as each stage completes.
   | Governing law | 112/130 | 86.2% |
   | Exclusivity | 43/130 | 33.1% |
 
-## Stage 2 — Models (lineup chosen, keys not yet set up)
+## Stage 2 — Models (done — keys set up, local model pulled)
 
-5 models, 4 free + 1 paid (clearly labeled as the one exception):
+5 models, 4 free + 1 paid (clearly labeled as the one exception). Mistral was
+considered but dropped: its free "Experiment" plan turned out to require
+upgrading (and likely a credit card) to actually use the API, despite being
+advertised as free — so it failed the "genuinely free" bar and was swapped
+for Groq, which was independently confirmed free with no card.
 
 | Model | Provider | Free? | Notes |
 |---|---|---|---|
 | Gemini 3.8 Flash | Google AI Studio | Yes | Google's current best free-tier model |
 | Gemini 3.1 Flash-Lite | Google AI Studio | Yes | Google's most basic free-tier model |
-| Mistral (model TBD at setup) | Mistral AI ("La Plateforme") | Yes | Free tier, may require phone verification |
-| Llama 3.2 (3B) | Local, via Ollama | Yes | Runs on-device, no API key, no rate limit |
+| openai/gpt-oss-120b | Groq (free plan) | Yes | OpenAI's open-weight model, hosted free by Groq |
+| Llama 3.2 (3B) | Local, via Ollama | Yes | Runs on-device, no API key, no rate limit — pulled and verified working |
 | Claude Sonnet 5.5 | Anthropic | **No — paid** | ~$1-2 estimated for the full run; author's own existing key |
+
+API keys for Google, Groq, and Anthropic are stored in `.env` (not committed — see `.env.example`).
 
 Dates each model is actually run will be recorded here once Stage 3/4 happen, since free-tier
 models and prices can change.

@@ -10,7 +10,7 @@ and which clause types still need a human reviewer.
 **This is not legal advice.** The author is not a lawyer, and nothing here
 should be used to make real legal decisions.
 
-Status: Stage 1 (scoping) complete. See [RESULTS.md](RESULTS.md) for real
+Status: Stage 2 (model setup) complete. See [RESULTS.md](RESULTS.md) for real
 numbers as they're produced — nothing in this README or that file is
 invented or filled in ahead of an actual run.
 
@@ -25,6 +25,26 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+**API keys:** copy `.env.example` to `.env` and fill in your own free keys
+(Google AI Studio, Groq) plus an Anthropic key if you want to include the
+one paid model. `.env` is git-ignored — never commit real keys.
+
+## Models (Stage 2)
+
+5 models, 4 free + 1 paid (clearly labeled):
+
+| Model | Provider | Free? |
+|---|---|---|
+| Gemini 3.8 Flash | Google AI Studio | Yes |
+| Gemini 3.1 Flash-Lite | Google AI Studio | Yes |
+| openai/gpt-oss-120b | Groq (free plan) | Yes |
+| Llama 3.2 (3B) | Local, via Ollama | Yes |
+| Claude Sonnet 5.5 | Anthropic | **No — paid, ~$1-2 estimated** |
+
+Mistral was considered but dropped — its advertised "free" plan actually
+required upgrading (likely with a credit card) before the API key would
+work, so it didn't meet the free-only bar.
 
 ## Data
 

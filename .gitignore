@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# real secrets live here, never committed — .env.example shows the shape
+.env
+
 # CUAD raw data is CC BY 4.0 but we don't commit it ourselves —
 # README.md has the exact download command instead.
 data/raw/
