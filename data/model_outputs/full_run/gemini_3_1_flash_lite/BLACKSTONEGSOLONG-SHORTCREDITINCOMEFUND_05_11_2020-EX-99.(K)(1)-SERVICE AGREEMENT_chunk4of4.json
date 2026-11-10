@@ -4,12 +4,41 @@
   "chunk_index": 4,
   "chunk_total": 4,
   "chunk_input_tokens_est": 1809,
-  "prompt_input_tokens_reported": null,
-  "output_tokens_reported": null,
-  "latency_seconds": 59.52,
-  "error": "504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
-  "raw_response": null,
-  "parsed_ok": false,
-  "parsed_json": null,
-  "timestamp": "2026-11-10T19:02:14.647848+00:00"
+  "prompt_input_tokens_reported": 2316,
+  "output_tokens_reported": 122,
+  "latency_seconds": 0.91,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T21:49:36.082198+00:00"
 }

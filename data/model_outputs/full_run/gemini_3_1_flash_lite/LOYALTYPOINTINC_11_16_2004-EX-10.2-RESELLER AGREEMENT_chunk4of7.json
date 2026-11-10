@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3591,
+  "output_tokens_reported": 267,
+  "latency_seconds": 2.45,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be deemed to have been made and executed                   in the State of Missouri and any dispute arising thereunder                   shall be resolved in accordance with the laws of the State of                   Missouri, without reference to its rules governing conflicts                   of law.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be deemed to have been made and executed                   in the State of Missouri and any dispute arising thereunder                   shall be resolved in accordance with the laws of the State of                   Missouri, without reference to its rules governing conflicts                   of law."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T21:50:12.644991+00:00"
+}

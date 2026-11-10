@@ -1,16 +1,15 @@
 # AI Contract Review Evaluation
 
-A portfolio project evaluating how well free AI models (large language models,
-or "LLMs" — see [GLOSSARY.md](GLOSSARY.md)) can flag important clauses in
-real commercial contracts, compared against lawyer-labeled ground truth.
-Acting as a consultant, this project scores several free models on the same
-contracts and recommends which a hypothetical mid-size company should use,
-and which clause types still need a human reviewer.
+An evaluation of how well free AI models (large language models, or "LLMs" —
+see [GLOSSARY.md](GLOSSARY.md)) can flag important clauses in real commercial
+contracts, compared against lawyer-labeled ground truth. Scores several
+models on the same contracts and recommends which a mid-size company should
+use, and which clause types still need a human reviewer.
 
-**This is not legal advice.** The author is not a lawyer, and nothing here
-should be used to make real legal decisions.
+**This is not legal advice.** This project does not provide legal advice,
+and nothing here should be used to make real legal decisions.
 
-Status: Stage 3 (prompt + pilot run) complete. See [RESULTS.md](RESULTS.md)
+Status: Stage 4 (full evaluation) in progress. See [RESULTS.md](RESULTS.md)
 for real numbers as they're produced — nothing in this README or that file
 is invented or filled in ahead of an actual run.
 
@@ -109,10 +108,11 @@ python scripts/01_sample_contracts.py
   stages use the 130-contract sample, so exact counts differ slightly (see
   the script's own printed output).
 
-## Bonus: interactive demo tool
+## Interactive tool
 
-Not part of the original assignment, but a nice extra for showing this off — a small
-web page where you paste in a contract and see what each AI model finds, live.
+A small web app for exploring the evaluation: paste in a contract and see what
+each AI model finds live, browse the real results already produced for the
+130-contract sample, or view a summary of the project's findings so far.
 
 ```bash
 source .venv/bin/activate

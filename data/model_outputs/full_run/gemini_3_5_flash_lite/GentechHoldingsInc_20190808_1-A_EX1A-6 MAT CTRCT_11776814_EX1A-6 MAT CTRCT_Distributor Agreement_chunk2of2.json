@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2647,
+  "prompt_input_tokens_reported": 3129,
+  "output_tokens_reported": 459,
+  "latency_seconds": 1.45,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent, or institutes (or there is instituted against it) proceedings in bankruptcy, insolvency, reorganization or dissolution, makes an assignment for the benefit of creditors or becomes nationalized or has any of its material assets confiscated or expropriated; or (ii) the other Party (in this case, the \\\"breaching Party\\\") fails to perform any of its obligations hereunder and fails to correct such failure within Ninety (90) calendar days after receiving written demand therefore from the non-breaching Party, specifying the failure in sufficient detail for the breaching Party to correct such failure; provided, however, that upon a second breach of the same obligation by such Party, the other Party may forthwith terminate this Agreement upon notice to the breaching Party.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INDIRECT, EXEMPLARY OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT OR PURCHASE OR USE OF THE PRODUCTS.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Distributor shall have the option to renew this Agreement for an additional Three (3) year period by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Distributor shall have the option to renew this Agreement for an additional Three (3) year period by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement is a contract under the laws of the State of Florida and for all purposes shall be governed by and construed in accordance with the substantive laws of the State of Florida, without regard to its principles of conflicts of laws provisions.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following: (i) the other Party becomes insolvent, or institutes (or there is instituted against it) proceedings in bankruptcy, insolvency, reorganization or dissolution, makes an assignment for the benefit of creditors or becomes nationalized or has any of its material assets confiscated or expropriated; or (ii) the other Party (in this case, the \"breaching Party\") fails to perform any of its obligations hereunder and fails to correct such failure within Ninety (90) calendar days after receiving written demand therefore from the non-breaching Party, specifying the failure in sufficient detail for the breaching Party to correct such failure; provided, however, that upon a second breach of the same obligation by such Party, the other Party may forthwith terminate this Agreement upon notice to the breaching Party."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INDIRECT, EXEMPLARY OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT OR PURCHASE OR USE OF THE PRODUCTS."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Distributor shall have the option to renew this Agreement for an additional Three (3) year period by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Distributor shall have the option to renew this Agreement for an additional Three (3) year period by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement is a contract under the laws of the State of Florida and for all purposes shall be governed by and construed in accordance with the substantive laws of the State of Florida, without regard to its principles of conflicts of laws provisions."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T21:49:59.824583+00:00"
+}

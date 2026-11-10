@@ -1,8 +1,8 @@
 """
-Bonus interactive tool (not part of the original 7-stage assignment) —
-either paste in a brand-new contract and run it live, or browse the real
-130-contract results already produced by the full evaluation, compared
-against the lawyers' real answers.
+Interactive tool for exploring the contract review evaluation — paste in a
+brand-new contract and run it live, browse the real 130-contract results
+already produced by the full evaluation compared against the lawyers' real
+answers, or view a project summary.
 
 Reuses the exact same prompt/chunking/model-calling code as the real
 evaluation (lib/), so this isn't a separate, unvalidated code path — it's
@@ -150,7 +150,7 @@ with summary_tab:
     st.markdown(
         "5 considered, 3 free models fully in the run, Claude pending a cost decision, "
         "Groq dropped (its free model's hidden reasoning tokens made it impractically slow, "
-        "and the only non-reasoning free alternative was a vendor the author wasn't comfortable with)."
+        "and the only non-reasoning free alternative was excluded on vendor-trust grounds)."
     )
     for model_key, label in SAVED_MODEL_LABELS.items():
         progress = compute_model_progress(model_key)

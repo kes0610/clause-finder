@@ -89,7 +89,7 @@ JSON answer is just as compact.
 chunking — splitting each contract into several pieces multiplies the number of requests, and
 the clause instructions get resent with every chunk. The pilot's real, measured token counts put
 the full run closer to **$7-11**, not $1-2. Flagging this clearly since it changes the actual
-cost of the "paid bonus" model.
+cost of the one paid model in the comparison.
 
 Two Google free-tier daily limits are still unconfirmed (Gemini doesn't publish them) — the
 pilot didn't hit either one, but Stage 4's full run needs to handle hitting one gracefully
@@ -101,9 +101,9 @@ pilot didn't hit either one, but Stage 4's full run needs to handle hitting one 
 gpt-oss-120b partway through — its hidden "reasoning" tokens burned through Groq's
 200,000 tokens/day free cap so fast that finishing all 130 contracts would have taken
 roughly a month at that rate. The only other free, non-reasoning model Groq hosts is
-Alibaba's Qwen, which didn't clear the author's own vendor-trust bar — a legitimate,
-non-technical call, and itself a fair thing to note in the final memo (vendor trust is
-a real factor companies weigh, not just accuracy/cost).
+Alibaba's Qwen, which was excluded on vendor-trust grounds — a business/data-governance
+call, not a technical one, and itself a fair thing to note in the final memo (vendor
+trust is a real factor companies weigh, not just accuracy/cost).
 
 **Progress as of this run:**
 
