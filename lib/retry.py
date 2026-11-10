@@ -4,7 +4,8 @@ import re
 import time
 
 RATE_LIMIT_PATTERNS = re.compile(
-    r"429|rate.?limit|quota|RESOURCE_EXHAUSTED|503|UNAVAILABLE|high demand|overloaded",
+    r"429|rate.?limit|quota|RESOURCE_EXHAUSTED|503|UNAVAILABLE|high demand|overloaded"
+    r"|connection error|timeout|timed out",
     re.IGNORECASE,
 )
 
