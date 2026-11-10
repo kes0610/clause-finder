@@ -9,7 +9,7 @@ RATE_LIMIT_PATTERNS = re.compile(
 )
 
 
-def call_with_retry(caller, prompt: str, max_retries: int = 2, base_delay: float = 20.0) -> dict:
+def call_with_retry(caller, prompt: str, max_retries: int = 4, base_delay: float = 25.0) -> dict:
     last_result = None
     for attempt in range(max_retries + 1):
         result = caller(prompt)
