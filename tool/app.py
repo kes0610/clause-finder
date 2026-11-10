@@ -1,7 +1,8 @@
 """
 Bonus interactive tool (not part of the original 7-stage assignment) —
-paste in a contract, pick which AI model(s) to try, and see what each one
-finds for the same 7 clause types used in the full evaluation.
+either paste in a brand-new contract and run it live, or browse the real
+130-contract results already produced by the full evaluation, compared
+against the lawyers' real answers.
 
 Reuses the exact same prompt/chunking/model-calling code as the real
 evaluation (lib/), so this isn't a separate, unvalidated code path — it's
@@ -9,6 +10,9 @@ the same logic the scored results came from.
 
 Run with: streamlit run tool/app.py
 """
+from __future__ import annotations
+
+import json
 import sys
 from pathlib import Path
 
@@ -18,8 +22,14 @@ import streamlit as st
 
 from lib.clause_extraction import CLAUSE_DEFINITIONS, build_prompt, chunk_contract
 from lib.model_clients import CALLERS
+from lib.results_loader import (
+    MODEL_LABELS as SAVED_MODEL_LABELS,
+    get_ground_truth,
+    list_analyzed_contracts,
+    merge_saved_results,
+)
 
-MODEL_LABELS = {
+LIVE_MODEL_LABELS = {
     "gemini_3_5_flash_lite": "Gemini 3.5 Flash-Lite (free)",
     "gemini_3_1_flash_lite": "Gemini 3.1 Flash-Lite (free)",
     "llama_local": "Llama 3.2 (local, free)",
@@ -34,7 +44,6 @@ def extract_json(text):
     if cleaned.startswith("```"):
         cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
         cleaned = cleaned.rsplit("```", 1)[0]
-    import json
     for extra_braces in ("", "}", "}}", "}}}"):
         try:
             return json.loads(cleaned + extra_braces)
@@ -43,18 +52,13 @@ def extract_json(text):
     return None
 
 
-def analyze(contract_text: str, model_key: str) -> dict:
-    """Run every chunk through one model, merging results per clause type.
-
-    Returns {"clauses": {...}, "errors": [...]} — errors is non-empty if any
-    chunk's call failed (e.g. hit a free-tier daily limit), so the caller
-    can show that honestly instead of silently rendering "not found".
-    """
+def analyze_live(contract_text: str, model_key: str) -> dict:
+    """Run every chunk through one model right now, merging results per clause type."""
     chunks = chunk_contract(contract_text)
     merged = {key: {"present": False, "quote": None} for key in CLAUSE_DEFINITIONS}
     errors = []
 
-    progress = st.progress(0.0, text=f"Running {MODEL_LABELS[model_key]}...")
+    progress = st.progress(0.0, text=f"Running {LIVE_MODEL_LABELS[model_key]}...")
     for i, chunk in enumerate(chunks, 1):
         prompt = build_prompt(chunk)
         result = CALLERS[model_key](prompt)
@@ -66,62 +70,130 @@ def analyze(contract_text: str, model_key: str) -> dict:
                 for clause_key, info in parsed.items():
                     if clause_key in merged and info.get("present") and not merged[clause_key]["present"]:
                         merged[clause_key] = {"present": True, "quote": info.get("quote")}
-        progress.progress(i / len(chunks), text=f"Running {MODEL_LABELS[model_key]}... ({i}/{len(chunks)} sections)")
+        progress.progress(i / len(chunks), text=f"Running {LIVE_MODEL_LABELS[model_key]}... ({i}/{len(chunks)} sections)")
     progress.empty()
     return {"clauses": merged, "errors": errors}
+
+
+def render_results(results: dict, model_labels: dict, ground_truth: dict | None = None) -> None:
+    """results: {model_key: {"clauses": {...}, "errors": [...]}}"""
+    models = list(results.keys())
+    for clause_key, description in CLAUSE_DEFINITIONS.items():
+        with st.expander(f"**{clause_key.replace('_', ' ').title()}** — {description}", expanded=True):
+            n_cols = len(models) + (1 if ground_truth else 0)
+            cols = st.columns(n_cols)
+            col_i = 0
+
+            if ground_truth:
+                with cols[col_i]:
+                    st.markdown("**Lawyer's real answer**")
+                    truth = ground_truth[clause_key]
+                    if truth["present"]:
+                        st.info("Present")
+                        st.caption(f"“{truth['quote']}”")
+                    else:
+                        st.info("Not present")
+                col_i += 1
+
+            for model in models:
+                outcome = results[model]
+                info = outcome["clauses"][clause_key]
+                with cols[col_i]:
+                    st.markdown(f"**{model_labels[model]}**")
+                    if outcome.get("errors"):
+                        st.warning("Unreliable — this model had errors")
+                    elif info["present"]:
+                        correct_marker = ""
+                        if ground_truth and ground_truth[clause_key]["present"]:
+                            correct_marker = " ✅"
+                        elif ground_truth and not ground_truth[clause_key]["present"]:
+                            correct_marker = " ❌ (false positive)"
+                        st.success(f"Found{correct_marker}")
+                        st.caption(f"“{info['quote']}”")
+                    else:
+                        missed_marker = ""
+                        if ground_truth and ground_truth[clause_key]["present"]:
+                            missed_marker = " ❌ (missed)"
+                        st.error(f"Not found{missed_marker}")
+                col_i += 1
 
 
 st.set_page_config(page_title="Contract Clause Finder", layout="wide")
 st.title("Contract Clause Finder")
 st.caption(
     "A demo built on top of the AI Contract Review Evaluation project. "
-    "Paste in a contract and see what each AI model finds — not legal advice."
+    "Not legal advice."
 )
 
-contract_text = st.text_area(
-    "Paste contract text here",
-    height=250,
-    placeholder="Paste the full text of a contract...",
+mode = st.radio(
+    "Mode",
+    ["Paste a new contract", "Browse the 130 real results"],
+    horizontal=True,
 )
 
-uploaded = st.file_uploader("...or upload a .txt file instead", type=["txt"])
-if uploaded is not None:
-    contract_text = uploaded.read().decode("utf-8", errors="replace")
-    st.info(f"Loaded {uploaded.name} ({len(contract_text):,} characters)")
+if mode == "Paste a new contract":
+    contract_text = st.text_area(
+        "Paste contract text here",
+        height=250,
+        placeholder="Paste the full text of a contract...",
+    )
 
-selected_models = st.multiselect(
-    "Which model(s) to run",
-    options=list(MODEL_LABELS.keys()),
-    default=["gemini_3_5_flash_lite"],
-    format_func=lambda k: MODEL_LABELS[k],
-)
+    uploaded = st.file_uploader("...or upload a .txt file instead", type=["txt"])
+    if uploaded is not None:
+        contract_text = uploaded.read().decode("utf-8", errors="replace")
+        st.info(f"Loaded {uploaded.name} ({len(contract_text):,} characters)")
 
-if "claude_sonnet" in selected_models:
-    st.warning("Claude Sonnet 5.5 is a paid model — running it costs a small real amount per use.")
+    selected_models = st.multiselect(
+        "Which model(s) to run",
+        options=list(LIVE_MODEL_LABELS.keys()),
+        default=["gemini_3_5_flash_lite"],
+        format_func=lambda k: LIVE_MODEL_LABELS[k],
+    )
 
-if st.button("Analyze", type="primary", disabled=not contract_text or not selected_models):
-    results = {model: analyze(contract_text, model) for model in selected_models}
+    if "claude_sonnet" in selected_models:
+        st.warning("Claude Sonnet 5.5 is a paid model — running it costs a small real amount per use.")
 
-    for model, outcome in results.items():
-        if outcome["errors"]:
-            st.error(
-                f"**{MODEL_LABELS[model]} failed on {len(outcome['errors'])} section(s)** — "
-                f"results for this model below are incomplete, not a real \"not found\". "
-                f"First error: {outcome['errors'][0][:300]}"
+    if st.button("Analyze", type="primary", disabled=not contract_text or not selected_models):
+        results = {model: analyze_live(contract_text, model) for model in selected_models}
+
+        for model, outcome in results.items():
+            if outcome["errors"]:
+                st.error(
+                    f"**{LIVE_MODEL_LABELS[model]} failed on {len(outcome['errors'])} section(s)** — "
+                    f"results for this model below are incomplete, not a real \"not found\". "
+                    f"First error: {outcome['errors'][0][:300]}"
+                )
+
+        st.subheader("Results")
+        render_results(results, LIVE_MODEL_LABELS)
+
+else:
+    contracts = list_analyzed_contracts()
+    chosen = st.selectbox("Pick a contract from the real 130-contract sample", contracts)
+
+    available_models = list(SAVED_MODEL_LABELS.keys())
+    selected_models = st.multiselect(
+        "Which model(s) to show",
+        options=available_models,
+        default=available_models,
+        format_func=lambda k: SAVED_MODEL_LABELS[k],
+    )
+
+    if chosen and selected_models:
+        results = {model: merge_saved_results(model, chosen) for model in selected_models}
+        ground_truth = get_ground_truth(chosen)
+
+        incomplete = [m for m, r in results.items() if r["chunks_found"] == 0]
+        if incomplete:
+            st.warning(
+                f"No saved results yet for: {', '.join(SAVED_MODEL_LABELS[m] for m in incomplete)} "
+                "on this contract — that model's full run may still be in progress."
             )
 
-    st.subheader("Results")
-    for clause_key, description in CLAUSE_DEFINITIONS.items():
-        with st.expander(f"**{clause_key.replace('_', ' ').title()}** — {description}", expanded=True):
-            cols = st.columns(len(selected_models))
-            for col, model in zip(cols, selected_models):
-                info = results[model]["clauses"][clause_key]
-                with col:
-                    st.markdown(f"**{MODEL_LABELS[model]}**")
-                    if results[model]["errors"]:
-                        st.warning("Unreliable — this model had errors")
-                    elif info["present"]:
-                        st.success("Found")
-                        st.caption(f"“{info['quote']}”")
-                    else:
-                        st.error("Not found")
+        st.subheader("Results — compared against the lawyers' real labels")
+        render_results(
+            {m: {"clauses": r["clauses"], "errors": ["incomplete"] if r["had_error"] else []}
+             for m, r in results.items()},
+            SAVED_MODEL_LABELS,
+            ground_truth=ground_truth,
+        )

@@ -26,6 +26,19 @@ CLAUSE_DEFINITIONS = {
                     "only authorized distributor/seller) within some scope.",
 }
 
+# Same 7 keys, mapped to their exact column name in CUAD's master_clauses.csv
+# (the lawyers' ground-truth answers) — used wherever we need to compare an
+# AI's answer against the real one.
+CUAD_COLUMN_NAMES = {
+    "termination": "Termination For Convenience",
+    "liability_cap": "Cap On Liability",
+    "non_compete": "Non-Compete",
+    "renewal_term": "Renewal Term",
+    "renewal_notice": "Notice Period To Terminate Renewal",
+    "governing_law": "Governing Law",
+    "exclusivity": "Exclusivity",
+}
+
 _ENCODING = tiktoken.get_encoding("cl100k_base")
 
 # A rough but consistent token budget per chunk of contract text, chosen so
