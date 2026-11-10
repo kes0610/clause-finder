@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import streamlit as st
 from pypdf import PdfReader
 
+from lib.availability import check_availability
 from lib.clause_extraction import CLAUSE_DEFINITIONS, build_prompt, chunk_contract
 from lib.model_clients import CALLERS
 from lib.results_loader import (
@@ -225,6 +226,28 @@ with paste_tab:
         else:
             contract_text = uploaded.read().decode("utf-8", errors="replace")
         st.info(f"Loaded {uploaded.name} ({len(contract_text):,} characters)")
+
+    st.markdown("**Model availability**")
+    st.caption(
+        "There's no way to ask a provider \"how much free quota is left\" — this runs one "
+        "tiny test call per free model to check right now, before you commit to a real run."
+    )
+    if st.button("Check availability now"):
+        free_models = ["gemini_3_5_flash_lite", "gemini_3_1_flash_lite", "llama_local"]
+        with st.spinner("Checking..."):
+            st.session_state.availability = {m: check_availability(m) for m in free_models}
+
+    if "availability" in st.session_state:
+        cols = st.columns(len(st.session_state.availability))
+        for col, (model, status) in zip(cols, st.session_state.availability.items()):
+            with col:
+                st.caption(LIVE_MODEL_LABELS[model])
+                if status["available"]:
+                    st.success("Available")
+                elif status["wait_seconds"]:
+                    st.error(f"Exhausted (~{status['wait_seconds']/3600:.1f}h left)")
+                else:
+                    st.error("Exhausted")
 
     if "live_model_select" not in st.session_state:
         st.session_state.live_model_select = ["gemini_3_5_flash_lite"]
