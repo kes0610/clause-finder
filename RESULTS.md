@@ -32,18 +32,68 @@ for Groq, which was independently confirmed free with no card.
 
 | Model | Provider | Free? | Notes |
 |---|---|---|---|
-| Gemini 3.8 Flash | Google AI Studio | Yes | Google's current best free-tier model |
+| Gemini 3.5 Flash-Lite | Google AI Studio | Yes | Swapped in for 3.8 Flash during Stage 3 — see below |
 | Gemini 3.1 Flash-Lite | Google AI Studio | Yes | Google's most basic free-tier model |
 | openai/gpt-oss-120b | Groq (free plan) | Yes | OpenAI's open-weight model, hosted free by Groq |
 | Llama 3.2 (3B) | Local, via Ollama | Yes | Runs on-device, no API key, no rate limit — pulled and verified working |
-| Claude Sonnet 5.5 | Anthropic | **No — paid** | ~$1-2 estimated for the full run; author's own existing key |
+| Claude Sonnet 5.5 | Anthropic | **No — paid** | See Stage 3 for a revised, measured cost estimate |
 
 API keys for Google, Groq, and Anthropic are stored in `.env` (not committed — see `.env.example`).
 
-Dates each model is actually run will be recorded here once Stage 3/4 happen, since free-tier
-models and prices can change.
+## Stage 3 — Pilot run (done)
 
-## Stage 3 — Pilot run (not started)
+**Prompt and chunking:** one shared prompt ([lib/clause_extraction.py](lib/clause_extraction.py))
+asks for all 7 clause types per request, structured JSON output. Contracts are split into
+~3000-token pieces with 200-token overlap (median contract: ~7,060 tokens; longest: 62,009 —
+far past what a single request should carry), using the same splitting rule for every model so
+the comparison stays fair.
+
+**Pilot:** ran the first 5 sampled contracts (22 chunks total) through all 5 models — 110
+requests. Caught and fixed 3 real bugs before they could waste a full run:
+- **Gemini 3.8 Flash's free tier allows only 20 requests/day** (not published anywhere, only
+  discovered by hitting it) — swapped for Gemini 3.5 Flash-Lite, which has no such limit.
+- Local Llama's context window (Ollama's default) was too small, silently truncating answers
+  mid-JSON — fixed by raising it.
+- Claude Sonnet 5.5 sometimes returns an internal "thinking" block before its actual answer,
+  which crashed our original parsing code — fixed to find the real text block.
+
+**After fixes, re-running the same pilot:**
+
+| Model | Parsed OK | Errors | Avg seconds/request |
+|---|---|---|---|
+| Gemini 3.5 Flash-Lite | 22/22 | 0 | 1.6 |
+| Gemini 3.1 Flash-Lite | 22/22 | 0 | 0.8 |
+| gpt-oss-120b (Groq) | 22/22 | 0 | 17.1 |
+| Llama 3.2 (local) | 21/22 | 0 | 14.6 |
+| Claude Sonnet 5.5 | 22/22 | 0 | 2.6 |
+
+(The 1 Llama parse failure was the model itself forgetting a closing `}` — a known small-model
+weakness, not a bug in our code; a lenient repair step now catches this specific pattern.)
+
+**Interesting finding:** Groq's gpt-oss-120b is a "reasoning" model that generates a lot of
+hidden internal reasoning tokens before its visible answer — that's the real reason it's slower
+and uses far more tokens than the other models for the same question, even though its visible
+JSON answer is just as compact.
+
+**Projected for the full 130-contract run** (scaled up from the pilot's real, measured numbers):
+
+| Model | Est. requests | Est. time | Est. cost |
+|---|---|---|---|
+| Gemini 3.5 Flash-Lite | ~527 | ~14 min | Free |
+| Gemini 3.1 Flash-Lite | ~527 | ~7 min | Free |
+| gpt-oss-120b (Groq) | ~527 | ~2.5 hours | Free (within Groq's 1,000/day cap) |
+| Llama 3.2 (local) | ~527 | ~2.1 hours | Free (runs on this laptop) |
+| Claude Sonnet 5.5 | ~527 | ~22 min | **~$7-11 (revised estimate — see note)** |
+
+**Cost estimate revision:** the Stage 2 estimate of "$1-2" for Claude didn't account for
+chunking — splitting each contract into several pieces multiplies the number of requests, and
+the clause instructions get resent with every chunk. The pilot's real, measured token counts put
+the full run closer to **$7-11**, not $1-2. Flagging this clearly since it changes the actual
+cost of the "paid bonus" model.
+
+Two Google free-tier daily limits are still unconfirmed (Gemini doesn't publish them) — the
+pilot didn't hit either one, but Stage 4's full run needs to handle hitting one gracefully
+(save progress, pause, resume) rather than assume 527 requests/day is guaranteed available.
 
 ## Stage 4 — Full evaluation (not started)
 

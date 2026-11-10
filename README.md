@@ -10,9 +10,9 @@ and which clause types still need a human reviewer.
 **This is not legal advice.** The author is not a lawyer, and nothing here
 should be used to make real legal decisions.
 
-Status: Stage 2 (model setup) complete. See [RESULTS.md](RESULTS.md) for real
-numbers as they're produced — nothing in this README or that file is
-invented or filled in ahead of an actual run.
+Status: Stage 3 (prompt + pilot run) complete. See [RESULTS.md](RESULTS.md)
+for real numbers as they're produced — nothing in this README or that file
+is invented or filled in ahead of an actual run.
 
 ## Setup
 

@@ -1,0 +1,38 @@
+{
+  "model": "llama_local",
+  "contract_file": "SANDRIDGEENERGYINC_08_06_2009-EX-10.6-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 101,
+  "latency_seconds": 9.66,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Section 3.2 or 3.3 of this Agreement\"},\n  \"liability_cap\": {\"present\": null},\n  \"non_compete\": {\"present\": null},\n  \"renewal_term\": {\"present\": null},\n  \"renewal_notice\": {\"present\": null},\n  \"governing_law\": {\"present\": null},\n  \"exclusivity\": {\"present\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Section 3.2 or 3.3 of this Agreement"
+    },
+    "liability_cap": {
+      "present": null
+    },
+    "non_compete": {
+      "present": null
+    },
+    "renewal_term": {
+      "present": null
+    },
+    "renewal_notice": {
+      "present": null
+    },
+    "governing_law": {
+      "present": null
+    },
+    "exclusivity": {
+      "present": null
+    }
+  },
+  "timestamp": "2026-11-10T02:57:24.351543+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+  "chunk_index": 9,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3540,
+  "output_tokens_reported": 1411,
+  "latency_seconds": 33.2,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"This Agreement shall be governed by and construed in accordance with the laws of the State of New York without reference to its conflict or choice of law rules or principles. Customer hereby submits to the non-exclusive jurisdiction of the courts of the State of New York for any legal action arising out of this Agreement or the performance of the obligations hereunder or thereunder. This Agreement shall be deemed to be made in the State of New York, and Customer agrees not to commence any action, suit or proceeding against Changepoint or any affiliate of Changepoint or any of their employees, officers or directors in any jurisdiction other than the State of New York.\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York without reference to its conflict or choice of law rules or principles. Customer hereby submits to the non-exclusive jurisdiction of the courts of the State of New York for any legal action arising out of this Agreement or the performance of the obligations hereunder or thereunder. This Agreement shall be deemed to be made in the State of New York, and Customer agrees not to commence any action, suit or proceeding against Changepoint or any affiliate of Changepoint or any of their employees, officers or directors in any jurisdiction other than the State of New York."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T03:03:16.240088+00:00"
+}

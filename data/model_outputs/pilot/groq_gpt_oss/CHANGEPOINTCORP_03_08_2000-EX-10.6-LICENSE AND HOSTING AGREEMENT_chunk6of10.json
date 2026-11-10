@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+  "chunk_index": 6,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3531,
+  "output_tokens_reported": 1027,
+  "latency_seconds": 2.74,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"IN NO EVENT WILL CHANGEPOINT BE LIABLE UNDER SUCH AGREEMENT FOR ANY LOSS OF PROFITS, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, COST OF COVER OR INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND IN CONNECTION WITH OR ARISING OUT OF THE FURNISHING, PERFORMANCE OR USE OF THE SOFTWARE OR SERVICES PERFORMED HEREUNDER, WHETHER ALLEGED AS A BREACH OF CONTRACT OR TORTIOUS CONDUCT, INCLUDING NEGLIGENCE, EVEN IF CHANGEPOINT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ADDITION, CHANGEPOINT WILL NOT BE LIABLE FOR ANY DAMAGES CAUSED BY DELAY IN DELIVERY OR FURNISHING THE SOFTWARE OR SAID SERVICES. CHANGEPOINT'S, LIABILITY UNDER SUCH AGREEMENT FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL AND/OR CONSEQUENTIAL DAMAGES OF ANY KIND, INCLUDING, WITHOUT LIMITATION, RESTITUTION, WILL NOT, IN ANY EVENT, EXCEED THE FEE PAID BY END USER TO CHANGEPOINT UNDER SUCH AGREEMENT.\"\n  },\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "IN NO EVENT WILL CHANGEPOINT BE LIABLE UNDER SUCH AGREEMENT FOR ANY LOSS OF PROFITS, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, COST OF COVER OR INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND IN CONNECTION WITH OR ARISING OUT OF THE FURNISHING, PERFORMANCE OR USE OF THE SOFTWARE OR SERVICES PERFORMED HEREUNDER, WHETHER ALLEGED AS A BREACH OF CONTRACT OR TORTIOUS CONDUCT, INCLUDING NEGLIGENCE, EVEN IF CHANGEPOINT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ADDITION, CHANGEPOINT WILL NOT BE LIABLE FOR ANY DAMAGES CAUSED BY DELAY IN DELIVERY OR FURNISHING THE SOFTWARE OR SAID SERVICES. CHANGEPOINT'S, LIABILITY UNDER SUCH AGREEMENT FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL AND/OR CONSEQUENTIAL DAMAGES OF ANY KIND, INCLUDING, WITHOUT LIMITATION, RESTITUTION, WILL NOT, IN ANY EVENT, EXCEED THE FEE PAID BY END USER TO CHANGEPOINT UNDER SUCH AGREEMENT."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T03:02:00.953417+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "stats": {
+    "gemini_3_5_flash_lite": {
+      "requests": 22,
+      "parse_ok": 22,
+      "parse_fail": 0,
+      "errors": 0,
+      "input_tokens": 72912,
+      "output_tokens": 4443,
+      "total_latency": 34.480000000000004
+    },
+    "gemini_3_1_flash_lite": {
+      "requests": 22,
+      "parse_ok": 22,
+      "parse_fail": 0,
+      "errors": 0,
+      "input_tokens": 72912,
+      "output_tokens": 3724,
+      "total_latency": 18.360000000000003
+    },
+    "groq_gpt_oss": {
+      "requests": 22,
+      "parse_ok": 22,
+      "parse_fail": 0,
+      "errors": 0,
+      "input_tokens": 71733,
+      "output_tokens": 18340,
+      "total_latency": 376.72999999999996
+    },
+    "llama_local": {
+      "requests": 22,
+      "parse_ok": 21,
+      "parse_fail": 1,
+      "errors": 0,
+      "input_tokens": 71214,
+      "output_tokens": 3515,
+      "total_latency": 321.4700000000001
+    },
+    "claude_sonnet": {
+      "requests": 22,
+      "parse_ok": 22,
+      "parse_fail": 0,
+      "errors": 0,
+      "input_tokens": 116822,
+      "output_tokens": 7027,
+      "total_latency": 56.099999999999994
+    }
+  },
+  "elapsed_seconds": 857.282657042
+}

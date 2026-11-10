@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+  "chunk_index": 6,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 125,
+  "latency_seconds": 24.6,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T03:05:27.285314+00:00"
+}

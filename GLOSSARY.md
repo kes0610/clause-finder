@@ -107,3 +107,18 @@ a different sample. Example: "72% recall, ± 8%" means the true value is
 probably somewhere between 64% and 80% — useful so we don't claim one model
 is "better" when the difference could just be random luck from a small
 sample.
+
+**Context window** — the maximum amount of text (measured in tokens) a
+model can "see" at once, including both what you send it and what it
+writes back. Example: if a model's context window is 8,000 tokens and your
+contract is 60,000 tokens, it physically cannot read the whole thing in one
+go — you have to split it up.
+
+**Chunking** — splitting a long document into smaller pieces so each piece
+fits inside a model's context window, usually with a little overlap between
+pieces so something important doesn't get cut exactly in half.
+
+**Reasoning model** — a type of AI model that generates hidden "thinking"
+text to itself before writing its final visible answer, which usually makes
+it slower and more expensive (since that hidden thinking still counts as
+tokens used) but sometimes more accurate on hard questions.

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "ANIXABIOSCIENCESINC_06_09_2020-EX-10.1-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5430,
+  "output_tokens_reported": 440,
+  "latency_seconds": 3.4,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":false,\"quote\":null},\"liability_cap\":{\"present\":false,\"quote\":null},\"non_compete\":{\"present\":true,\"quote\":\"During the term of this Agreement, except in the performance of its obligations or exercise of its rights under this Agreement, neither OntoChem nor any of its Affiliates will discover, research, develop, manufacture or commercialize any compound or product directed to any Target, either independently or for or in collaboration with a third party (including the grant of a license to any third party), or have any of the foregoing activities performed on behalf of OntoChem or any of its Affiliates by a third party.\"},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":true,\"quote\":\"2.6 Target Exclusivity. During the term of this Agreement, except in the performance of its obligations or exercise of its rights under this Agreement, neither OntoChem nor any of its Affiliates will discover, research, develop, manufacture or commercialize any compound or product directed to any Target, either independently or for or in collaboration with a third party (including the grant of a license to any third party), or have any of the foregoing activities performed on behalf of OntoChem or any of its Affiliates by a third party.\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the term of this Agreement, except in the performance of its obligations or exercise of its rights under this Agreement, neither OntoChem nor any of its Affiliates will discover, research, develop, manufacture or commercialize any compound or product directed to any Target, either independently or for or in collaboration with a third party (including the grant of a license to any third party), or have any of the foregoing activities performed on behalf of OntoChem or any of its Affiliates by a third party."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "2.6 Target Exclusivity. During the term of this Agreement, except in the performance of its obligations or exercise of its rights under this Agreement, neither OntoChem nor any of its Affiliates will discover, research, develop, manufacture or commercialize any compound or product directed to any Target, either independently or for or in collaboration with a third party (including the grant of a license to any third party), or have any of the foregoing activities performed on behalf of OntoChem or any of its Affiliates by a third party."
+    }
+  },
+  "timestamp": "2026-11-10T03:09:02.608392+00:00"
+}

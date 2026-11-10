@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "ANIXABIOSCIENCESINC_06_09_2020-EX-10.1-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 2548,
+  "prompt_input_tokens_reported": 3071,
+  "output_tokens_reported": 949,
+  "latency_seconds": 40.4,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"Financial reimbursements claimed according to such indemnification shall not exceed payments received by OntoChem under this contract.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"9.4 Governing Law. This Agreement and the rights and obligations of the Parties hereunder will be governed by the laws of the State of Delaware without regard to the conflict of laws provisions of any jurisdiction. The Parties agree that the 1980 United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement.\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Financial reimbursements claimed according to such indemnification shall not exceed payments received by OntoChem under this contract."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "9.4 Governing Law. This Agreement and the rights and obligations of the Parties hereunder will be governed by the laws of the State of Delaware without regard to the conflict of laws provisions of any jurisdiction. The Parties agree that the 1980 United Nations Convention on Contracts for the International Sale of Goods shall not apply to this Agreement."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T03:08:21.216614+00:00"
+}
