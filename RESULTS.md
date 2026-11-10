@@ -110,9 +110,12 @@ a real factor companies weigh, not just accuracy/cost).
 | Model | Chunks done | Status |
 |---|---|---|
 | Llama 3.2 (local) | 527/527 (100%) | Complete |
-| Gemini 3.5 Flash-Lite | 454/527 (86%) | Hit its daily free limit — resumes automatically once it resets |
-| Gemini 3.1 Flash-Lite | 383/527 (73%) | Same — resumes automatically |
+| Gemini 3.5 Flash-Lite | 474/527 (90%) | Hit its daily free limit (confirmed: **500 requests/day**) — resumes automatically once it resets |
+| Gemini 3.1 Flash-Lite | 407/527 (77%) | Same — resumes automatically |
 | ~~gpt-oss-120b (Groq)~~ | 44/527 (8%) | Dropped — see above. Partial output kept in `data/model_outputs/dropped_groq_attempt/` for the record, excluded from scoring |
+
+Note: ad-hoc test/debug calls to the same API key count against the same daily
+limit as the real run — worth remembering before poking at a model mid-run.
 
 Two real bugs caught and fixed mid-run: a Gemini request that hung indefinitely with no
 timeout (stalled that whole model's progress silently for over an hour), and a
