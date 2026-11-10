@@ -221,11 +221,22 @@ with paste_tab:
         contract_text = uploaded.read().decode("utf-8", errors="replace")
         st.info(f"Loaded {uploaded.name} ({len(contract_text):,} characters)")
 
+    if "live_model_select" not in st.session_state:
+        st.session_state.live_model_select = ["gemini_3_5_flash_lite"]
+
+    label_col, button_col = st.columns([4, 1])
+    with label_col:
+        st.write("Which model(s) to run")
+    with button_col:
+        if st.button("Select all", key="select_all_live"):
+            st.session_state.live_model_select = list(LIVE_MODEL_LABELS.keys())
+
     selected_models = st.multiselect(
         "Which model(s) to run",
         options=list(LIVE_MODEL_LABELS.keys()),
-        default=["gemini_3_5_flash_lite"],
         format_func=lambda k: LIVE_MODEL_LABELS[k],
+        key="live_model_select",
+        label_visibility="collapsed",
     )
 
     if "claude_sonnet" in selected_models:
