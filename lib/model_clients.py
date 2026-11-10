@@ -49,7 +49,13 @@ def _timed(fn):
 def call_gemini(prompt: str, model_key: str = "gemini_3_5_flash_lite") -> dict:
     global _google_client
     if _google_client is None:
-        _google_client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
+        # Default client has no request timeout — the full run hit this
+        # directly (one call hung indefinitely, stalling its whole thread).
+        from google.genai import types
+        _google_client = genai.Client(
+            api_key=os.environ["GOOGLE_API_KEY"],
+            http_options=types.HttpOptions(timeout=60_000),  # milliseconds
+        )
 
     def run():
         try:

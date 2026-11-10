@@ -61,11 +61,6 @@ def extract_json(text: str | None) -> dict | None:
     return None
 
 
-def is_daily_quota_error(error: str) -> bool:
-    lowered = error.lower()
-    return "per day" in lowered or "requestsperday" in lowered
-
-
 def load_contracts() -> list[str]:
     with open(SAMPLE_CSV, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
@@ -120,10 +115,11 @@ def run_model(model_name: str, contracts: list[str]) -> dict:
             if result["error"]:
                 stats["errors"] += 1
                 log(f"[{model_name}] {contract_file[:40]:40s} chunk {i}/{len(chunks)}  ERROR: {result['error'][:90]}")
-                if is_daily_quota_error(result["error"]):
+                if result.get("long_wait_seconds"):
                     stats["stopped_early"] = True
-                    stats["stop_reason"] = result["error"][:200]
-                    log(f"[{model_name}] *** daily quota hit — stopping this model, resume tomorrow ***")
+                    stats["stop_reason"] = f"{result['long_wait_seconds']:.0f}s wait needed: {result['error'][:150]}"
+                    log(f"[{model_name}] *** needs a {result['long_wait_seconds']/60:.0f}-minute+ wait — "
+                        f"stopping this model, resume later ***")
                     break
             else:
                 if parsed is not None:
