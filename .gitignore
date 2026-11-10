@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# CUAD raw data is CC BY 4.0 but we don't commit it ourselves —
+# README.md has the exact download command instead.
+data/raw/
