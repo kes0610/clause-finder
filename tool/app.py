@@ -128,13 +128,11 @@ st.caption(
     "Not legal advice."
 )
 
-mode = st.radio(
-    "Mode",
-    ["Project summary", "Paste a new contract", "Browse the 130 real results"],
-    horizontal=True,
+summary_tab, browse_tab, paste_tab = st.tabs(
+    ["Project summary", "Browse the 130 real results", "Paste a new contract"]
 )
 
-if mode == "Project summary":
+with summary_tab:
     st.subheader("Dataset")
     st.markdown(
         "**[CUAD](https://huggingface.co/datasets/theatticusproject/cuad)** "
@@ -176,7 +174,42 @@ if mode == "Project summary":
             rows["Recall"].append(f"{s['recall']:.0%}" if s["recall"] is not None else "—")
         st.table(rows)
 
-elif mode == "Paste a new contract":
+with browse_tab:
+    contract_pairs = list_contracts_for_picker()
+    labels = [label for _, label in contract_pairs]
+    label_to_filename = {label: filename for filename, label in contract_pairs}
+    chosen_label = st.selectbox("Pick a contract from the real 130-contract sample", labels)
+    chosen = label_to_filename[chosen_label] if chosen_label else None
+    st.caption(f"Actual file: {chosen}")
+
+    available_models = list(SAVED_MODEL_LABELS.keys())
+    selected_models = st.multiselect(
+        "Which model(s) to show",
+        options=available_models,
+        default=available_models,
+        format_func=lambda k: SAVED_MODEL_LABELS[k],
+    )
+
+    if chosen and selected_models:
+        results = {model: merge_saved_results(model, chosen) for model in selected_models}
+        ground_truth = get_ground_truth(chosen)
+
+        incomplete = [m for m, r in results.items() if r["chunks_found"] == 0]
+        if incomplete:
+            st.warning(
+                f"No saved results yet for: {', '.join(SAVED_MODEL_LABELS[m] for m in incomplete)} "
+                "on this contract — that model's full run may still be in progress."
+            )
+
+        st.subheader("Results — compared against the lawyers' real labels")
+        render_results(
+            {m: {"clauses": r["clauses"], "errors": ["incomplete"] if r["had_error"] else []}
+             for m, r in results.items()},
+            SAVED_MODEL_LABELS,
+            ground_truth=ground_truth,
+        )
+
+with paste_tab:
     contract_text = st.text_area(
         "Paste contract text here",
         height=250,
@@ -211,38 +244,3 @@ elif mode == "Paste a new contract":
 
         st.subheader("Results")
         render_results(results, LIVE_MODEL_LABELS)
-
-else:
-    contract_pairs = list_contracts_for_picker()
-    labels = [label for _, label in contract_pairs]
-    label_to_filename = {label: filename for filename, label in contract_pairs}
-    chosen_label = st.selectbox("Pick a contract from the real 130-contract sample", labels)
-    chosen = label_to_filename[chosen_label] if chosen_label else None
-    st.caption(f"Actual file: {chosen}")
-
-    available_models = list(SAVED_MODEL_LABELS.keys())
-    selected_models = st.multiselect(
-        "Which model(s) to show",
-        options=available_models,
-        default=available_models,
-        format_func=lambda k: SAVED_MODEL_LABELS[k],
-    )
-
-    if chosen and selected_models:
-        results = {model: merge_saved_results(model, chosen) for model in selected_models}
-        ground_truth = get_ground_truth(chosen)
-
-        incomplete = [m for m, r in results.items() if r["chunks_found"] == 0]
-        if incomplete:
-            st.warning(
-                f"No saved results yet for: {', '.join(SAVED_MODEL_LABELS[m] for m in incomplete)} "
-                "on this contract — that model's full run may still be in progress."
-            )
-
-        st.subheader("Results — compared against the lawyers' real labels")
-        render_results(
-            {m: {"clauses": r["clauses"], "errors": ["incomplete"] if r["had_error"] else []}
-             for m, r in results.items()},
-            SAVED_MODEL_LABELS,
-            ground_truth=ground_truth,
-        )
