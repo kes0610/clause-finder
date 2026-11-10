@@ -19,6 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
+from pypdf import PdfReader
 
 from lib.clause_extraction import CLAUSE_DEFINITIONS, build_prompt, chunk_contract
 from lib.model_clients import CALLERS
@@ -216,9 +217,13 @@ with paste_tab:
         placeholder="Paste the full text of a contract...",
     )
 
-    uploaded = st.file_uploader("...or upload a .txt file instead", type=["txt"])
+    uploaded = st.file_uploader("...or upload a file instead", type=["txt", "pdf"])
     if uploaded is not None:
-        contract_text = uploaded.read().decode("utf-8", errors="replace")
+        if uploaded.name.lower().endswith(".pdf"):
+            reader = PdfReader(uploaded)
+            contract_text = "\n".join(page.extract_text() or "" for page in reader.pages)
+        else:
+            contract_text = uploaded.read().decode("utf-8", errors="replace")
         st.info(f"Loaded {uploaded.name} ({len(contract_text):,} characters)")
 
     if "live_model_select" not in st.session_state:

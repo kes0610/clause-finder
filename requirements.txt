@@ -5,3 +5,7 @@ google-genai==1.47.0
 groq==1.0.0
 anthropic==0.125.0
 python-dotenv==1.2.1
+
+# For the interactive tool (tool/app.py) only
+streamlit==1.50.0
+pypdf==6.21.4
