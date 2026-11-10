@@ -24,8 +24,11 @@ from lib.clause_extraction import CLAUSE_DEFINITIONS, build_prompt, chunk_contra
 from lib.model_clients import CALLERS
 from lib.results_loader import (
     MODEL_LABELS as SAVED_MODEL_LABELS,
+    compute_model_progress,
+    compute_preliminary_scores,
+    compute_sample_clause_counts,
     get_ground_truth,
-    list_analyzed_contracts,
+    list_contracts_for_picker,
     merge_saved_results,
 )
 
@@ -127,11 +130,53 @@ st.caption(
 
 mode = st.radio(
     "Mode",
-    ["Paste a new contract", "Browse the 130 real results"],
+    ["Project summary", "Paste a new contract", "Browse the 130 real results"],
     horizontal=True,
 )
 
-if mode == "Paste a new contract":
+if mode == "Project summary":
+    st.subheader("Dataset")
+    st.markdown(
+        "**[CUAD](https://huggingface.co/datasets/theatticusproject/cuad)** "
+        "(Contract Understanding Atticus Dataset) — 510 real commercial contracts, "
+        "lawyer-labeled across 41 clause categories. This project uses a random, "
+        "reproducible sample of **130** of them."
+    )
+    clause_counts = compute_sample_clause_counts()
+    st.table({
+        "Clause type": [k.replace("_", " ").title() for k in clause_counts],
+        "Present in sample": [f"{v}/130 ({v/130:.0%})" for v in clause_counts.values()],
+    })
+
+    st.subheader("Models")
+    st.markdown(
+        "5 considered, 3 free models fully in the run, Claude pending a cost decision, "
+        "Groq dropped (its free model's hidden reasoning tokens made it impractically slow, "
+        "and the only non-reasoning free alternative was a vendor the author wasn't comfortable with)."
+    )
+    for model_key, label in SAVED_MODEL_LABELS.items():
+        progress = compute_model_progress(model_key)
+        st.progress(
+            progress["complete"] / progress["total"],
+            text=f"{label}: {progress['complete']}/{progress['total']} contracts complete",
+        )
+
+    st.subheader("Preliminary accuracy (not the final Stage 5 scoring)")
+    st.caption(
+        "Computed live from whatever results are saved so far — only counts contracts a "
+        "model has actually completed. No confidence intervals here; that's Stage 5's job."
+    )
+    for model_key, label in SAVED_MODEL_LABELS.items():
+        scores = compute_preliminary_scores(model_key)
+        st.markdown(f"**{label}** — based on {scores['contracts_used']}/130 contracts so far")
+        rows = {"Clause type": [], "Precision": [], "Recall": []}
+        for clause_key, s in scores["clauses"].items():
+            rows["Clause type"].append(clause_key.replace("_", " ").title())
+            rows["Precision"].append(f"{s['precision']:.0%}" if s["precision"] is not None else "—")
+            rows["Recall"].append(f"{s['recall']:.0%}" if s["recall"] is not None else "—")
+        st.table(rows)
+
+elif mode == "Paste a new contract":
     contract_text = st.text_area(
         "Paste contract text here",
         height=250,
@@ -168,8 +213,12 @@ if mode == "Paste a new contract":
         render_results(results, LIVE_MODEL_LABELS)
 
 else:
-    contracts = list_analyzed_contracts()
-    chosen = st.selectbox("Pick a contract from the real 130-contract sample", contracts)
+    contract_pairs = list_contracts_for_picker()
+    labels = [label for _, label in contract_pairs]
+    label_to_filename = {label: filename for filename, label in contract_pairs}
+    chosen_label = st.selectbox("Pick a contract from the real 130-contract sample", labels)
+    chosen = label_to_filename[chosen_label] if chosen_label else None
+    st.caption(f"Actual file: {chosen}")
 
     available_models = list(SAVED_MODEL_LABELS.keys())
     selected_models = st.multiselect(
