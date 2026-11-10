@@ -109,6 +109,20 @@ python scripts/01_sample_contracts.py
   stages use the 130-contract sample, so exact counts differ slightly (see
   the script's own printed output).
 
+## Bonus: interactive demo tool
+
+Not part of the original assignment, but a nice extra for showing this off — a small
+web page where you paste in a contract and see what each AI model finds, live.
+
+```bash
+source .venv/bin/activate
+streamlit run tool/app.py
+```
+
+It reuses the exact same prompt/chunking/model code as the real evaluation
+(`lib/`), so it's not a separate, unvalidated path — it's the same logic the
+scored results come from.
+
 ## License
 
 This project's own code is free to reuse. CUAD itself is CC BY 4.0 —
