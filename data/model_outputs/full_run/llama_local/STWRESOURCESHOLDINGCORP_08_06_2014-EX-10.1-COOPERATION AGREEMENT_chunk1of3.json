@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "STWRESOURCESHOLDINGCORP_08_06_2014-EX-10.1-COOPERATION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 199,
+  "latency_seconds": 11.86,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Subject to the other provisions contained herein, this AGREEMENT shall be for a term of thirty (30) years from the Effective Date, which shall automatically renew from year-to-year thereafter unless terminated by a Party upon sixty (60) days' written notice after the end of the term.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless terminated by a Party upon sixty (60) days' written notice after the end of the term.\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Subject to the other provisions contained herein, this AGREEMENT shall be for a term of thirty (30) years from the Effective Date, which shall automatically renew from year-to-year thereafter unless terminated by a Party upon sixty (60) days' written notice after the end of the term."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless terminated by a Party upon sixty (60) days' written notice after the end of the term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T17:22:59.795039+00:00"
+}

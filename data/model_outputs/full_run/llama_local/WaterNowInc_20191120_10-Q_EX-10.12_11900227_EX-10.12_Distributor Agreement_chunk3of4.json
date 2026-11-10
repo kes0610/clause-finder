@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "WaterNowInc_20191120_10-Q_EX-10.12_11900227_EX-10.12_Distributor Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 285,
+  "latency_seconds": 15.47,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement may be terminated as follows:\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The initial term of this Agreement shall commence on the Effective Date and end on the five (5) year anniversary of the Effective Date (the \\\\\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"upon expiration of the Initial Term of this Agreement, this Agreement will automatically renew for additional, successive five (5) year periods unless either Party provides the other Party written notice of its desire to terminate at least one hundred twenty (120) days prior to the end of the Initial Term or any renewal.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"THIS AGREEMENT, AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES, SHALL BE GOVERNED BY AND CONSTRUED AND ENFORCED IN ACCORDANCE WITH THE SUBSTANTIVE LAWS OF THE STATE OF TEXAS, U.S.A. WITHOUT REGARD TO ITS PRINCIPLES OF CONFLICTS OF LAWS.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement may be terminated as follows:"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The initial term of this Agreement shall commence on the Effective Date and end on the five (5) year anniversary of the Effective Date (the \\"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "upon expiration of the Initial Term of this Agreement, this Agreement will automatically renew for additional, successive five (5) year periods unless either Party provides the other Party written notice of its desire to terminate at least one hundred twenty (120) days prior to the end of the Initial Term or any renewal."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "THIS AGREEMENT, AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES, SHALL BE GOVERNED BY AND CONSTRUED AND ENFORCED IN ACCORDANCE WITH THE SUBSTANTIVE LAWS OF THE STATE OF TEXAS, U.S.A. WITHOUT REGARD TO ITS PRINCIPLES OF CONFLICTS OF LAWS."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:59:20.334162+00:00"
+}

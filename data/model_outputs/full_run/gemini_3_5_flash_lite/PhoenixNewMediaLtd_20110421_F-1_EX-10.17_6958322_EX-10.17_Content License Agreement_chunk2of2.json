@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2559,
+  "prompt_input_tokens_reported": 3025,
+  "output_tokens_reported": 264,
+  "latency_seconds": 1.16,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"8.2.1 one Party is in breach of its obligations hereunder and fails to cure such breach within ten (10) Business Days following the other  Party's written notice thereof, then the non-breaching Party may terminate this Agreement;\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"9.2 Upon confirmation by the licensor in writing prior to the expiration of the term hereof, this Agreement may be extended for as long as may be  agreed to by both the licensor and licensee through negotiation, provided, however, that the licensee shall not have the right to decide  the extension of the term hereof.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"11.1 The execution, validity, interpretation, enforcement and dispute resolution of this Agreement shall be governed by the PRC Law.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "8.2.1 one Party is in breach of its obligations hereunder and fails to cure such breach within ten (10) Business Days following the other  Party's written notice thereof, then the non-breaching Party may terminate this Agreement;"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "9.2 Upon confirmation by the licensor in writing prior to the expiration of the term hereof, this Agreement may be extended for as long as may be  agreed to by both the licensor and licensee through negotiation, provided, however, that the licensee shall not have the right to decide  the extension of the term hereof."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "11.1 The execution, validity, interpretation, enforcement and dispute resolution of this Agreement shall be governed by the PRC Law."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:37:37.181057+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.txt",
+  "chunk_index": 3,
+  "chunk_total": 21,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3581,
+  "output_tokens_reported": 246,
+  "latency_seconds": 1.26,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"3.1 The Agreement enters into force on the Signing Date; it will have a duration of [*****] as from the Start Date (the \\\"Initial Term\\\").   3.2 Upon expiry of the Initial Term, this Agreement [*****] unless a Notice of non-renewal is given by either Party to the other Party [*****] prior to the expiry of the Initial Term or the end of a renewal period, if any.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless a Notice of non-renewal is given by either Party to the other Party [*****] prior to the expiry of the Initial Term or the end of a renewal period, if any.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "3.1 The Agreement enters into force on the Signing Date; it will have a duration of [*****] as from the Start Date (the \"Initial Term\").   3.2 Upon expiry of the Initial Term, this Agreement [*****] unless a Notice of non-renewal is given by either Party to the other Party [*****] prior to the expiry of the Initial Term or the end of a renewal period, if any."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless a Notice of non-renewal is given by either Party to the other Party [*****] prior to the expiry of the Initial Term or the end of a renewal period, if any."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:27:02.400739+00:00"
+}

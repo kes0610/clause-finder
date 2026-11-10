@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 8,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 196,
+  "latency_seconds": 12.44,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party (a) becomes insolvent or admits inability to pay its debts generally as they become due;\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement will be governed by and construed in accordance with the Laws of the State of Illinois applicable to agreements made and to be performed wholly within that State without regard to its conflicts of laws provisions.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party (a) becomes insolvent or admits inability to pay its debts generally as they become due;"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement will be governed by and construed in accordance with the Laws of the State of Illinois applicable to agreements made and to be performed wholly within that State without regard to its conflicts of laws provisions."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:11:55.309861+00:00"
+}

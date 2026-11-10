@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3619,
+  "output_tokens_reported": 372,
+  "latency_seconds": 7.55,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Either Party may terminate this Agreement upon 30 days prior written notice\\n      to the other Party if 1) such other Party breaches any material term of\\n      this Agreement, unless such breach is cured within 30 days; or 2) if any of\\n      the terms of this Agreement that require mutual approval are not mutually\\n      agreed to;\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"During the Term of this Agreement and for a period of six (6) months thereafter, MediaLinx shall not use or publicly disclose the data collected from users of the Co-Branded Site if such use is for the purpose of providing health information, advertisements, or products that compete with those that reside on the Co-Branded Site.\"\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"During the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Agreement upon 30 days prior written notice\n      to the other Party if 1) such other Party breaches any material term of\n      this Agreement, unless such breach is cured within 30 days; or 2) if any of\n      the terms of this Agreement that require mutual approval are not mutually\n      agreed to;"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the Term of this Agreement and for a period of six (6) months thereafter, MediaLinx shall not use or publicly disclose the data collected from users of the Co-Branded Site if such use is for the purpose of providing health information, advertisements, or products that compete with those that reside on the Co-Branded Site."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site"
+    }
+  },
+  "timestamp": "2026-11-10T19:21:33.919483+00:00"
+}

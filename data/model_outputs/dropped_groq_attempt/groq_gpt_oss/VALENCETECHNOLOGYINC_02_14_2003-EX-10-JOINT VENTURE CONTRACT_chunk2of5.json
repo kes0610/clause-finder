@@ -1,0 +1,15 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "VALENCETECHNOLOGYINC_02_14_2003-EX-10-JOINT VENTURE CONTRACT.txt",
+  "chunk_index": 2,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": null,
+  "output_tokens_reported": null,
+  "latency_seconds": 1.25,
+  "error": "Connection error.",
+  "raw_response": null,
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T16:51:08.256330+00:00"
+}

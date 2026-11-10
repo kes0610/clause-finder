@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PhoenixNewMediaLtd_20110421_F-1_EX-10.17_6958322_EX-10.17_Content License Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2559,
+  "prompt_input_tokens_reported": 3065,
+  "output_tokens_reported": 369,
+  "latency_seconds": 21.09,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"8.2.2 one Party enters into a bankruptcy process, Party B's shareholder or equity structure changes (not including changes to Party B's  shareholder or equity structure due to the Exclusive Call Option Agreement and Equity Pledge Agreement dated between  Party B, Phoenix Online and other relevant parties), or one Party ceases its business operation, then the other Party may send  a written notice of termination to such Party and this Agreement shall terminate as of the date on which such written notice is  served to such Party;\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"In the event of any breach of this Agreement by any Party  hereto, the breaching Party shall indemnify the other Party for all of such other Parties losses arising therefrom, which losses shall  include only direct losses, reasonable expenses and reasonable attorney fees.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"9.2 Upon confirmation by the licensor in writing prior to the expiration of the term hereof, this Agreement may be extended for as long as may be  agreed to by both the licensor and licensee through negotiation, provided, however, that the licensee shall not have the right to decide  the extension of the term hereof.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"11.1 The execution, validity, interpretation, enforcement and dispute resolution of this Agreement shall be governed by the PRC Law.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "8.2.2 one Party enters into a bankruptcy process, Party B's shareholder or equity structure changes (not including changes to Party B's  shareholder or equity structure due to the Exclusive Call Option Agreement and Equity Pledge Agreement dated between  Party B, Phoenix Online and other relevant parties), or one Party ceases its business operation, then the other Party may send  a written notice of termination to such Party and this Agreement shall terminate as of the date on which such written notice is  served to such Party;"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "In the event of any breach of this Agreement by any Party  hereto, the breaching Party shall indemnify the other Party for all of such other Parties losses arising therefrom, which losses shall  include only direct losses, reasonable expenses and reasonable attorney fees."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "9.2 Upon confirmation by the licensor in writing prior to the expiration of the term hereof, this Agreement may be extended for as long as may be  agreed to by both the licensor and licensee through negotiation, provided, however, that the licensee shall not have the right to decide  the extension of the term hereof."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "11.1 The execution, validity, interpretation, enforcement and dispute resolution of this Agreement shall be governed by the PRC Law."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:05:45.472673+00:00"
+}

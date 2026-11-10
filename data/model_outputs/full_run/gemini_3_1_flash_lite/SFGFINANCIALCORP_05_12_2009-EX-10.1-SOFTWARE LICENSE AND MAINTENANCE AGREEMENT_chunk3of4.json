@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3604,
+  "output_tokens_reported": 270,
+  "latency_seconds": 1.28,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either party shall have the right to terminate this Agreement immediately upon notice to the other party if the other party: (a) becomes the subject of a voluntary petition in bankruptcy or any voluntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors; or (b) becomes the subject of an involuntary petition in bankruptcy or any involuntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors, if such petition or proceeding is not dismissed within sixty (60) days of filing.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"(b) IN NO EVENT SHALL LICENSOR'S AGGREGATE CUMULATIVE TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED ONE  HALF OF THE AMOUNT PAID BY THE LICENSEE TO Licensor HEREUNDER.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either party shall have the right to terminate this Agreement immediately upon notice to the other party if the other party: (a) becomes the subject of a voluntary petition in bankruptcy or any voluntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors; or (b) becomes the subject of an involuntary petition in bankruptcy or any involuntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors, if such petition or proceeding is not dismissed within sixty (60) days of filing."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "(b) IN NO EVENT SHALL LICENSOR'S AGGREGATE CUMULATIVE TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED ONE  HALF OF THE AMOUNT PAID BY THE LICENSEE TO Licensor HEREUNDER."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:54:30.653042+00:00"
+}

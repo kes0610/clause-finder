@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt",
+  "chunk_index": 5,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 294,
+  "latency_seconds": 14.29,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"date of termination, in addition to any and all Cash Payments that would have become payable but for the termination) shall be immediately due as of the effective date of termination and paid to ABG.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, NEITHER ABG NOR AUTHENTIC BRANDS GROUP LLC NOR CELEBRITY SHALL BE LIABLE TO PAPA JOHN'S FOR ANY CONSEQUENTIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, OR SPECIAL DAMAGES, REGARDLESS OF THE FORM OR ACTION, WHETHER IN CONTRACT OR IN TORT, EVEN IF ABG OR AUTHENTIC BRANDS GROUP LLC HAS BEEN ADVISED OF THE POSSIBILTY OF SUCH DAMAGES OR LOSSES.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"C. Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its principles of conflicts of law.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "date of termination, in addition to any and all Cash Payments that would have become payable but for the termination) shall be immediately due as of the effective date of termination and paid to ABG."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, NEITHER ABG NOR AUTHENTIC BRANDS GROUP LLC NOR CELEBRITY SHALL BE LIABLE TO PAPA JOHN'S FOR ANY CONSEQUENTIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, OR SPECIAL DAMAGES, REGARDLESS OF THE FORM OR ACTION, WHETHER IN CONTRACT OR IN TORT, EVEN IF ABG OR AUTHENTIC BRANDS GROUP LLC HAS BEEN ADVISED OF THE POSSIBILTY OF SUCH DAMAGES OR LOSSES."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "C. Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its principles of conflicts of law."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:14:45.186693+00:00"
+}

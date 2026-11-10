@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 234,
+  "latency_seconds": 14.39,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Unless earlier terminated pursuant to the provisions hereof, the term of this Agreement and the licenses and other grants of rights (and related obligations) under this Agreement shall...\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"limited, non- exclusive, royalty-free, non-sublicensable (except as set forth in Section 7.1), non-assignable license in, to and under the Arizona Licensed Trademarks for the Arizona Trademark License Term for use in the Company Field throughout the world only in the form and manner that such Arizona Licensed Trademarks are used in the Business as of the Closing\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Unless earlier terminated pursuant to the provisions hereof, the term of this Agreement and the licenses and other grants of rights (and related obligations) under this Agreement shall..."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "limited, non- exclusive, royalty-free, non-sublicensable (except as set forth in Section 7.1), non-assignable license in, to and under the Arizona Licensed Trademarks for the Arizona Trademark License Term for use in the Company Field throughout the world only in the form and manner that such Arizona Licensed Trademarks are used in the Business as of the Closing"
+    }
+  },
+  "timestamp": "2026-11-10T18:12:56.850878+00:00"
+}

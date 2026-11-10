@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2550,
+  "prompt_input_tokens_reported": 3057,
+  "output_tokens_reported": 276,
+  "latency_seconds": 13.77,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"The construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of the Commonwealth of Pennsylvania, except in such cases and to such extent as the laws of another jurisdiction shall necessarily control.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"no interest shall be allowed to any Joint Venturer upon the amount of his contribution. No Joint Venturer shall withdraw, transfer or have paid to him in any manner any part of his capital contribution or account, or any other funds or property of the Joint Venture without the consent of both Joint Venturers; provided, however, there may be distributed to the Joint Venturers, from time to time, so much of the gross income of the Joint Venture as shall not be needed to defray the necessary and expected costs and expenses of the Joint Venture business.\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "The construction and interpretation of the terms and provisions of this Agreement shall be interpreted and construed under the laws of the Commonwealth of Pennsylvania, except in such cases and to such extent as the laws of another jurisdiction shall necessarily control."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "no interest shall be allowed to any Joint Venturer upon the amount of his contribution. No Joint Venturer shall withdraw, transfer or have paid to him in any manner any part of his capital contribution or account, or any other funds or property of the Joint Venture without the consent of both Joint Venturers; provided, however, there may be distributed to the Joint Venturers, from time to time, so much of the gross income of the Joint Venture as shall not be needed to defray the necessary and expected costs and expenses of the Joint Venture business."
+    }
+  },
+  "timestamp": "2026-11-10T17:59:43.154170+00:00"
+}

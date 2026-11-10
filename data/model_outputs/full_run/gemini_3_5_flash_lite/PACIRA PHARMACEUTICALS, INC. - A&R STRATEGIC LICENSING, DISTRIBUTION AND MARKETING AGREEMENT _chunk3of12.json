@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 3,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3486,
+  "output_tokens_reported": 238,
+  "latency_seconds": 0.99,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"The Lease Term will automatically terminate immediately upon (i) any termination or expiration of this Agreement and/or the Supply Agreement or (ii) any exercise by EKR of the Step-in Right described in Section 17.5 below.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"The Lease Term shall automatically renew at the end of each calendar quarter of the Lease Term.\"\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Lease Term will automatically terminate immediately upon (i) any termination or expiration of this Agreement and/or the Supply Agreement or (ii) any exercise by EKR of the Step-in Right described in Section 17.5 below."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The Lease Term shall automatically renew at the end of each calendar quarter of the Lease Term."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:23:24.216249+00:00"
+}

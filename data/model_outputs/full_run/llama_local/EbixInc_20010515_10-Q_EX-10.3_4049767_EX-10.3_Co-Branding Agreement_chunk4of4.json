@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 412,
+  "prompt_input_tokens_reported": 919,
+  "output_tokens_reported": 125,
+  "latency_seconds": 4.72,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T19:10:00.478405+00:00"
+}

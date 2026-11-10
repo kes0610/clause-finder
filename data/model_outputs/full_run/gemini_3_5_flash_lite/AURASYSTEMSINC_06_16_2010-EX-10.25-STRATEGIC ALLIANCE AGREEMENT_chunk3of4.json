@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "AURASYSTEMSINC_06_16_2010-EX-10.25-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3442,
+  "output_tokens_reported": 272,
+  "latency_seconds": 1.46,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"(d) By either party hereto upon sixty (60) days prior written notice to the other party hereto;\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"NEITHER PARTY SHALL NOT BE LIABLE TO THE OTHER FOR ANY DAMAGES, LOSSES OR EXPENSES RESULTING FROM ANY  TERMINATION OR EXPIRATION OF THIS AGREEMENT ARISING FROM ANY CLAIMS ASSERTED WHICH ARE BASED UPON  LOSS OF GOODWILL, PROSPECTIVE PROFITS OR ANTICIPATED ORDERS, OR ON ACCOUNT OF ANY EXPENDITURES,  INVESTMENTS, LEASES OR COMMITMENTS MADE BY SUCH PARTY;\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement is deemed made and entered into in the State of California and shall be construed, enforced and performed in  accordance with the laws of the State of California, without reference, to choice of law.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "(d) By either party hereto upon sixty (60) days prior written notice to the other party hereto;"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "NEITHER PARTY SHALL NOT BE LIABLE TO THE OTHER FOR ANY DAMAGES, LOSSES OR EXPENSES RESULTING FROM ANY  TERMINATION OR EXPIRATION OF THIS AGREEMENT ARISING FROM ANY CLAIMS ASSERTED WHICH ARE BASED UPON  LOSS OF GOODWILL, PROSPECTIVE PROFITS OR ANTICIPATED ORDERS, OR ON ACCOUNT OF ANY EXPENDITURES,  INVESTMENTS, LEASES OR COMMITMENTS MADE BY SUCH PARTY;"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement is deemed made and entered into in the State of California and shall be construed, enforced and performed in  accordance with the laws of the State of California, without reference, to choice of law."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:35:37.948395+00:00"
+}

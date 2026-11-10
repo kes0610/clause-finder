@@ -1,0 +1,15 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+  "chunk_index": 8,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": null,
+  "output_tokens_reported": null,
+  "latency_seconds": 0.04,
+  "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m71k8c9fekjty0c33zvbmf68` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199249, Requested 3699. Please try again in 21m13.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "raw_response": null,
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T19:09:14.916884+00:00"
+}

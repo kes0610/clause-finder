@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3634,
+  "output_tokens_reported": 170,
+  "latency_seconds": 3.04,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Company's liability shall not exceed the fees that MA has paid under this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"and shall be automatically renewed for successive one (1) year periods\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "unless otherwise terminated according to the cancellation or termination provisions contained in paragraph 18 of this Agreement"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Company's liability shall not exceed the fees that MA has paid under this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "and shall be automatically renewed for successive one (1) year periods"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:59:26.160125+00:00"
+}

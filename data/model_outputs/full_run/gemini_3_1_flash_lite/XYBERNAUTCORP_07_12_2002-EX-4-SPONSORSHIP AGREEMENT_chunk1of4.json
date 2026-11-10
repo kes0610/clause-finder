@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3650,
+  "output_tokens_reported": 150,
+  "latency_seconds": 4.57,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"AJR agrees to designate XC as an associate sponsor and the \\\"exclusive technology sponsor\\\" for wearable computer technology\\\" of the Team for the Season\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "AJR agrees to designate XC as an associate sponsor and the \"exclusive technology sponsor\" for wearable computer technology\" of the Team for the Season"
+    }
+  },
+  "timestamp": "2026-11-10T17:47:55.981096+00:00"
+}

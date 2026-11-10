@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT.txt",
+  "chunk_index": 9,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3499,
+  "output_tokens_reported": 578,
+  "latency_seconds": 2.81,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Agent may terminate this Agreement, by notice to the Company, at any time at or prior to Closing Time (i) if there has been, since the date of this Agreement or since the respective dates as of which information is given in the Registration Statement, any material adverse change in the financial condition, results of operations, business affairs or prospects of the Company, the MHCs or the Bank, considered as one enterprise, whether or not arising in the ordinary course of business, (ii) if there has occurred any material adverse change in the financial markets in the United States or elsewhere or any outbreak of hostilities or escalation thereof or other calamity or crisis the effect of which, in the judgment of the Agent, is so material and adverse as to make it impracticable to market the Securities or to enforce contracts, including subscriptions or orders, for the sale of the Securities, (iii) if trading generally on the Nasdaq Global Market, the American Stock Exchange or the New York Stock Exchange has been suspended, or minimum or maximum prices for trading have been fixed, or maximum ranges for prices for securities have been required, by either of said Exchanges or by order of the Commission or any other governmental authority, or if a banking moratorium has been declared by either Federal, Pennsylvania or New York authorities, (iv) if any condition specified in Section 5 shall not have been fulfilled when and as required to be fulfilled; (v) if there shall have been such material adverse changes in the condition or prospects of the Company, the MHCs or the Bank or the prospective market for the Company's Securities as in the Agent's good faith opinion would make it inadvisable to proceed with the offering, sale or delivery of the Securities; (vi) if, in the Agent's good faith opinion, the price for the Securities established by the Appraiser is not reasonable or equitable under then prevailing market conditions, or (vii) if the Offerings are not consummated on or prior to June 30, 2007.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Notwithstanding anything to the contrary set forth herein, to the extent permitted by applicable law, in no event shall the Agent be required to contribute an aggregate amount in excess of the aggregate marketing fees to which the Agent is entitled and actually paid pursuant to this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Agent may terminate this Agreement, by notice to the Company, at any time at or prior to Closing Time (i) if there has been, since the date of this Agreement or since the respective dates as of which information is given in the Registration Statement, any material adverse change in the financial condition, results of operations, business affairs or prospects of the Company, the MHCs or the Bank, considered as one enterprise, whether or not arising in the ordinary course of business, (ii) if there has occurred any material adverse change in the financial markets in the United States or elsewhere or any outbreak of hostilities or escalation thereof or other calamity or crisis the effect of which, in the judgment of the Agent, is so material and adverse as to make it impracticable to market the Securities or to enforce contracts, including subscriptions or orders, for the sale of the Securities, (iii) if trading generally on the Nasdaq Global Market, the American Stock Exchange or the New York Stock Exchange has been suspended, or minimum or maximum prices for trading have been fixed, or maximum ranges for prices for securities have been required, by either of said Exchanges or by order of the Commission or any other governmental authority, or if a banking moratorium has been declared by either Federal, Pennsylvania or New York authorities, (iv) if any condition specified in Section 5 shall not have been fulfilled when and as required to be fulfilled; (v) if there shall have been such material adverse changes in the condition or prospects of the Company, the MHCs or the Bank or the prospective market for the Company's Securities as in the Agent's good faith opinion would make it inadvisable to proceed with the offering, sale or delivery of the Securities; (vi) if, in the Agent's good faith opinion, the price for the Securities established by the Appraiser is not reasonable or equitable under then prevailing market conditions, or (vii) if the Offerings are not consummated on or prior to June 30, 2007."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Notwithstanding anything to the contrary set forth herein, to the extent permitted by applicable law, in no event shall the Agent be required to contribute an aggregate amount in excess of the aggregate marketing fees to which the Agent is entitled and actually paid pursuant to this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:10:14.970413+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "XYBERNAUTCORP_07_12_2002-EX-4-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 214,
+  "latency_seconds": 13.42,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"the term of this Agreement shall commence as of the date hereof and shall terminate at the end of the Season which is scheduled to end on October 12, 2002 (the \"Term\")\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"AJR shall only be permitted to use the Licensed Materials in connection with the Sponsorship and only in the limited manner expressly permitted as set forth on Schedule A attached hereto. No other use of any of the Licensed Materials by AJR shall be permitted.\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:27:34.160294+00:00"
+}

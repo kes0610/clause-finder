@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "NETGEAR,INC_04_21_2003-EX-10.16-AMENDMENT TO THE DISTRIBUTOR AGREEMENT BETWEEN INGRAM MICRO AND NETGEAR-.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 1479,
+  "prompt_input_tokens_reported": 2042,
+  "output_tokens_reported": 259,
+  "latency_seconds": 4.9,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"During the initial one year period beginning on the Amendment Date,          Distributor shall be the only distributor appointed by NETGEAR in [*],          subject to Distributor conducting mutually agreed to marketing          activities as described in the Marketing Plan for [*] to be developed          and agreed to by and between the parties and which shall be attached to          and made a part of this Agreement as Exhibit 4a.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement, including its attachment and order acknowledgments under the Agreement, constitutes the entire agreement between Distributor and NETGEAR with respect to the purchase, resale and distribution of the Products and is governed by the laws of the State of California except that body of law dealing with conflicts of law."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the initial one year period beginning on the Amendment Date,          Distributor shall be the only distributor appointed by NETGEAR in [*],          subject to Distributor conducting mutually agreed to marketing          activities as described in the Marketing Plan for [*] to be developed          and agreed to by and between the parties and which shall be attached to          and made a part of this Agreement as Exhibit 4a."
+    }
+  },
+  "timestamp": "2026-11-10T19:32:58.168593+00:00"
+}

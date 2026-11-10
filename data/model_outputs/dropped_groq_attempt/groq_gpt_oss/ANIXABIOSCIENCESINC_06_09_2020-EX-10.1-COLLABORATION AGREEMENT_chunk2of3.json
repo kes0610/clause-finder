@@ -1,0 +1,15 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "ANIXABIOSCIENCESINC_06_09_2020-EX-10.1-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": null,
+  "output_tokens_reported": null,
+  "latency_seconds": 1.45,
+  "error": "Connection error.",
+  "raw_response": null,
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T16:51:01.721256+00:00"
+}

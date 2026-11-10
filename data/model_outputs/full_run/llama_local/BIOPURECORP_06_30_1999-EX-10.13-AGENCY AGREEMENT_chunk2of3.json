@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 217,
+  "latency_seconds": 15.02,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"In the event that either party fails in any material respect to observe or perform any of its obligations under this Agreement (with respect to the Agent, including but not limited to Agent performance criteria set forth in each Business Plan), which failure is not remedied within thirty (30) days (or, in the case of payments due, within five (5) business days), after receipt of written notice from the other party specifying such failure, this Agreement shall automatically terminate.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In the event that either party fails in any material respect to observe or perform any of its obligations under this Agreement (with respect to the Agent, including but not limited to Agent performance criteria set forth in each Business Plan), which failure is not remedied within thirty (30) days (or, in the case of payments due, within five (5) business days), after receipt of written notice from the other party specifying such failure, this Agreement shall automatically terminate."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T19:15:01.976992+00:00"
+}

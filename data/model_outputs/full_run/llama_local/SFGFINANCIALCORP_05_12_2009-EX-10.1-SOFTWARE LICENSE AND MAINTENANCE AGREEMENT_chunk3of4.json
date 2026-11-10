@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 742,
+  "latency_seconds": 26.03,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"a. (a) Either party shall have the right to terminate this Agreement immediately upon notice to the other party if the other party: (a) becomes the subject of a voluntary petition in bankruptcy or any voluntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors; or (b) becomes the subject of an involuntary petition in bankruptcy or any involuntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors, if such petition or proceeding is not dismissed within sixty (60) days of filing.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"(b) IN NO EVENT SHALL LICENSOR BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOSS OF USE, DATA, BUSINESS OR PROFITS) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE, OPERATION OR PERFORMANCE OF ANY OF THE LICENSED TECHNOLOGY, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, MISREPRESENTATION OR OTHERWISE, AND WHETHER OR NOT LICENSORHAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR LOSS OF DATA, GOODWILL, USE OF MONEY OR USE OF THE LICENSED TECHNOLOGY, INTERRUPTION IN USE OR AVAILABILITY OF DATA, STOPPAGE OF OTHER WORK OR IMPAIRMENT OR OTHER ASSETS), ARISING OUT OF BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, BREACH OF CONTRACT, MISREPRESENTATION, NEGLIGENCE, STRICT LIABILITY IN TORT, OR OTHERWISE\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"(b) NON SOLICITATION. During the Term of this Agreement and during the three year period after the expiration or termination of this Agreement, the Licensee will not solicit any person employed by Licensor and/or its Affiliates to leave his or her employment with Licensor.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"ARTICLE VIX WARRANTY DISCLAIMER     THE LICENSED TECHNOLOGY IS PROVIDED ON AN \\u201CAS IS\\u201D BASIS WITHOUT WARRANTY OF ANY KIND AND LICENSOR HEREBY  DISCLAIMS ALL WARRANTIES CONCERNING THE LICENSED TECHNOLOGY, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT  LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, NON INFRINGEMENT, FITNESS FOR PARTICULAR PURPOSE ,  COMPLETENESS, USE, ACCURACY AND/OR TITLE. LICENSOR DOES NOT WARRANT THAT THE LICENSED TECHNOLOGY IS ERROR-  FREE OR THAT IT WILL MEET LICENSEE\\u2019S REQUIREMENTS OR THAT THE OPERATION OF THE LICENSED TECHNOLOGY WILL BE  UNINTERRUPTED,TIMELY SECURE OR ERROR-FREE, OR THAT ERRORS IN THE LICENSED TECHNOLOGY OR NONCONFORMITY TO ITS  DOCUMENTATION CAN OR WILL BE CORRECTED.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"(b) NON SOLICITATION. During the Term of this Agreement and during the three year period after the expiration or termination of this Agreement, the Licensee will not solicit any person employed by Licensor and/or its Affiliates to leave his or her employment with Licensor.\"}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "a. (a) Either party shall have the right to terminate this Agreement immediately upon notice to the other party if the other party: (a) becomes the subject of a voluntary petition in bankruptcy or any voluntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors; or (b) becomes the subject of an involuntary petition in bankruptcy or any involuntary proceeding relating to insolvency, receivership, liquidation, or composition for the benefit of creditors, if such petition or proceeding is not dismissed within sixty (60) days of filing."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "(b) IN NO EVENT SHALL LICENSOR BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOSS OF USE, DATA, BUSINESS OR PROFITS) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE, OPERATION OR PERFORMANCE OF ANY OF THE LICENSED TECHNOLOGY, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, MISREPRESENTATION OR OTHERWISE, AND WHETHER OR NOT LICENSORHAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR LOSS OF DATA, GOODWILL, USE OF MONEY OR USE OF THE LICENSED TECHNOLOGY, INTERRUPTION IN USE OR AVAILABILITY OF DATA, STOPPAGE OF OTHER WORK OR IMPAIRMENT OR OTHER ASSETS), ARISING OUT OF BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, BREACH OF CONTRACT, MISREPRESENTATION, NEGLIGENCE, STRICT LIABILITY IN TORT, OR OTHERWISE"
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "(b) NON SOLICITATION. During the Term of this Agreement and during the three year period after the expiration or termination of this Agreement, the Licensee will not solicit any person employed by Licensor and/or its Affiliates to leave his or her employment with Licensor."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "ARTICLE VIX WARRANTY DISCLAIMER     THE LICENSED TECHNOLOGY IS PROVIDED ON AN \u201cAS IS\u201d BASIS WITHOUT WARRANTY OF ANY KIND AND LICENSOR HEREBY  DISCLAIMS ALL WARRANTIES CONCERNING THE LICENSED TECHNOLOGY, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT  LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, NON INFRINGEMENT, FITNESS FOR PARTICULAR PURPOSE ,  COMPLETENESS, USE, ACCURACY AND/OR TITLE. LICENSOR DOES NOT WARRANT THAT THE LICENSED TECHNOLOGY IS ERROR-  FREE OR THAT IT WILL MEET LICENSEE\u2019S REQUIREMENTS OR THAT THE OPERATION OF THE LICENSED TECHNOLOGY WILL BE  UNINTERRUPTED,TIMELY SECURE OR ERROR-FREE, OR THAT ERRORS IN THE LICENSED TECHNOLOGY OR NONCONFORMITY TO ITS  DOCUMENTATION CAN OR WILL BE CORRECTED."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "(b) NON SOLICITATION. During the Term of this Agreement and during the three year period after the expiration or termination of this Agreement, the Licensee will not solicit any person employed by Licensor and/or its Affiliates to leave his or her employment with Licensor."
+    }
+  },
+  "timestamp": "2026-11-10T17:41:02.174995+00:00"
+}

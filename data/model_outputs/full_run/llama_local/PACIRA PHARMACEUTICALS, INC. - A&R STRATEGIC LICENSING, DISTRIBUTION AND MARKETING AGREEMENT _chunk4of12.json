@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 4,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 192,
+  "latency_seconds": 13.35,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"EKR shall not, during [**], market, distribute or sell a Competing Product in the Territory unless during such time an A/B  rated generic product of the Product(s) is launched in such country of the Territory or in the event this Agreement is terminated or EKR  exercises its rights under Section 17.4 hereof.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "EKR shall not, during [**], market, distribute or sell a Competing Product in the Territory unless during such time an A/B  rated generic product of the Product(s) is launched in such country of the Territory or in the event this Agreement is terminated or EKR  exercises its rights under Section 17.4 hereof."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T17:55:06.957695+00:00"
+}

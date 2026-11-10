@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 180,
+  "latency_seconds": 11.48,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"11.2 TERMINATION FOR CAUSE\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"11.1 AUTOMATIC RENEWAL\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"11.1 AUTOMATIC RENEWAL, provided, however, that either Party may terminate this Agreement immediately upon written notice to the other Party in the event any material breach of a material term of this Agreement by such other Party\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "11.2 TERMINATION FOR CAUSE"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "11.1 AUTOMATIC RENEWAL"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "11.1 AUTOMATIC RENEWAL, provided, however, that either Party may terminate this Agreement immediately upon written notice to the other Party in the event any material breach of a material term of this Agreement by such other Party"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:22:14.445510+00:00"
+}

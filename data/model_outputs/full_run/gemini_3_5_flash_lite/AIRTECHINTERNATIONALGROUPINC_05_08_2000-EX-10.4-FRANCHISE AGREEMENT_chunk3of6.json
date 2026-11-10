@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3561,
+  "output_tokens_reported": 198,
+  "latency_seconds": 0.95,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If Your interest is not disposed of within 6 months after such death or mental incapacity, AIRSOPURE may terminate this Agreement.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"In addition to its monthly contribution to the Fund, You shall spend an amount equal to at least 2% of Your total monthly gross sales (as defined in Paragraph 3.01.C above) on local advertising in Your Exclusive Territory.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If Your interest is not disposed of within 6 months after such death or mental incapacity, AIRSOPURE may terminate this Agreement."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "In addition to its monthly contribution to the Fund, You shall spend an amount equal to at least 2% of Your total monthly gross sales (as defined in Paragraph 3.01.C above) on local advertising in Your Exclusive Territory."
+    }
+  },
+  "timestamp": "2026-11-10T19:08:07.447278+00:00"
+}

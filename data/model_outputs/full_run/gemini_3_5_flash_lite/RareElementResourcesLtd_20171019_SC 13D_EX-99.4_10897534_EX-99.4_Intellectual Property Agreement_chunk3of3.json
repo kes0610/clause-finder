@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 1935,
+  "prompt_input_tokens_reported": 2581,
+  "output_tokens_reported": 182,
+  "latency_seconds": 1.59,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If Company fails to cure the identified breach within thirty (30) days after the date of the notice, Investor may terminate this IP Agreement by written notice to Company.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"All questions concerning the construction, validity, enforcement and interpretation of this IP Agreement shall be determined in accordance with the provisions of the Investment Agreement.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If Company fails to cure the identified breach within thirty (30) days after the date of the notice, Investor may terminate this IP Agreement by written notice to Company."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "All questions concerning the construction, validity, enforcement and interpretation of this IP Agreement shall be determined in accordance with the provisions of the Investment Agreement."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:10:21.956585+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+  "chunk_index": 11,
+  "chunk_total": 13,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 337,
+  "latency_seconds": 30.22,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"if King notifies Depomed in writing within 180 days after the Effective Date that King desires to exercise its option to obtain a Combination Product License, King and Depomed shall promptly commence good-faith negotiations regarding a definitive agreement providing for the Combination Product License, for a period of 60 days or such longer period as may be mutually agreed upon by the parties in writing; and it is agreed that, as part of such good faith negotiations, the parties will discuss, for inclusion in any definitive agreement, appropriate non-compete obligations for each party with respect to any product containing metformin hydrochloride as an active pharmaceutical ingredient.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Depomed agrees to grant and hereby grants to King an exclusive option (exercisable at King's sole discretion by providing written notice of intent at any time, but in no event later than 180 days after the Effective Date) to obtain an exclusive license in the Territory to certain of Depomed's proprietary drug delivery technology in combination with both metformin hydrochloride and any other active pharmaceutical ingredients (a \"Combination Product License\").\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T18:47:48.154920+00:00"
+}

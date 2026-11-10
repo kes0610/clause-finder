@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 443,
+  "latency_seconds": 18.3,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Termination for Bankruptcy. Either Party may immediately terminate the Agreement in whole or in part if the other Party: (a) makes an assignment for the benefit of creditors, admits in writing its inability to pay debts as they mature, or ceases operating in the normal course of business; (b) has a receiver or trustee appointed by a court over the Party or any substantial part of the Party's assets; (c) becomes insolvent or is unable to pay its debts as they become due; (d) authorizes, applies for or consents to the appointment of a trustee or liquidator of all or a substantial part of its assets or has proceedings seeking such an appointment commenced against it which are not terminated within ninety (90) days of such commencement; (e) has any substantial part of its property subjected to any levy, seizure, assignment or sale for, or by any creditor or governmental agency without said levy, seizure, assignment or sale being lifted, released, reversed or satisfied within ten (10) days; (f) files a voluntary petition under any chapters of the United States Bankruptcy Code or any other insolvency law or an involuntary proceeding has been commenced by any Party against the Party under any one of the chapters of the United States Bankruptcy Code or any other insolvency law and (A) the proceeding has been pending for at least sixty (60) days; or (B) the Party has consented, either expressly or by operation of law, to the entry of an order for relief; or (C) the Party has been decreed or adjudged a debtor or equivalent.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Termination for Bankruptcy. Either Party may immediately terminate the Agreement in whole or in part if the other Party: (a) makes an assignment for the benefit of creditors, admits in writing its inability to pay debts as they mature, or ceases operating in the normal course of business; (b) has a receiver or trustee appointed by a court over the Party or any substantial part of the Party's assets; (c) becomes insolvent or is unable to pay its debts as they become due; (d) authorizes, applies for or consents to the appointment of a trustee or liquidator of all or a substantial part of its assets or has proceedings seeking such an appointment commenced against it which are not terminated within ninety (90) days of such commencement; (e) has any substantial part of its property subjected to any levy, seizure, assignment or sale for, or by any creditor or governmental agency without said levy, seizure, assignment or sale being lifted, released, reversed or satisfied within ten (10) days; (f) files a voluntary petition under any chapters of the United States Bankruptcy Code or any other insolvency law or an involuntary proceeding has been commenced by any Party against the Party under any one of the chapters of the United States Bankruptcy Code or any other insolvency law and (A) the proceeding has been pending for at least sixty (60) days; or (B) the Party has consented, either expressly or by operation of law, to the entry of an order for relief; or (C) the Party has been decreed or adjudged a debtor or equivalent."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:52:12.599628+00:00"
+}

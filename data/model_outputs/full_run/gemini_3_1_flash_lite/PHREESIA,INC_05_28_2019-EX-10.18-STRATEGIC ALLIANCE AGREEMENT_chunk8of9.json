@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 8,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3526,
+  "output_tokens_reported": 401,
+  "latency_seconds": 41.27,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"3 Termination for Insolvency. Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party (a) becomes insolvent or admits inability to pay its debts generally as they become due; (b) becomes subject, voluntarily or involuntarily, to any proceeding under any domestic or foreign bankruptcy or insolvency Law, which is not fully stayed within [***] or is not dismissed or vacated within [***] after filing; (c) is dissolved or liquidated or takes any action for such purpose; (d) makes a general assignment for the benefit of creditors; or (e) has a receiver, trustee, custodian, or similar agent appointed by order of any court of competent jurisdiction to take charge of or sell any portion of its property or business (and such appointment is not discontinued within [***] thereafter).\\n\\n25.4 Termination for Force Majeure. Subject to Section 15.2, either Party may terminate this Agreement, immediately upon written notice to the other Party, if a Force Majeure Event affecting the other Party's performance of its obligations hereunder continues substantially uninterrupted for a period of [***] or more.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"28.8 Governing Law. This Agreement will be governed by and construed in accordance with the Laws of the State of Illinois applicable to agreements made and to be performed wholly within that State without regard to its conflicts of laws provisions.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "3 Termination for Insolvency. Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party (a) becomes insolvent or admits inability to pay its debts generally as they become due; (b) becomes subject, voluntarily or involuntarily, to any proceeding under any domestic or foreign bankruptcy or insolvency Law, which is not fully stayed within [***] or is not dismissed or vacated within [***] after filing; (c) is dissolved or liquidated or takes any action for such purpose; (d) makes a general assignment for the benefit of creditors; or (e) has a receiver, trustee, custodian, or similar agent appointed by order of any court of competent jurisdiction to take charge of or sell any portion of its property or business (and such appointment is not discontinued within [***] thereafter).\n\n25.4 Termination for Force Majeure. Subject to Section 15.2, either Party may terminate this Agreement, immediately upon written notice to the other Party, if a Force Majeure Event affecting the other Party's performance of its obligations hereunder continues substantially uninterrupted for a period of [***] or more."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "28.8 Governing Law. This Agreement will be governed by and construed in accordance with the Laws of the State of Illinois applicable to agreements made and to be performed wholly within that State without regard to its conflicts of laws provisions."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:08:18.322223+00:00"
+}

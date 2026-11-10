@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 236,
+  "latency_seconds": 12.94,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement may be terminated by either party at the expiration of its term or any renewal term upon thirty (30) days written notice to the other party.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Company's liability shall not exceed the fees that MA has paid under this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Upon termination or cancellation of this Agreement for any reason:\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement is accepted by Company in the State of Nevada and shall be governed by and construed in accordance with the laws thereof,\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"MA shall not continue to use or employ any part of the Technology as part of any product which MA shall convey, assign, lease, license or transfer to any third parties;\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement may be terminated by either party at the expiration of its term or any renewal term upon thirty (30) days written notice to the other party."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Company's liability shall not exceed the fees that MA has paid under this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Upon termination or cancellation of this Agreement for any reason:"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement is accepted by Company in the State of Nevada and shall be governed by and construed in accordance with the laws thereof,"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "MA shall not continue to use or employ any part of the Technology as part of any product which MA shall convey, assign, lease, license or transfer to any third parties;"
+    }
+  },
+  "timestamp": "2026-11-10T17:50:10.455775+00:00"
+}

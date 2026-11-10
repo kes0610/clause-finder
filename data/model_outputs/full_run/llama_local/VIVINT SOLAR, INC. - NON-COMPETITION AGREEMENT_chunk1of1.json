@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "VIVINT SOLAR, INC. - NON-COMPETITION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 794,
+  "prompt_input_tokens_reported": 1300,
+  "output_tokens_reported": 146,
+  "latency_seconds": 5.74,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"Non-Competition Agreement (collectively, the \"Non-Competition Agreement\") to set out certain restrictive covenants of each Party.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:53:34.046822+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement.txt",
+  "chunk_index": 6,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3503,
+  "output_tokens_reported": 199,
+  "latency_seconds": 1.08,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"8.1.1 Each Party agrees that, for a period of five years (\\\"Non-Competition Period\\\") from the Effective Date (\\\"End Date\\\"), no Party, nor any of their respective Affiliates, will enter into an agreement with any third party, or otherwise carry on any business, directly or indirectly, which is focused on, and targets, primarily Consumers within the PRC\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "8.1.1 Each Party agrees that, for a period of five years (\"Non-Competition Period\") from the Effective Date (\"End Date\"), no Party, nor any of their respective Affiliates, will enter into an agreement with any third party, or otherwise carry on any business, directly or indirectly, which is focused on, and targets, primarily Consumers within the PRC"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:24:20.955298+00:00"
+}

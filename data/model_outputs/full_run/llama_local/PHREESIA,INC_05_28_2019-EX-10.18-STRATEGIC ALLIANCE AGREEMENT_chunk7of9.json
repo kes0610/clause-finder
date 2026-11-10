@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 7,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 306,
+  "latency_seconds": 16.37,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"[***]\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"THE TOTAL CUMULATIVE LIABILITY OF EITHER PARTY FOR ANY AND ALL CLAIMS AND DAMAGES UNDER THIS AGREEMENT, WHETHER ARISING BY STATUTE, CONTRACT, TORT OR OTHERWISE, WILL NOT EXCEED THE FEES PAID BY ALLSCRIPTS TO COMPANY HEREUNDER DURING THE [***] PRECEDING THE EVENT GIVING RISE TO THE CLAIM.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"the initial term of this Agreement commences on the Effective Date and will continue in effect until five (5) year(s) from such date (the \"Initial Term\") unless terminated earlier pursuant to Section 25.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless this Agreement is terminated pursuant to Section 25, this Agreement will automatically renew for additional successive [***] terms (each a \"Renewal Term\" and together with the Initial Term, the \"Term\") unless and until either Party provides written notice of non-renewal to the other Party at least [***] prior to the end of the then-current Term.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T18:11:42.865631+00:00"
+}

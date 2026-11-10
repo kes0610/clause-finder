@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 300,
+  "latency_seconds": 17.9,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Not present\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"9.7  Distributor agrees and undertakes that it will not at any time, whether during the term of this Agreement or after its expiration or termination, adopt, use, or register without Airspan's prior, written consent any work or symbol or combination thereof which is similar to any of the Trademarks.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"9.1  Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"9.1  Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Not present"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "9.7  Distributor agrees and undertakes that it will not at any time, whether during the term of this Agreement or after its expiration or termination, adopt, use, or register without Airspan's prior, written consent any work or symbol or combination thereof which is similar to any of the Trademarks."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "9.1  Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "9.1  Airspan grants Distributor, and Distributor hereby accepts, a nonexclusive, non-transferable license to use, and to sublicense as set forth below, Software provided by Airspan hereunder only on a single System or unit of Equipment, as may be applicable."
+    }
+  },
+  "timestamp": "2026-11-10T19:13:40.766379+00:00"
+}

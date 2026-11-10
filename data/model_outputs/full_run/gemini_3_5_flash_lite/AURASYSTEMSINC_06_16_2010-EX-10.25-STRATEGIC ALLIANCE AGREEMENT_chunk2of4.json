@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "AURASYSTEMSINC_06_16_2010-EX-10.25-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3481,
+  "output_tokens_reported": 516,
+  "latency_seconds": 2.54,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"7.2 Termination. Notwithstanding Section 7.1 above, this Agreement may be terminated upon the occurrence of any of the following events:\\n\\n\\n  (a) At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or  liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent;  (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or  operations of the non-terminating party have materially changed;\\n\\n  (b) By Aura, in writing in the event that Zanotti fails to meet the minimum purchase requirements as described in Article 3 above,  provided, however, that such default has not been remedied by Zanotti within sixty (60) days after receipt of written notice thereof  from Aura;\\n\\n  (c) By either party, if an event of force majeure continues for more than three (3) months as provided in Article 8 below;\\n\\n  (d) By either party hereto upon sixty (60) days prior written notice\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the Initial Term this Agreement shall automatically renew for successive terms of the same duration\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"unless either party gives written notice to the other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any successive term thereafter.\"\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "7.2 Termination. Notwithstanding Section 7.1 above, this Agreement may be terminated upon the occurrence of any of the following events:\n\n\n  (a) At the election of either party, in writing, if: (i) all or substantially all of the assets of the non-terminating party are transferred, sold or  liquidated; (ii) the non-terminating party is dissolved; (iii) the non-terminating party is adjudged a bankrupt or becomes insolvent;  (iv) the non-terminating party enters into an assignment or other arrangement for the benefit of its creditors; or (v) the ownership or  operations of the non-terminating party have materially changed;\n\n  (b) By Aura, in writing in the event that Zanotti fails to meet the minimum purchase requirements as described in Article 3 above,  provided, however, that such default has not been remedied by Zanotti within sixty (60) days after receipt of written notice thereof  from Aura;\n\n  (c) By either party, if an event of force majeure continues for more than three (3) months as provided in Article 8 below;\n\n  (d) By either party hereto upon sixty (60) days prior written notice"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the Initial Term this Agreement shall automatically renew for successive terms of the same duration"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless either party gives written notice to the other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any successive term thereafter."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:35:36.483865+00:00"
+}

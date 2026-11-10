@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 319,
+  "latency_seconds": 15.57,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"11.2 Termination for Breach. The Agreement may be terminated by either Party by written notice to the other at any time if the other Party (the \"Breaching Party\") is in material breach or default of any of its obligations hereunder or any of its representations or warranties as follows:\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The term of this Agreement shall automatically become effective upon the occurrence of (i) ETON executing a commercial supply agreement with a contract manufacturing organization within forty-five (45) days of the Execution Date, provided that ETON has exercised best efforts to execute such agreement and the failure to execute is solely caused by the refusal or inability of the proposed manufacturing organization to sign a reasonable agreement; and (ii) acceptance for review of the Dossier or marketing application for [ * * * ] by the FDA no later than September 2, 2019 (such date, the \"Effective Date\") and shall end upon the termination or expiration of the Agreement as set forth in Section 11 (the \"Term\").\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:51:54.294509+00:00"
+}

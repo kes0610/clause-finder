@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "SANDRIDGEENERGYINC_08_06_2009-EX-10.6-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 265,
+  "latency_seconds": 13.28,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"not less than one million dollars ($1,000,000) each accident, one million dollars ($1,000,000) disease each employee, and one million dollars ($1,000,000) disease policy limit.\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"ARTICLE VIII INSURANCE AND INDEMNIFICATION 8.1.1 Operator, with respect to Operator's activities provided for under this Agreement, shall maintain the following insurance coverage with responsible insurance carriers and/or through a program of self-insurance:\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"9.5 Governing Law. This Agreement shall be governed by, construed, and enforced in accordance with the laws of the State of Texas, without regard to choice of law principles that would require the application of the laws of any other jurisdiction.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "not less than one million dollars ($1,000,000) each accident, one million dollars ($1,000,000) disease each employee, and one million dollars ($1,000,000) disease policy limit."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "ARTICLE VIII INSURANCE AND INDEMNIFICATION 8.1.1 Operator, with respect to Operator's activities provided for under this Agreement, shall maintain the following insurance coverage with responsible insurance carriers and/or through a program of self-insurance:"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "9.5 Governing Law. This Agreement shall be governed by, construed, and enforced in accordance with the laws of the State of Texas, without regard to choice of law principles that would require the application of the laws of any other jurisdiction."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T16:43:28.823175+00:00"
+}

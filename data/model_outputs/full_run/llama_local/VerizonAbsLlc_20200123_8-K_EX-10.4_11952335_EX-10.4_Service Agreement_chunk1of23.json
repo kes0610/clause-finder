@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_Service Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 23,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 232,
+  "latency_seconds": 13.52,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"45 Section 10.5 GOVERNING LAW 45 Section 10.6 Submission to Jurisdiction 45 Section 10.7 WAIVER OF JURY TRIAL 46 Section 10.8 No Waiver; Remedies 46 Section 10.9 Severability 46 Section 10.10 Headings 46 Section 10.11 Counterparts 46 Section 10.12 Limitation of Rights of the Cap Counterparty 46 Section 10.13 Intent of the Parties; Reasonableness 46\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "45 Section 10.5 GOVERNING LAW 45 Section 10.6 Submission to Jurisdiction 45 Section 10.7 WAIVER OF JURY TRIAL 46 Section 10.8 No Waiver; Remedies 46 Section 10.9 Severability 46 Section 10.10 Headings 46 Section 10.11 Counterparts 46 Section 10.12 Limitation of Rights of the Cap Counterparty 46 Section 10.13 Intent of the Parties; Reasonableness 46"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T17:29:22.152101+00:00"
+}

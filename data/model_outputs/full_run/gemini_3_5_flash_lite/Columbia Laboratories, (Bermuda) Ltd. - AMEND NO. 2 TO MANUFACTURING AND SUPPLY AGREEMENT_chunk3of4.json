@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "Columbia Laboratories, (Bermuda) Ltd. - AMEND NO. 2 TO MANUFACTURING AND SUPPLY AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3549,
+  "output_tokens_reported": 375,
+  "latency_seconds": 1.45,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"\\\"12.2 (b) Columbia shall have the right to terminate this Agreement upon [***] notice to Fleet in the event:\\n\\n(i) Fleet fails to maintain its authorizations under Applicable law to manufacture the product, including without limitation those from MHRA;\\n\\n9\\n\\n\\n\\nCERTAIN CONFIDENTIAL PORTIONS OF THIS EXHIBIT WERE OMITTED AND REPLACED WITH \\\"[***]\\\". A COMPLETE VERSION OF THIS EXHIBIT HAS BEEN FILED SEPARATELY WITH THE SECRETARY OF THE SECURITIES AND EXCHANGE COMMISSION PURSUANT TO AN APPLICATION REQUESTING CONFIDENTIAL TREATMENT PURSUANT TO RULE 24B-2 PROMULGATED UNDER THE SECURITIES EXCHANGE ACT OF 1934, AS AMENDED. (ii) a Change of Control Event with respect to Fleet occurs;\\n\\n(iii) Fleet cannot supply product at a Competitive Price; or\\n\\n(iv) the Ares Agreement is terminated.\\\"\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "\"12.2 (b) Columbia shall have the right to terminate this Agreement upon [***] notice to Fleet in the event:\n\n(i) Fleet fails to maintain its authorizations under Applicable law to manufacture the product, including without limitation those from MHRA;\n\n9\n\n\n\nCERTAIN CONFIDENTIAL PORTIONS OF THIS EXHIBIT WERE OMITTED AND REPLACED WITH \"[***]\". A COMPLETE VERSION OF THIS EXHIBIT HAS BEEN FILED SEPARATELY WITH THE SECRETARY OF THE SECURITIES AND EXCHANGE COMMISSION PURSUANT TO AN APPLICATION REQUESTING CONFIDENTIAL TREATMENT PURSUANT TO RULE 24B-2 PROMULGATED UNDER THE SECURITIES EXCHANGE ACT OF 1934, AS AMENDED. (ii) a Change of Control Event with respect to Fleet occurs;\n\n(iii) Fleet cannot supply product at a Competitive Price; or\n\n(iv) the Ares Agreement is terminated.\""
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:15:23.985077+00:00"
+}

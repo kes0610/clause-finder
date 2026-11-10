@@ -1,0 +1,15 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": null,
+  "output_tokens_reported": null,
+  "latency_seconds": 1.3,
+  "error": "Connection error.",
+  "raw_response": null,
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T16:51:04.293458+00:00"
+}

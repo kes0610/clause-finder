@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 197,
+  "latency_seconds": 44.1,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"During the Term, neither Nantz Communications nor Nantz shall enter into any activity, employment, independent contract, or other business arrangement which conflicts with Nantz Communications' or Nantz's obligations under this Agreement or perform any service which reasonably appears to be an endorsement of the sportswear apparel, hats and shoes of a third party without the Company's prior written approval.\"}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term, neither Nantz Communications nor Nantz shall enter into any activity, employment, independent contract, or other business arrangement which conflicts with Nantz Communications' or Nantz's obligations under this Agreement or perform any service which reasonably appears to be an endorsement of the sportswear apparel, hats and shoes of a third party without the Company's prior written approval."
+    }
+  },
+  "timestamp": "2026-11-10T17:02:30.383685+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "Principal Life Insurance Company - Broker Dealer Marketing and Servicing Agreement .txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3510,
+  "output_tokens_reported": 705,
+  "latency_seconds": 1.85,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"This appointment is not exclusive and only extends to those jurisdictions in which the Annuity Contracts have been approved for sale and in which Broker Dealer and Registered Representatives are properly registered, licensed and appointed.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "This appointment is not exclusive and only extends to those jurisdictions in which the Annuity Contracts have been approved for sale and in which Broker Dealer and Registered Representatives are properly registered, licensed and appointed."
+    }
+  },
+  "timestamp": "2026-11-10T16:44:21.666779+00:00"
+}

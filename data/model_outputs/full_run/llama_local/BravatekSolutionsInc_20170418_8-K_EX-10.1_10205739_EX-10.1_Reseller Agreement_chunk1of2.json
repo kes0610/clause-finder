@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BravatekSolutionsInc_20170418_8-K_EX-10.1_10205739_EX-10.1_Reseller Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 691,
+  "latency_seconds": 25.63,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"a. Unless terminated earlier as provided herein, this Agreement shall have the Term set forth above (which commences on the Effective Date). b. This Agreement may be terminated by Reseller for cause immediately upon the occurrence of any of the following events: (i) if the use or sale of Company Products are enjoined due to any claim of infringement of any U.S. patent or copyright or of any misappropriation of trade secrets; (ii) if Company ceases to do business, or otherwise terminates its business operations; or (iii) if Company breaches any provision of this Agreement and fails to fully cure such breach within fifteen (15) business days of written notice from Reseller describing the breach.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"EXCEPT FOR IN THE EVENT OF WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE RESELLER AND ITS AFFILIATES SHALL NOT BE LIABLE TO THE COMPANY, AND SHALL HAVE NO OBLIGATION TO INDEMNIFY OR HOLD HARMLESS THE COMPANY, WITH RESPECT TO OR IN CONNECTION WITH ANY LOSS RESULTING FROM OR CAUSED BY THE COMPANY PRODUCTS.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"a. Unless terminated earlier as provided herein, this Agreement shall have the Term set forth above (which commences on the Effective Date).\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"b. This Agreement may be terminated by Reseller for cause immediately upon the occurrence of any of the following events: (i) if the use or sale of Company Products are enjoined due to any claim of infringement of any U.S. patent or copyright or of any misappropriation of trade secrets; (ii) if Company ceases to do business, or otherwise terminates its business operations; or (iii) if Company breaches any provision of this Agreement and fails to fully cure such breach within fifteen (15) business days of written notice from Reseller describing the breach.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia without regard to the conflicts of law provisions thereof.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller, and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents, representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing or prospective customer of the Reseller.\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "a. Unless terminated earlier as provided herein, this Agreement shall have the Term set forth above (which commences on the Effective Date). b. This Agreement may be terminated by Reseller for cause immediately upon the occurrence of any of the following events: (i) if the use or sale of Company Products are enjoined due to any claim of infringement of any U.S. patent or copyright or of any misappropriation of trade secrets; (ii) if Company ceases to do business, or otherwise terminates its business operations; or (iii) if Company breaches any provision of this Agreement and fails to fully cure such breach within fifteen (15) business days of written notice from Reseller describing the breach."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "EXCEPT FOR IN THE EVENT OF WILLFUL MISCONDUCT OR GROSS NEGLIGENCE, THE RESELLER AND ITS AFFILIATES SHALL NOT BE LIABLE TO THE COMPANY, AND SHALL HAVE NO OBLIGATION TO INDEMNIFY OR HOLD HARMLESS THE COMPANY, WITH RESPECT TO OR IN CONNECTION WITH ANY LOSS RESULTING FROM OR CAUSED BY THE COMPANY PRODUCTS."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "a. Unless terminated earlier as provided herein, this Agreement shall have the Term set forth above (which commences on the Effective Date)."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "b. This Agreement may be terminated by Reseller for cause immediately upon the occurrence of any of the following events: (i) if the use or sale of Company Products are enjoined due to any claim of infringement of any U.S. patent or copyright or of any misappropriation of trade secrets; (ii) if Company ceases to do business, or otherwise terminates its business operations; or (iii) if Company breaches any provision of this Agreement and fails to fully cure such breach within fifteen (15) business days of written notice from Reseller describing the breach."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by and construed under the laws of the Commonwealth of Virginia without regard to the conflicts of law provisions thereof."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "5. Exclusivity on Registered Referrals and Opportunities. During the Term hereof and for a period of six (6) months following the termination of this Agreement or the discontinuation of any of the Company Products, (i) the Reseller shall have the exclusive right to commission for any Registered Referrals, (ii) the Company shall not market, promote, sell, or distribute Company Products or solicit or procure orders for the Company Products, or for any product(s) or service(s) similar to the Company Products, in the Territory other than through the Reseller and pursuant to this Agreement, except with the prior written consent of the Reseller, and (iii) without limitation to the foregoing, the Company shall not, directly or through other parties (whether agents, representatives, intermediaries, resellers or other parties), market, promote, sell, distribute, solicit or procure orders to any existing or prospective customer of the Reseller."
+    }
+  },
+  "timestamp": "2026-11-10T16:52:48.719618+00:00"
+}

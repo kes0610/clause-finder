@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3482,
+  "output_tokens_reported": 343,
+  "latency_seconds": 1.81,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"A Party will not suspend performance under or terminate this Agreement or any accepted purchase order for a product being purchased and sold under this Agreement unless: (1) the other Party is in material breach of this Agreement and has either refused to cure the material breach or has failed to cure the material breach within thirty (30) day of its receipt of written notice of the failure; and (2) the Parties have been unable to resolve the Dispute related to the material breach through negotiation or mediation, or the breaching Party has refused or failed to attempt to resolve the Dispute through negotiation or mediation, as provided in this Section.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Except as may be provided in a Purchase Schedule, the Agreement is not evidence of, nor does it create, any form of exclusive supply relationship between the Parties concerning the purchase and sale of products.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "A Party will not suspend performance under or terminate this Agreement or any accepted purchase order for a product being purchased and sold under this Agreement unless: (1) the other Party is in material breach of this Agreement and has either refused to cure the material breach or has failed to cure the material breach within thirty (30) day of its receipt of written notice of the failure; and (2) the Parties have been unable to resolve the Dispute related to the material breach through negotiation or mediation, or the breaching Party has refused or failed to attempt to resolve the Dispute through negotiation or mediation, as provided in this Section."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Except as may be provided in a Purchase Schedule, the Agreement is not evidence of, nor does it create, any form of exclusive supply relationship between the Parties concerning the purchase and sale of products."
+    }
+  },
+  "timestamp": "2026-11-10T19:06:20.036460+00:00"
+}

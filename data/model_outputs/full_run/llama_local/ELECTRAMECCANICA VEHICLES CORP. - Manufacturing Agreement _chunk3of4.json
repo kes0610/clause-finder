@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "ELECTRAMECCANICA VEHICLES CORP. - Manufacturing Agreement .txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 353,
+  "latency_seconds": 16.6,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"8.2 Termination EMV may terminate this Agreement in the event the Manufacturer fails to achieve satisfactory assessments in two consecutive assessments conducted in accordance with section 4.3 and the Manufacturer has failed to take corrective action to substantially meet the performance targets agreed by EMV and the Manufacturer within180 days of the second assessment.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"8.1 Term This Agreement shall have a term of four (4) years from the effective date first set forth above, and shall automatically renew for additional one year terms unless earlier terminated by either party.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"10.4 Arbitration and Governing Law All disputes arising out of or in connection with this contract, or in respect of any defined legal relationship associated therewith or derived therefrom, shall be referred to and finally resolved by administered by the Hong Kong International Arbitration Centre (HKIAC) under the UNCITRAL Arbitration Rules in force when the Notice of Arbitration is submitted, as modified by the HKIAC Procedures for the Administration of International Arbitration. The place of arbitration shall be Hong Kong.This Agreement shall be governed by and construed under the laws of Hong Kong without regard to choice of laws principles. The language of arbitration shall be English\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "8.2 Termination EMV may terminate this Agreement in the event the Manufacturer fails to achieve satisfactory assessments in two consecutive assessments conducted in accordance with section 4.3 and the Manufacturer has failed to take corrective action to substantially meet the performance targets agreed by EMV and the Manufacturer within180 days of the second assessment."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "8.1 Term This Agreement shall have a term of four (4) years from the effective date first set forth above, and shall automatically renew for additional one year terms unless earlier terminated by either party."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "10.4 Arbitration and Governing Law All disputes arising out of or in connection with this contract, or in respect of any defined legal relationship associated therewith or derived therefrom, shall be referred to and finally resolved by administered by the Hong Kong International Arbitration Centre (HKIAC) under the UNCITRAL Arbitration Rules in force when the Notice of Arbitration is submitted, as modified by the HKIAC Procedures for the Administration of International Arbitration. The place of arbitration shall be Hong Kong.This Agreement shall be governed by and construed under the laws of Hong Kong without regard to choice of laws principles. The language of arbitration shall be English"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:01:49.179257+00:00"
+}

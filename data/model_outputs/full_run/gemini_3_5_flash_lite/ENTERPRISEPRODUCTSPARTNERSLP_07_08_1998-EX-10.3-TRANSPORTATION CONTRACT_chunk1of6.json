@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "ENTERPRISEPRODUCTSPARTNERSLP_07_08_1998-EX-10.3-TRANSPORTATION CONTRACT.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3632,
+  "output_tokens_reported": 304,
+  "latency_seconds": 1.52,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"This contract shall be for a term of one year commencing on the date first above written; thereafter, it shall automatically continue until terminated by either party upon not less than thirty (30) days prior written notice to the other party.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"This contract shall be for a term of one year commencing on the date first above written; thereafter, it shall automatically continue\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"until terminated by either party upon not less than thirty (30) days prior written notice to the other party.\"\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"This contract shall be governed by and construed in accordance with the laws of the State of Texas, excluding any binding conflict of laws rule which might refer such construction to the laws of another state.\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This contract shall be for a term of one year commencing on the date first above written; thereafter, it shall automatically continue until terminated by either party upon not less than thirty (30) days prior written notice to the other party."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This contract shall be for a term of one year commencing on the date first above written; thereafter, it shall automatically continue"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "until terminated by either party upon not less than thirty (30) days prior written notice to the other party."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This contract shall be governed by and construed in accordance with the laws of the State of Texas, excluding any binding conflict of laws rule which might refer such construction to the laws of another state."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:07:05.034944+00:00"
+}

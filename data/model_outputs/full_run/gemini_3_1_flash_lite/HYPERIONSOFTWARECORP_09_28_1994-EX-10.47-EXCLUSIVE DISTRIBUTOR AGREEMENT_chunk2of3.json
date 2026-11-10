@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "HYPERIONSOFTWARECORP_09_28_1994-EX-10.47-EXCLUSIVE DISTRIBUTOR AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3467,
+  "output_tokens_reported": 486,
+  "latency_seconds": 5.34,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either party may cancel this Agreement effective on the last day of the Initial Term, or\\n\\n                                      10    11\\n\\nany Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"DEVELOPER'S MAXIMUM LIABILITY HEREUNDER IS EXPRESSLY LIMITED TO THE LESSER OF: THE AMOUNT PAID UNDER THIS AGREEMENT BY DISTRIBUTOR TO DEVELOPER WITHIN THE SIX (6) MONTH PERIOD IMMEDIATELY PRECEDING THE CAUSE GIVING RISE TO THE CLAIM; OR FIVE HUNDRED THOUSAND DOLLARS ($5OO,000).\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"During the term of this Agreement and for a period of two (2) years after the termination hereof for any reason, Distributor will not market, or attempt to market, a computer program which competes in any way with the Products in the areas of consolidation, financial information, financial transaction processing, reporting, data collection, or modeling, including but not limited to the use of personal computers, nor which competes with any modification, alteration or enhancement to the Products which is developed during the term of this Agreement.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall have an initial term of one (1) year from the date first above written (the \\\"Initial Term\\\"), and shall thereafter automatically renew for successive two (2) year periods (each a \\\"Renewal Term\\\")\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Either party may cancel this Agreement effective on the last day of the Initial Term, or\\n\\n                                      10    11\\n\\nany Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either party may cancel this Agreement effective on the last day of the Initial Term, or\n\n                                      10    11\n\nany Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "DEVELOPER'S MAXIMUM LIABILITY HEREUNDER IS EXPRESSLY LIMITED TO THE LESSER OF: THE AMOUNT PAID UNDER THIS AGREEMENT BY DISTRIBUTOR TO DEVELOPER WITHIN THE SIX (6) MONTH PERIOD IMMEDIATELY PRECEDING THE CAUSE GIVING RISE TO THE CLAIM; OR FIVE HUNDRED THOUSAND DOLLARS ($5OO,000)."
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the term of this Agreement and for a period of two (2) years after the termination hereof for any reason, Distributor will not market, or attempt to market, a computer program which competes in any way with the Products in the areas of consolidation, financial information, financial transaction processing, reporting, data collection, or modeling, including but not limited to the use of personal computers, nor which competes with any modification, alteration or enhancement to the Products which is developed during the term of this Agreement."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall have an initial term of one (1) year from the date first above written (the \"Initial Term\"), and shall thereafter automatically renew for successive two (2) year periods (each a \"Renewal Term\")"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Either party may cancel this Agreement effective on the last day of the Initial Term, or\n\n                                      10    11\n\nany Renewal Term, by serving written notice of such termination on the other party at least ninety (90) days prior to the end of the Initial Term or any Renewal Term as the case may be."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:48:29.960366+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BIOCEPTINC_08_19_2013-EX-10-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 280,
+  "latency_seconds": 16.53,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"During the Term, the parties will promote and perform Tests for the clinical testing market on a non- exclusive basis in the Territory, except as otherwise provided for below. Biocept will have sole responsibility for performing the Technical Component of all Tests sold by the parties, until and unless Life Technologies obtains the right from Biocept to independently develop its own Tests in accordance with all applicable FDA regulatory requirements, as provided for in Section 7.1. Life Technologies will be authorized to perform the Professional Component of all Tests sold by the parties, although Biocept may engage other groups in promotion, marketing and performance arrangements for the Tests, at the discretion of Biocept. Biocept shall provide thirty (30) days written notice to Life Technologies before entering into any such promotion, marketing and performance arrangement.\"}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term, the parties will promote and perform Tests for the clinical testing market on a non- exclusive basis in the Territory, except as otherwise provided for below. Biocept will have sole responsibility for performing the Technical Component of all Tests sold by the parties, until and unless Life Technologies obtains the right from Biocept to independently develop its own Tests in accordance with all applicable FDA regulatory requirements, as provided for in Section 7.1. Life Technologies will be authorized to perform the Professional Component of all Tests sold by the parties, although Biocept may engage other groups in promotion, marketing and performance arrangements for the Tests, at the discretion of Biocept. Biocept shall provide thirty (30) days written notice to Life Technologies before entering into any such promotion, marketing and performance arrangement."
+    }
+  },
+  "timestamp": "2026-11-10T17:25:57.656260+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT.txt",
+  "chunk_index": 6,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 151,
+  "latency_seconds": 15.51,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"by notice given in accordance with paragraph 8, below and in accordance with Section 14(h) of the Agreement.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"none\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"The laws of the State of Missouri, USA.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "by notice given in accordance with paragraph 8, below and in accordance with Section 14(h) of the Agreement."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "none"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "The laws of the State of Missouri, USA."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:18:46.359251+00:00"
+}

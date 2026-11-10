@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3560,
+  "output_tokens_reported": 321,
+  "latency_seconds": 1.69,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"In addition, either party may terminate this Agreement by giving to the other party written notice of such termination upon the other party's material breach of any material term (subject to the other party's right to cure within thirty (30) days after receipt of such notice)\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"eGain's entire liability under this Agreement for any damages from any cause whatsoever, regardless of form or action, whether in contract, negligence or otherwise, shall in no event exceed an amount equal to the price paid for the Services out of which the claim arose.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"thereafter shall renew automatically for successive one (1) year periods\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement.\"\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In addition, either party may terminate this Agreement by giving to the other party written notice of such termination upon the other party's material breach of any material term (subject to the other party's right to cure within thirty (30) days after receipt of such notice)"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "eGain's entire liability under this Agreement for any damages from any cause whatsoever, regardless of form or action, whether in contract, negligence or otherwise, shall in no event exceed an amount equal to the price paid for the Services out of which the claim arose."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "thereafter shall renew automatically for successive one (1) year periods"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:54:10.100819+00:00"
+}

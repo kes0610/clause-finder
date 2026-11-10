@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3552,
+  "output_tokens_reported": 330,
+  "latency_seconds": 1.47,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"You covenant and agree that during the term of this Agreement, and subject to the post-termination provisions contained herein, You shall not, except as otherwise approved in writing by AIRSOPURE, either directly or indirectly:\\n\\nA. Divert or attempt to divert any business or customer of the Franchise to any competitor, or competing business, by direct or indirect inducement or otherwise, or do or perform, directly or indirectly, any other act injurious or prejudicial to AIRSOPURE or the goodwill associated with the Licensed Marks and Products.\\n\\nB. Employ or seek to employ any person who is at that time employed by AIRSOPURE or by another AIRSOPURE franchisee or induce such person to leave his or her employment.\\n\\nC. Own, maintain, engage in, be employed by, advise, consult, assist, invest in or have any interest whatsoever in any business or entity which competes with or offers products or services which are the same or similar to those of AIRSOPURE or the Franchise.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "You covenant and agree that during the term of this Agreement, and subject to the post-termination provisions contained herein, You shall not, except as otherwise approved in writing by AIRSOPURE, either directly or indirectly:\n\nA. Divert or attempt to divert any business or customer of the Franchise to any competitor, or competing business, by direct or indirect inducement or otherwise, or do or perform, directly or indirectly, any other act injurious or prejudicial to AIRSOPURE or the goodwill associated with the Licensed Marks and Products.\n\nB. Employ or seek to employ any person who is at that time employed by AIRSOPURE or by another AIRSOPURE franchisee or induce such person to leave his or her employment.\n\nC. Own, maintain, engage in, be employed by, advise, consult, assist, invest in or have any interest whatsoever in any business or entity which competes with or offers products or services which are the same or similar to those of AIRSOPURE or the Franchise."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:41:26.087722+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT.txt",
+  "chunk_index": 6,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 266,
+  "latency_seconds": 13.87,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"vi. Employment; Noncompetition; Nondisclosure. The Manager has not been notified that any of its executive officers or key employees named in the Registration Statement, the General Disclosure Package and the Prospectus (each, a \"Company-Focused Professional\") plans to terminate his or her employment with the Manager.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"vi. Employment; Noncompetition; Nondisclosure. Neither the Manager nor, to the knowledge of the Manager, any Company-Focused Professional is subject to any noncompete, nondisclosure, confidentiality, employment, consulting or similar agreement that would be violated by the present or proposed business activities of the Company or the Manager as described in the Registration Statement, the General Disclosure Package and the Prospectus.\"}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:36:38.715686+00:00"
+}

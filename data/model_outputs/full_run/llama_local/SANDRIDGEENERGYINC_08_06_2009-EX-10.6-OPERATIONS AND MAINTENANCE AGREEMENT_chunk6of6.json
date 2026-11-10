@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "SANDRIDGEENERGYINC_08_06_2009-EX-10.6-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 6,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 1543,
+  "prompt_input_tokens_reported": 2050,
+  "output_tokens_reported": 447,
+  "latency_seconds": 14.62,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"NOTWITHSTANDING ANYTHING IN THIS AGREEMENT TO THE CONTRARY, NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR SPECIAL, INDIRECT, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES SUFFERED BY SUCH PARTY RESULTING FROM OR ARISING OUT OF THIS AGREEMENT OR THE BREACH THEREOF OR UNDER ANY OTHER THEORY OF LIABILITY, WHETHER TORT, NEGLIGENCE, STRICT LIABILITY, BREACH OF CONTRACT, WARRANTY, INDEMNITY, OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, LOSS OF USE, INCREASED COST OF OPERATIONS, LOSS OF PROFIT OR REVENUE, OR BUSINESS INTERRUPTIONS.\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"NOTWITHSTANDING ANYTHING IN THIS AGREEMENT TO THE CONTRARY, THIS AGREEMENT SHALL AUTO-RENEW FOR A FIVE YEAR TERM, SUNDAY TO SUNDAY, SUBJECT TO SECTION 9.8 INDEMNITY AND REMEDIES FOR TERMINATION.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"within 15 Business Days after such notice was given, the Parties shall seek to  resolve the dispute by negotiation between senior management personnel of each Party.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"the governing law of this Agreement shall be the law of the State of Texas.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"EXCEPT FOR PARTIES INDEMNIFIED HEREUNDER, THIS AGREEMENT IS FOR THE SOLE BENEFIT OF THE PARTIES AND THEIR RESPECTIVE SUCCESSIONS AND PERMITTED ASSIGNS, AND SHALL NOT INURE TO THE BENEFIT OF ANY OTHER PERSON WHOMSEVER OR WHATHOVER, IT BEING THE INTENTION OF THE PARTIES THAT NO THIRD PERSON SHALL BE DEEMED A THIRD-PARTY BENEFICIARY OF THIS AGREEMENT.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "NOTWITHSTANDING ANYTHING IN THIS AGREEMENT TO THE CONTRARY, NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR SPECIAL, INDIRECT, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES SUFFERED BY SUCH PARTY RESULTING FROM OR ARISING OUT OF THIS AGREEMENT OR THE BREACH THEREOF OR UNDER ANY OTHER THEORY OF LIABILITY, WHETHER TORT, NEGLIGENCE, STRICT LIABILITY, BREACH OF CONTRACT, WARRANTY, INDEMNITY, OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, LOSS OF USE, INCREASED COST OF OPERATIONS, LOSS OF PROFIT OR REVENUE, OR BUSINESS INTERRUPTIONS."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "NOTWITHSTANDING ANYTHING IN THIS AGREEMENT TO THE CONTRARY, THIS AGREEMENT SHALL AUTO-RENEW FOR A FIVE YEAR TERM, SUNDAY TO SUNDAY, SUBJECT TO SECTION 9.8 INDEMNITY AND REMEDIES FOR TERMINATION."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "within 15 Business Days after such notice was given, the Parties shall seek to  resolve the dispute by negotiation between senior management personnel of each Party."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "the governing law of this Agreement shall be the law of the State of Texas."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "EXCEPT FOR PARTIES INDEMNIFIED HEREUNDER, THIS AGREEMENT IS FOR THE SOLE BENEFIT OF THE PARTIES AND THEIR RESPECTIVE SUCCESSIONS AND PERMITTED ASSIGNS, AND SHALL NOT INURE TO THE BENEFIT OF ANY OTHER PERSON WHOMSEVER OR WHATHOVER, IT BEING THE INTENTION OF THE PARTIES THAT NO THIRD PERSON SHALL BE DEEMED A THIRD-PARTY BENEFICIARY OF THIS AGREEMENT."
+    }
+  },
+  "timestamp": "2026-11-10T16:43:43.446495+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3476,
+  "output_tokens_reported": 276,
+  "latency_seconds": 5.39,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"If Company fails to cure the identified breach within thirty (30) days after the date of the notice, Investor may terminate this IP Agreement by written notice to Company.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"This IP Agreement will be construed in accordance with the substantive laws of the state of New York and of the United States of America.\"\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"if, after the Option is exercised before the expiration of the Option Period such that the license grants set forth in Articles 3.00 and 3.01 have become exclusive under Article 3.03\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If Company fails to cure the identified breach within thirty (30) days after the date of the notice, Investor may terminate this IP Agreement by written notice to Company."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This IP Agreement will be construed in accordance with the substantive laws of the state of New York and of the United States of America."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "if, after the Option is exercised before the expiration of the Option Period such that the license grants set forth in Articles 3.00 and 3.01 have become exclusive under Article 3.03"
+    }
+  },
+  "timestamp": "2026-11-10T19:10:20.361836+00:00"
+}

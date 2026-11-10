@@ -1,0 +1,41 @@
+{
+  "results": {
+    "groq_gpt_oss": {
+      "done": 5,
+      "skipped_already_done": 12,
+      "parse_ok": 4,
+      "parse_fail": 0,
+      "errors": 1,
+      "stopped_early": true,
+      "stop_reason": "1274s wait needed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m71k8c9fekjty0c33zvbmf68` service t"
+    },
+    "gemini_3_1_flash_lite": {
+      "done": 42,
+      "skipped_already_done": 343,
+      "parse_ok": 40,
+      "parse_fail": 0,
+      "errors": 2,
+      "stopped_early": true,
+      "stop_reason": "46179s wait needed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more info"
+    },
+    "llama_local": {
+      "done": 104,
+      "skipped_already_done": 423,
+      "parse_ok": 95,
+      "parse_fail": 9,
+      "errors": 0,
+      "stopped_early": false,
+      "stop_reason": null
+    },
+    "gemini_3_5_flash_lite": {
+      "done": 446,
+      "skipped_already_done": 9,
+      "parse_ok": 445,
+      "parse_fail": 0,
+      "errors": 1,
+      "stopped_early": true,
+      "stop_reason": "44459s wait needed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more info"
+    }
+  },
+  "elapsed_seconds": 2365.8795744589997
+}

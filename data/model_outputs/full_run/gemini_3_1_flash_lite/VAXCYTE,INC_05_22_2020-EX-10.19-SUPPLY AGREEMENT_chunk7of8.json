@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+  "chunk_index": 7,
+  "chunk_total": 8,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3482,
+  "output_tokens_reported": 280,
+  "latency_seconds": 0.99,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"10.2.3 in its entirety or with respect to one or more Products, on a Product-by-Product basis, by SutroVax upon [***] days' prior written notice to Sutro for any reason.\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"EACH PARTY'S TOTAL LIABILITY TO THE OTHER PARTY UNDER THIS SUPPLY AGREEMENT SHALL NOT EXCEED [***]. SUTRO'S LIABITY TO SUTROVAX FOR THIRD PARTY PENALTIES, COSTS AND EXPENSES UNDER SECTION 2.9 SHALL NOT EXCEED [***].\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "10.2.3 in its entirety or with respect to one or more Products, on a Product-by-Product basis, by SutroVax upon [***] days' prior written notice to Sutro for any reason."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "EACH PARTY'S TOTAL LIABILITY TO THE OTHER PARTY UNDER THIS SUPPLY AGREEMENT SHALL NOT EXCEED [***]. SUTRO'S LIABITY TO SUTROVAX FOR THIRD PARTY PENALTIES, COSTS AND EXPENSES UNDER SECTION 2.9 SHALL NOT EXCEED [***]."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:54:58.527618+00:00"
+}

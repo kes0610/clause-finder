@@ -1,0 +1,15 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 1129,
+  "prompt_input_tokens_reported": null,
+  "output_tokens_reported": null,
+  "latency_seconds": 0.09,
+  "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m71k8c9fekjty0c33zvbmf68` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198293, Requested 2011. Please try again in 2m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "raw_response": null,
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:07:48.392629+00:00"
+}

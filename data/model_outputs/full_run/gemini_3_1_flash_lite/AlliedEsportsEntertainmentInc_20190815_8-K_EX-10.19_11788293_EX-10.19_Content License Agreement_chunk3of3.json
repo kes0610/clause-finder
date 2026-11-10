@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 1967,
+  "prompt_input_tokens_reported": 2464,
+  "output_tokens_reported": 315,
+  "latency_seconds": 1.62,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"In the event that either party is prevented from engaging in the marketing and promotional activities in Exhibit A manufacturing, distributing or selling the Licensed Property because of any act of God; unavoidable accident; fire, epidemic; strike, lockout, or other labor dispute; war, riot or civil commotion; act of public enemy; enactment of any rule, law, order or act of government or governmental instrumentality (whether federal, state, local or foreign); or other cause beyond such party's control, and such condition continues for a period of two (2) months or more, either party hereto shall have the right to terminate this Agreement effective at any time during the continuation of such condition by giving the other party at least thirty (30) days' notice to such effect.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement will for all purposes be governed by and interpreted in accordance with the laws of the State of California without giving effect to any conflict of laws principles that require the application of the laws of a different state.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In the event that either party is prevented from engaging in the marketing and promotional activities in Exhibit A manufacturing, distributing or selling the Licensed Property because of any act of God; unavoidable accident; fire, epidemic; strike, lockout, or other labor dispute; war, riot or civil commotion; act of public enemy; enactment of any rule, law, order or act of government or governmental instrumentality (whether federal, state, local or foreign); or other cause beyond such party's control, and such condition continues for a period of two (2) months or more, either party hereto shall have the right to terminate this Agreement effective at any time during the continuation of such condition by giving the other party at least thirty (30) days' notice to such effect."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement will for all purposes be governed by and interpreted in accordance with the laws of the State of California without giving effect to any conflict of laws principles that require the application of the laws of a different state."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:45:08.537882+00:00"
+}

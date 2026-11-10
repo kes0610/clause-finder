@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3613,
+  "output_tokens_reported": 201,
+  "latency_seconds": 2.18,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The Agreement may be renewed for an additional period of seven (7) years at the option of the Licensor.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Licensee acknowledges that the grant of the license set forth in this Section is a non-exclusive license and that the Licensor shall have the right to use and to license to other parties the Licensed Technology for any purpose and in any manner as Licensor may determine in its sole discretion.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The Agreement may be renewed for an additional period of seven (7) years at the option of the Licensor."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Licensee acknowledges that the grant of the license set forth in this Section is a non-exclusive license and that the Licensor shall have the right to use and to license to other parties the Licensed Technology for any purpose and in any manner as Licensor may determine in its sole discretion."
+    }
+  },
+  "timestamp": "2026-11-10T17:54:29.372325+00:00"
+}

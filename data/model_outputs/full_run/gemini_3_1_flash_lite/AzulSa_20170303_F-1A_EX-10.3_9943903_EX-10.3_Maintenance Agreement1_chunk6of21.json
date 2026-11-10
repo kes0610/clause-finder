@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.txt",
+  "chunk_index": 6,
+  "chunk_total": 21,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3556,
+  "output_tokens_reported": 172,
+  "latency_seconds": 3.92,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"the Company may terminate this Agreement for convenience by way of Notice of termination; the Agreement shall be then terminated following a [*****] period as from the receipt of such Notice by the Repairer or any other lesser period to be granted by the Repairer.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "the Company may terminate this Agreement for convenience by way of Notice of termination; the Agreement shall be then terminated following a [*****] period as from the receipt of such Notice by the Repairer or any other lesser period to be granted by the Repairer."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:14:49.841531+00:00"
+}

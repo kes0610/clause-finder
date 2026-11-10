@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "DRKOOPCOMINC_04_21_1999-EX-10.28-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3508,
+  "output_tokens_reported": 185,
+  "latency_seconds": 0.92,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If the Launch Date has not occurred by August 31, 1999, Sponsor shall, in its sole discretion, be entitled to terminate this Agreement without any liability and receive a full refund of all amounts paid by Sponsor to drkoop.com pursuant to this Agreement prior to the date of such termination.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If the Launch Date has not occurred by August 31, 1999, Sponsor shall, in its sole discretion, be entitled to terminate this Agreement without any liability and receive a full refund of all amounts paid by Sponsor to drkoop.com pursuant to this Agreement prior to the date of such termination."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:14:26.930934+00:00"
+}

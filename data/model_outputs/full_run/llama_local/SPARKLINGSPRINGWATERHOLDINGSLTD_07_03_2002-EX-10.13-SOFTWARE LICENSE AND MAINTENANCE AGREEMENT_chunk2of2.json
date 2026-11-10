@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "SPARKLINGSPRINGWATERHOLDINGSLTD_07_03_2002-EX-10.13-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2365,
+  "prompt_input_tokens_reported": 2872,
+  "output_tokens_reported": 261,
+  "latency_seconds": 14.84,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement and the license granted under this Agreement shall remain in effect perpetually as long as fees are paid by Sparkling in accordance with the Fee Schedule and the Agreement is not otherwise terminated in accordance with this Section.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by the laws of Nova Scotia and the laws of Canada applicable in Nova Scotia.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement and the license granted under this Agreement shall remain in effect perpetually as long as fees are paid by Sparkling in accordance with the Fee Schedule and the Agreement is not otherwise terminated in accordance with this Section."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by the laws of Nova Scotia and the laws of Canada applicable in Nova Scotia."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:14:34.894243+00:00"
+}

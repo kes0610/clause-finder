@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3592,
+  "output_tokens_reported": 305,
+  "latency_seconds": 30.99,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If we cannot agree on a Center location, within 4 months, we may a) extend your search time, b) exchange your territory, or c) terminate your Franchise and refund up to 70% of your Franchise Fee, at our sole discretion.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"At the expiration of the term or any renewal term hereof, You may, at its option, renew the Franchise granted hereunder for 2 additional terms of 10 years each\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"You shall give AIRSOPURE notice in writing of Your election to renew this Agreement at least 3 months prior to the expiration of the then-current term.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"AIRSOPURE hereby grants to You the exclusive right to solicit customers for the Products by direct mail advertising, or other approved means, but not including the World Wide Web (Internet) nor by printed catalogues, in\\n\\n                                       1\\n\\nthe Exclusive Territory described above and in Exhibit A.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If we cannot agree on a Center location, within 4 months, we may a) extend your search time, b) exchange your territory, or c) terminate your Franchise and refund up to 70% of your Franchise Fee, at our sole discretion."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "At the expiration of the term or any renewal term hereof, You may, at its option, renew the Franchise granted hereunder for 2 additional terms of 10 years each"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "You shall give AIRSOPURE notice in writing of Your election to renew this Agreement at least 3 months prior to the expiration of the then-current term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "AIRSOPURE hereby grants to You the exclusive right to solicit customers for the Products by direct mail advertising, or other approved means, but not including the World Wide Web (Internet) nor by printed catalogues, in\n\n                                       1\n\nthe Exclusive Territory described above and in Exhibit A."
+    }
+  },
+  "timestamp": "2026-11-10T17:41:22.602667+00:00"
+}

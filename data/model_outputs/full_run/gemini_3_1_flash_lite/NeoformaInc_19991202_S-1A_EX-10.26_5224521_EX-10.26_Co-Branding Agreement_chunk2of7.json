@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3510,
+  "output_tokens_reported": 317,
+  "latency_seconds": 3.75,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"VerticalNet shall not enter into any agreement with a Neoforma Competitor for the on-line listing of Medical Products or place any Link to the Site of a Neoforma Competitor on the VerticalNet Medical Online Communities.\\n\\n     2.11 During the Term, VerticalNet shall not use its Site located at www.meddeals.com to conduct online auctions of Medical Products.\\n... \\n     3.8 Neoforma shall not enter into, and shall cause its Affiliates to not enter into, any agreement with a third party for the on-line listing of Laboratory Products on a VerticalNet Competitor or place any Link to a VerticalNet Competitor on the Neoforma Sites.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"VerticalNet shall provide a copy of all VerticalNet Medical Product Listings for Used and Excess Medical Products existing as of the Effective Date to Neoforma for use on Neoforma Plan, Neoforma Shop and Neoforma Auction on an exclusive basis (even as to VerticalNet)\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "VerticalNet shall not enter into any agreement with a Neoforma Competitor for the on-line listing of Medical Products or place any Link to the Site of a Neoforma Competitor on the VerticalNet Medical Online Communities.\n\n     2.11 During the Term, VerticalNet shall not use its Site located at www.meddeals.com to conduct online auctions of Medical Products.\n... \n     3.8 Neoforma shall not enter into, and shall cause its Affiliates to not enter into, any agreement with a third party for the on-line listing of Laboratory Products on a VerticalNet Competitor or place any Link to a VerticalNet Competitor on the Neoforma Sites."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "VerticalNet shall provide a copy of all VerticalNet Medical Product Listings for Used and Excess Medical Products existing as of the Effective Date to Neoforma for use on Neoforma Plan, Neoforma Shop and Neoforma Auction on an exclusive basis (even as to VerticalNet)"
+    }
+  },
+  "timestamp": "2026-11-10T17:44:18.155092+00:00"
+}

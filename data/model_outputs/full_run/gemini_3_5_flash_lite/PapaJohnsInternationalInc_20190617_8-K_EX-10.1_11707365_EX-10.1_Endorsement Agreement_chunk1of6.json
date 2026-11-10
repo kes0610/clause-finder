@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3589,
+  "output_tokens_reported": 561,
+  "latency_seconds": 1.48,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"Subject to the terms contained herein, PAPA JOHN'S and ABG agree and acknowledge that during the Term of this Agreement and for one (1) year thereafter, ABG shall be prohibited from granting any rights for CELEBRITY identical or similar to the rights granted to PAPA JOHN'S hereunder to any entity other than PAPA JOHN'S for the purpose of directly promoting, advertising, making an appearance on behalf of, or endorsing Competitive Products; provided, however, that in the event this Agreement is terminated pursuant to Section 7.B. of this Agreement, the prohibition referenced above shall be for a period of six (6) months, except that the prohibition shall referenced above shall not apply (or shall immediately cease to apply, as applicable) in the event of any one or more of the following: (i) the Agreement is terminated due to PAPA JOHN'S failure to pay to ABG any monies under this Agreement, as set forth herein, (ii) the Agreement is terminated due to PAPA JOHN'S failure to grant, issue, or cause to vest any of the RSUs (as hereinafter defined) under this Agreement, as set forth herein, (iii) PAPA JOHN'S failure to pay to ABG any monies under Section 7.D.a. or Section 7.D.b. of this Agreement, as set forth herein, or (iv) PAPA JOHN'S failure to grant, issue, or cause to vest any of the RSUs under Section 7.E.a. or Section 7.E.b. of this Agreement, as set forth herein.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The Agreement may be extended for one (1) year upon the parties' mutual agreement in writing, it being specifically understood the services to be performed by CELEBRITY (on behalf of ABG) and remuneration to ABG in connection with the same shall be negotiated in good faith.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"WHEREAS, ABG, as successor in interest to CELEBRITY, is the exclusive rights holder throughout the world of certain rights to CELEBRITY'S name, image, and services, and has the authority to exploit such rights;\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Subject to the terms contained herein, PAPA JOHN'S and ABG agree and acknowledge that during the Term of this Agreement and for one (1) year thereafter, ABG shall be prohibited from granting any rights for CELEBRITY identical or similar to the rights granted to PAPA JOHN'S hereunder to any entity other than PAPA JOHN'S for the purpose of directly promoting, advertising, making an appearance on behalf of, or endorsing Competitive Products; provided, however, that in the event this Agreement is terminated pursuant to Section 7.B. of this Agreement, the prohibition referenced above shall be for a period of six (6) months, except that the prohibition shall referenced above shall not apply (or shall immediately cease to apply, as applicable) in the event of any one or more of the following: (i) the Agreement is terminated due to PAPA JOHN'S failure to pay to ABG any monies under this Agreement, as set forth herein, (ii) the Agreement is terminated due to PAPA JOHN'S failure to grant, issue, or cause to vest any of the RSUs (as hereinafter defined) under this Agreement, as set forth herein, (iii) PAPA JOHN'S failure to pay to ABG any monies under Section 7.D.a. or Section 7.D.b. of this Agreement, as set forth herein, or (iv) PAPA JOHN'S failure to grant, issue, or cause to vest any of the RSUs under Section 7.E.a. or Section 7.E.b. of this Agreement, as set forth herein."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The Agreement may be extended for one (1) year upon the parties' mutual agreement in writing, it being specifically understood the services to be performed by CELEBRITY (on behalf of ABG) and remuneration to ABG in connection with the same shall be negotiated in good faith."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "WHEREAS, ABG, as successor in interest to CELEBRITY, is the exclusive rights holder throughout the world of certain rights to CELEBRITY'S name, image, and services, and has the authority to exploit such rights;"
+    }
+  },
+  "timestamp": "2026-11-10T19:31:39.389723+00:00"
+}

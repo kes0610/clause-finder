@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+  "chunk_index": 8,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3561,
+  "output_tokens_reported": 287,
+  "latency_seconds": 3.89,
+  "error": null,
+  "raw_response": "```json\n{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"13.4 Limitation of Liability. Except for a breach of Section 11 (\\\"Confidentiality\\\"), and without limiting a Party's indemnification obligations hereunder, in no event shall either Party be liable to the other Party in any manner for any special, non- compensatory, consequential, indirect, incidental, statutory or punitive damages of any kind, including lost profits and lost revenue, regardless of the form of action, whether in contract, tort, product liability or otherwise, even if informed of or aware of the possibility of any such damages in advance, except to the extent that such limitation of liability is contrary to the Applicable Law or any such special, non-compensatory, consequential, indirect, incidental, statutory or punitive damages have been awarded to a Third Party under a Third Party Claim.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}\n```",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "13.4 Limitation of Liability. Except for a breach of Section 11 (\"Confidentiality\"), and without limiting a Party's indemnification obligations hereunder, in no event shall either Party be liable to the other Party in any manner for any special, non- compensatory, consequential, indirect, incidental, statutory or punitive damages of any kind, including lost profits and lost revenue, regardless of the form of action, whether in contract, tort, product liability or otherwise, even if informed of or aware of the possibility of any such damages in advance, except to the extent that such limitation of liability is contrary to the Applicable Law or any such special, non-compensatory, consequential, indirect, incidental, statutory or punitive damages have been awarded to a Third Party under a Third Party Claim."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:03:37.147018+00:00"
+}

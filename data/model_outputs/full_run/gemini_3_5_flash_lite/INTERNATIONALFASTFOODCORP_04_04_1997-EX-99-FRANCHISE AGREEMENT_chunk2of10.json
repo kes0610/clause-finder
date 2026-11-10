@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "INTERNATIONALFASTFOODCORP_04_04_1997-EX-99-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3519,
+  "output_tokens_reported": 268,
+  "latency_seconds": 1.21,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"However, in the event that any temporary closing or discontinuance of operation permitted under this Section 2.4 exceeds 180 days, BKC shall have the right to terminate this Agreement, whereupon all rights granted to Franchisee under this Agreement shall terminate, without liability to BKC.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"The Franchisee acknowledges and agrees that this license is a license for the operation of a Burger King Restaurant at the Location only and that the Franchisee has no right to any exclusive territory\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "However, in the event that any temporary closing or discontinuance of operation permitted under this Section 2.4 exceeds 180 days, BKC shall have the right to terminate this Agreement, whereupon all rights granted to Franchisee under this Agreement shall terminate, without liability to BKC."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "The Franchisee acknowledges and agrees that this license is a license for the operation of a Burger King Restaurant at the Location only and that the Franchisee has no right to any exclusive territory"
+    }
+  },
+  "timestamp": "2026-11-10T19:18:57.556085+00:00"
+}

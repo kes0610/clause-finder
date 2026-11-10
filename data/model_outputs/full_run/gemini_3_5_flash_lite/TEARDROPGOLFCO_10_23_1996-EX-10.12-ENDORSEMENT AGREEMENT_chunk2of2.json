@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "TEARDROPGOLFCO_10_23_1996-EX-10.12-ENDORSEMENT AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2624,
+  "prompt_input_tokens_reported": 3154,
+  "output_tokens_reported": 207,
+  "latency_seconds": 0.74,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If no solution is reached within fourteen (14) days of such negotiation, the parties agree that this Agreement shall automatically terminate and that TPC will cease\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by and construed in accordance with the laws of the Commonwealth of Virginia applicable to contracts entered into and wholly to be performed within the Commonwealth of Virginia and, in the event of any litigation arising out of this Agreement, venue shall be the Commonwealth of Virginia.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If no solution is reached within fourteen (14) days of such negotiation, the parties agree that this Agreement shall automatically terminate and that TPC will cease"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of the Commonwealth of Virginia applicable to contracts entered into and wholly to be performed within the Commonwealth of Virginia and, in the event of any litigation arising out of this Agreement, venue shall be the Commonwealth of Virginia."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:21:07.749760+00:00"
+}

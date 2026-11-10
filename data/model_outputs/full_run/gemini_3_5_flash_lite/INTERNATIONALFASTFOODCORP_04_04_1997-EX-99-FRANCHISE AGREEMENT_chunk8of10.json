@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "INTERNATIONALFASTFOODCORP_04_04_1997-EX-99-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 8,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3543,
+  "output_tokens_reported": 196,
+  "latency_seconds": 1.21,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Upon the occurrence of an Event of Default, this Agreement shall automatically terminate without any further notice or opportunity to cure under Section 17.1.1 above and BKC shall, subject to the provisions of Subsection 17.6 below, have the right to claim lost royalties and advertising contributions, and shall also have all other rights and remedies available under applicable law.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Upon the occurrence of an Event of Default, this Agreement shall automatically terminate without any further notice or opportunity to cure under Section 17.1.1 above and BKC shall, subject to the provisions of Subsection 17.6 below, have the right to claim lost royalties and advertising contributions, and shall also have all other rights and remedies available under applicable law."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:19:03.974838+00:00"
+}

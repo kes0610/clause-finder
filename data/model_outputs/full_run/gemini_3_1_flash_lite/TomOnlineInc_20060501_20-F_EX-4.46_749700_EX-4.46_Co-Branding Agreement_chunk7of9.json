@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement.txt",
+  "chunk_index": 7,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3490,
+  "output_tokens_reported": 288,
+  "latency_seconds": 3.18,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"THE LIABILITY OF ANY PARTY TO THIS AGREEMENT, IF ANY, FOR DAMAGES FOR ANY CLAIM OF ANY KIND WHATSOEVER AND REGARDLESS OF THE LEGAL THEORY, WITH REGARD TO THE RIGHTS GRANTED HEREUNDER OR THE SERVICES PERFORMED HEREUNDER, SHALL NOT INCLUDE COMPENSATION, REIMBURSEMENT OR DAMAGES ON ACCOUNT OF THE LOSS OF PRESENT OR PROSPECTIVE PROFITS, EXPENDITURES, DATA, OPPORTUNITY, ANTICIPATED SAVINGS, INVESTMENTS OR COMMITMENTS, WHETHER MADE IN ESTABLISHMENT, DEVELOPMENT OR MAINTENANCE OF REPUTATION OR GOODWILL OR FOR ANY OTHER REASON WHATSOEVER; AND (B) IN NO EVENT SHALL ANY PARTY TO THIS AGREEMENT BE LIABLE TO THE OTHER PARTIES TO THIS AGREEMENT FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "THE LIABILITY OF ANY PARTY TO THIS AGREEMENT, IF ANY, FOR DAMAGES FOR ANY CLAIM OF ANY KIND WHATSOEVER AND REGARDLESS OF THE LEGAL THEORY, WITH REGARD TO THE RIGHTS GRANTED HEREUNDER OR THE SERVICES PERFORMED HEREUNDER, SHALL NOT INCLUDE COMPENSATION, REIMBURSEMENT OR DAMAGES ON ACCOUNT OF THE LOSS OF PRESENT OR PROSPECTIVE PROFITS, EXPENDITURES, DATA, OPPORTUNITY, ANTICIPATED SAVINGS, INVESTMENTS OR COMMITMENTS, WHETHER MADE IN ESTABLISHMENT, DEVELOPMENT OR MAINTENANCE OF REPUTATION OR GOODWILL OR FOR ANY OTHER REASON WHATSOEVER; AND (B) IN NO EVENT SHALL ANY PARTY TO THIS AGREEMENT BE LIABLE TO THE OTHER PARTIES TO THIS AGREEMENT FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:59:40.552353+00:00"
+}

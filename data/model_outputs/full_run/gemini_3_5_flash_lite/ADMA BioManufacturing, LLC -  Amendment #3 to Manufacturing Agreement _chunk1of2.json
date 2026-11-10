@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement .txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3512,
+  "output_tokens_reported": 385,
+  "latency_seconds": 2.77,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"3. Furthermore, should ADMA's compliance status under the FDA Warning Letter be escalated, and if such consequence limits ADMA's ability to supply the Batches of Product as specified in this Amendment #3 and the Updated Supply Plan or in case of failure by ADMA to supply any Batch of Product under this Amendment, Sanofi Pasteur shall be entitled to terminate immediately this Agreement upon written notice to ADMA and Sanofi Pasteur shall not be obligated to provide any additional payments (as outlined in Section 5 below and payments for any of the unproduced or delivered production batches) to ADMA from the date of such termination.\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"Except for the obligation of indemnity as set forth in Section 6.1 (c) with respect to claims by third parties for personal injury, illness or death (but not including property damage) resulting from the manufacture of the Product by BPC, aggregate damages for which ADMA shall be liable to Sanofi Pasteur hereunder, including without limitation costs of Source Plasma yield loss and/or rejected Batches, shall not exceed [***].\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "3. Furthermore, should ADMA's compliance status under the FDA Warning Letter be escalated, and if such consequence limits ADMA's ability to supply the Batches of Product as specified in this Amendment #3 and the Updated Supply Plan or in case of failure by ADMA to supply any Batch of Product under this Amendment, Sanofi Pasteur shall be entitled to terminate immediately this Agreement upon written notice to ADMA and Sanofi Pasteur shall not be obligated to provide any additional payments (as outlined in Section 5 below and payments for any of the unproduced or delivered production batches) to ADMA from the date of such termination."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Except for the obligation of indemnity as set forth in Section 6.1 (c) with respect to claims by third parties for personal injury, illness or death (but not including property damage) resulting from the manufacture of the Product by BPC, aggregate damages for which ADMA shall be liable to Sanofi Pasteur hereunder, including without limitation costs of Source Plasma yield loss and/or rejected Batches, shall not exceed [***]."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:35:41.895549+00:00"
+}

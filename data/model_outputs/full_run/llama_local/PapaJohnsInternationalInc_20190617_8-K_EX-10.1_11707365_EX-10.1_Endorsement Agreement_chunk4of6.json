@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 518,
+  "latency_seconds": 21.54,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"7. Termination.\\nA. Termination by PAPA JOHN'S. Without prejudice to any other rights it may have in law, equity or otherwise, PAPA JOHN'S shall have the right to terminate this Agreement upon written notice to ABG, as determined by PAPA JOHN'S in its sole discretion, exercising good-faith business judgment, in the event that any of the following occur during the Term of this Agreement (1) CELEBRITY's conviction or plea of guilty to a crime of moral turpitude; (2) CELEBRITY's or ABG's public malignment or disparagement of PAPA JOHN'S; (3) CELEBRITY or ABG intentionally makes any voluntary statement or commits any voluntary act that is or becomes generally known to the public which such statement or act both (a) has the effect of egregiously disparaging or insulting any group of the community on the basis of ethnicity, religion, race, national origin, gender, or sexual orientation, and (b) is the direct cause of a material adverse impact on PAPA JOHN'S actual sales of pizza; (4) (a) CELEBRITY's death or permanent incapacitation, or (b) CELEBRITY'S inability to perform the Services of this Agreement except due to a Force Majeure Event; or (5) CELEBRITY's or ABG's breach of any material term of this Agreement, which breach CELEBRITY or ABG fails to cure within thirty (30) days (or to the extent not possible to cure within such period, commence to cure) after CELEBRITY's or ABG's receipt of PAPA JOHN'S written notice of such breach. Specifically, if this Agreement is terminated for any of the reasons provided in Section 7.A.(1)-(3), PAPA JOHN'S right to terminate this Agreement shall be PAPA JOHN'S sole remedy for the same.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "7. Termination.\nA. Termination by PAPA JOHN'S. Without prejudice to any other rights it may have in law, equity or otherwise, PAPA JOHN'S shall have the right to terminate this Agreement upon written notice to ABG, as determined by PAPA JOHN'S in its sole discretion, exercising good-faith business judgment, in the event that any of the following occur during the Term of this Agreement (1) CELEBRITY's conviction or plea of guilty to a crime of moral turpitude; (2) CELEBRITY's or ABG's public malignment or disparagement of PAPA JOHN'S; (3) CELEBRITY or ABG intentionally makes any voluntary statement or commits any voluntary act that is or becomes generally known to the public which such statement or act both (a) has the effect of egregiously disparaging or insulting any group of the community on the basis of ethnicity, religion, race, national origin, gender, or sexual orientation, and (b) is the direct cause of a material adverse impact on PAPA JOHN'S actual sales of pizza; (4) (a) CELEBRITY's death or permanent incapacitation, or (b) CELEBRITY'S inability to perform the Services of this Agreement except due to a Force Majeure Event; or (5) CELEBRITY's or ABG's breach of any material term of this Agreement, which breach CELEBRITY or ABG fails to cure within thirty (30) days (or to the extent not possible to cure within such period, commence to cure) after CELEBRITY's or ABG's receipt of PAPA JOHN'S written notice of such breach. Specifically, if this Agreement is terminated for any of the reasons provided in Section 7.A.(1)-(3), PAPA JOHN'S right to terminate this Agreement shall be PAPA JOHN'S sole remedy for the same."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T18:14:30.885441+00:00"
+}

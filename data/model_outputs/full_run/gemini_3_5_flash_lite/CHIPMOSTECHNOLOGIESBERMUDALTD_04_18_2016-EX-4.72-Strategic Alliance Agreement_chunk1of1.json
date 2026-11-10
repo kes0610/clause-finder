@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "CHIPMOSTECHNOLOGIESBERMUDALTD_04_18_2016-EX-4.72-Strategic Alliance Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2743,
+  "prompt_input_tokens_reported": 3202,
+  "output_tokens_reported": 347,
+  "latency_seconds": 1.74,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"This Agreement may be terminated as follows:\\n\\n(1) Tsinghua Unigroup and ChipMOS Taiwan terminate this Agreement by mutual agreement in writing;\\n\\n(2) In the event that Tsinghua Unigroup or ChipMOS materially breaches this Agreement and such breach is incurable, the other Party may immediately terminate this Agreement by giving written notice to the breaching Party; if such breach is curable, this Agreement will be terminated automatically after ten (10) days from the date on which the breaching Party received the written notice given by the other Party, if the breaching Party fails to cure such breach; or\\n\\n(3) This Agreement shall be simultaneously terminated, rescinded or become invalid upon the termination, rescission, or invalidation of the Share Subscription Agreement.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"This Agreement shall be governed by, and construed in accordance with the laws of Taiwan.\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement may be terminated as follows:\n\n(1) Tsinghua Unigroup and ChipMOS Taiwan terminate this Agreement by mutual agreement in writing;\n\n(2) In the event that Tsinghua Unigroup or ChipMOS materially breaches this Agreement and such breach is incurable, the other Party may immediately terminate this Agreement by giving written notice to the breaching Party; if such breach is curable, this Agreement will be terminated automatically after ten (10) days from the date on which the breaching Party received the written notice given by the other Party, if the breaching Party fails to cure such breach; or\n\n(3) This Agreement shall be simultaneously terminated, rescinded or become invalid upon the termination, rescission, or invalidation of the Share Subscription Agreement."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by, and construed in accordance with the laws of Taiwan."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:16:42.800030+00:00"
+}

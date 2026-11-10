@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2342,
+  "prompt_input_tokens_reported": 2849,
+  "output_tokens_reported": 456,
+  "latency_seconds": 16.5,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall become effective as of the day and year first above written and shall govern the relations between the parties hereto thereafter, unless terminated as set forth in this Section 6.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"It is understood that Trustees, officers and shareholders of the Trust are or may become interested in the Sponsor and/or any of its affiliates as directors, officers, employees or otherwise and that directors, officers and employees of the Sponsor and/or any of its affiliates are or may become similarly interested in the Trust and that the Sponsor and/or any of its affiliates may be or become interested in the Trust as a shareholder or otherwise.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall become effective as of the day and year first above written and shall govern the relations between the parties hereto thereafter, unless terminated as set forth in this Section 6."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "It is understood that Trustees, officers and shareholders of the Trust are or may become interested in the Sponsor and/or any of its affiliates as directors, officers, employees or otherwise and that directors, officers and employees of the Sponsor and/or any of its affiliates are or may become similarly interested in the Trust and that the Sponsor and/or any of its affiliates may be or become interested in the Trust as a shareholder or otherwise."
+    }
+  },
+  "timestamp": "2026-11-10T17:25:11.258917+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+  "chunk_index": 10,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3589,
+  "output_tokens_reported": 326,
+  "latency_seconds": 1.1,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"15.2.7 Termination by Licensee for Regulatory Reasons. Licensee may terminate this Agreement immediately upon written notice to Bioeq in the event that Bioeq receives [***], in each case, with respect to the first Biologics License Application for such Licensed Product filed by Bioeq with the FDA in accordance with Section 4.1.1 (Adverse Regulatory Event).\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"15.3.5 License to Licensee-Controlled Trademark. Solely in the event that this Agreement is terminated by Bioeq pursuant to Sections 15.2.1, 15.2.2, 15.2.3, 15.2.4, 15.2.8 or 15.2.9 or by Licensee pursuant to Section 15.2.5 , Licensee shall grant, and hereby grants to Bioeq an exclusive, royalty-free, fully paid, sublicenseable, license to use the Licensee-Controlled Trademarks\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "15.2.7 Termination by Licensee for Regulatory Reasons. Licensee may terminate this Agreement immediately upon written notice to Bioeq in the event that Bioeq receives [***], in each case, with respect to the first Biologics License Application for such Licensed Product filed by Bioeq with the FDA in accordance with Section 4.1.1 (Adverse Regulatory Event)."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "15.3.5 License to Licensee-Controlled Trademark. Solely in the event that this Agreement is terminated by Bioeq pursuant to Sections 15.2.1, 15.2.2, 15.2.3, 15.2.4, 15.2.8 or 15.2.9 or by Licensee pursuant to Section 15.2.5 , Licensee shall grant, and hereby grants to Bioeq an exclusive, royalty-free, fully paid, sublicenseable, license to use the Licensee-Controlled Trademarks"
+    }
+  },
+  "timestamp": "2026-11-10T17:15:33.011215+00:00"
+}

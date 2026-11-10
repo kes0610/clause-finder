@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "Loop Industries, Inc. - Marketing Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 191,
+  "latency_seconds": 12.08,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Joint Venture Company shall not, and shall cause each SPV and each of their Affiliates not to, directly or indirectly, market or sell any Loop-branded Products or any Products produced using Licensed Subject Matter to any person or entity except to Authorized Customers pursuant to a Transferred Contract (the \"Marketing and Sale Restriction\")...\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:38:44.590795+00:00"
+}

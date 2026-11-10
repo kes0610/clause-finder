@@ -34,7 +34,7 @@ for Groq, which was independently confirmed free with no card.
 |---|---|---|---|
 | Gemini 3.5 Flash-Lite | Google AI Studio | Yes | Swapped in for 3.8 Flash during Stage 3 — see below |
 | Gemini 3.1 Flash-Lite | Google AI Studio | Yes | Google's most basic free-tier model |
-| openai/gpt-oss-120b | Groq (free plan) | Yes | OpenAI's open-weight model, hosted free by Groq |
+| ~~openai/gpt-oss-120b~~ | Groq (free plan) | Yes | Dropped during Stage 4 — see below |
 | Llama 3.2 (3B) | Local, via Ollama | Yes | Runs on-device, no API key, no rate limit — pulled and verified working |
 | Claude Sonnet 5.5 | Anthropic | **No — paid** | See Stage 3 for a revised, measured cost estimate |
 
@@ -95,7 +95,34 @@ Two Google free-tier daily limits are still unconfirmed (Gemini doesn't publish 
 pilot didn't hit either one, but Stage 4's full run needs to handle hitting one gracefully
 (save progress, pause, resume) rather than assume 527 requests/day is guaranteed available.
 
-## Stage 4 — Full evaluation (not started)
+## Stage 4 — Full evaluation (in progress)
+
+**Models actually run: 3 free + Claude still pending a decision.** Dropped Groq's
+gpt-oss-120b partway through — its hidden "reasoning" tokens burned through Groq's
+200,000 tokens/day free cap so fast that finishing all 130 contracts would have taken
+roughly a month at that rate. The only other free, non-reasoning model Groq hosts is
+Alibaba's Qwen, which didn't clear the author's own vendor-trust bar — a legitimate,
+non-technical call, and itself a fair thing to note in the final memo (vendor trust is
+a real factor companies weigh, not just accuracy/cost).
+
+**Progress as of this run:**
+
+| Model | Chunks done | Status |
+|---|---|---|
+| Llama 3.2 (local) | 527/527 (100%) | Complete |
+| Gemini 3.5 Flash-Lite | 454/527 (86%) | Hit its daily free limit — resumes automatically once it resets |
+| Gemini 3.1 Flash-Lite | 383/527 (73%) | Same — resumes automatically |
+| ~~gpt-oss-120b (Groq)~~ | 44/527 (8%) | Dropped — see above. Partial output kept in `data/model_outputs/dropped_groq_attempt/` for the record, excluded from scoring |
+
+Two real bugs caught and fixed mid-run: a Gemini request that hung indefinitely with no
+timeout (stalled that whole model's progress silently for over an hour), and a
+rate-limit message that looked like a long daily block but actually cleared in ~2
+minutes — the retry logic now reads the server's own suggested wait time instead of
+guessing.
+
+Re-running `scripts/04_full_run.py` (now only the 3 remaining models) later will pick
+up exactly where this left off — every chunk is saved individually, so nothing already
+done gets repeated.
 
 ## Stage 5 — Scoring (not started)
 

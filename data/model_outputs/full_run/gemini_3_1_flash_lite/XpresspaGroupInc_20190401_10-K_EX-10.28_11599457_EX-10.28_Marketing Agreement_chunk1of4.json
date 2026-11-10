@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "XpresspaGroupInc_20190401_10-K_EX-10.28_11599457_EX-10.28_Marketing Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3526,
+  "output_tokens_reported": 343,
+  "latency_seconds": 1.57,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"Throughout the Term and for a period of six (6) months after the expiration or termination of this Agreement, neither XSPA nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products (other than the Products), including online or in any Store in the Territory, without the express prior written consent of Calm.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Following the Initial Term, this Agreement shall automatically renew for successive terms of six (6) months (each a \\\"Renewal Term\\\", and together with the Initial Term, the \\\"Term\\\")\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless written notice is given by either Party no later than thirty (30) days in advance of the expiration of the Initial Term or the applicable Renewal Term.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Throughout the Term and for a period of six (6) months after the expiration or termination of this Agreement, neither Calm nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products in any retail location located in an airport other than in collaboration with XSPA, without the express prior written consent of XSPA.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Throughout the Term and for a period of six (6) months after the expiration or termination of this Agreement, neither XSPA nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products (other than the Products), including online or in any Store in the Territory, without the express prior written consent of Calm."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Following the Initial Term, this Agreement shall automatically renew for successive terms of six (6) months (each a \"Renewal Term\", and together with the Initial Term, the \"Term\")"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless written notice is given by either Party no later than thirty (30) days in advance of the expiration of the Initial Term or the applicable Renewal Term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Throughout the Term and for a period of six (6) months after the expiration or termination of this Agreement, neither Calm nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products in any retail location located in an airport other than in collaboration with XSPA, without the express prior written consent of XSPA."
+    }
+  },
+  "timestamp": "2026-11-10T18:59:57.874472+00:00"
+}

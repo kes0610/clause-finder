@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 8,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3415,
+  "output_tokens_reported": 185,
+  "latency_seconds": 2.38,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"subject to this Section 2.9.2 and Section 9.3 (Limitation of Liability), Sutro shall be liable for any non-cancelable Third Party penalties, costs and expenses incurred by SutroVax as a result of Sutro's failure to supply Product(s) as aforesaid\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "subject to this Section 2.9.2 and Section 9.3 (Limitation of Liability), Sutro shall be liable for any non-cancelable Third Party penalties, costs and expenses incurred by SutroVax as a result of Sutro's failure to supply Product(s) as aforesaid"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:54:44.144724+00:00"
+}

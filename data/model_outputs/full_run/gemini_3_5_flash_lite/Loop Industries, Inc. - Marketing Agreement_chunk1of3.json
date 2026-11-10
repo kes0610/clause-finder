@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "Loop Industries, Inc. - Marketing Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3470,
+  "output_tokens_reported": 321,
+  "latency_seconds": 6.32,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"JOINT VENTURE COMPANY'S TOTAL CUMULATIVE LIABILITY TO THE LOOP PARTIES WITH RESPECT TO A TRANSFERRED CONTRACT, IN ALL CIRCUMSTANCES AND REGARDLESS OF THE THEORY OF RECOVERY, SHALL BE LIMITED TO THE AMOUNT OF ACTUAL, DIRECT, AND DOCUMENTED DAMAGES THE APPLICABLE AUTHORIZED CUSTOMER ACTUALLY RECOVERS FROM THE LOOP PARTIES UNDER THE TRANSFERRED CONTRACT BASED SOLELY ON JOINT VENTURE COMPANY'S BREACH OF SUCH TRANSFERRED CONTRACT.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"Loop shall have the sole and exclusive right to enter into agreements for the sale of Loop-branded Products or any Products produced using Licensed Subject Matter, and the exclusive right to set the price and quantity to be supplied under each Loop Sales Contract\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "JOINT VENTURE COMPANY'S TOTAL CUMULATIVE LIABILITY TO THE LOOP PARTIES WITH RESPECT TO A TRANSFERRED CONTRACT, IN ALL CIRCUMSTANCES AND REGARDLESS OF THE THEORY OF RECOVERY, SHALL BE LIMITED TO THE AMOUNT OF ACTUAL, DIRECT, AND DOCUMENTED DAMAGES THE APPLICABLE AUTHORIZED CUSTOMER ACTUALLY RECOVERS FROM THE LOOP PARTIES UNDER THE TRANSFERRED CONTRACT BASED SOLELY ON JOINT VENTURE COMPANY'S BREACH OF SUCH TRANSFERRED CONTRACT."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Loop shall have the sole and exclusive right to enter into agreements for the sale of Loop-branded Products or any Products produced using Licensed Subject Matter, and the exclusive right to set the price and quantity to be supplied under each Loop Sales Contract"
+    }
+  },
+  "timestamp": "2026-11-10T19:16:53.278030+00:00"
+}

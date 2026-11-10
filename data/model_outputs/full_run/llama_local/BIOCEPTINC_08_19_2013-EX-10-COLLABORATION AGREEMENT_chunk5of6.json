@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BIOCEPTINC_08_19_2013-EX-10-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 272,
+  "latency_seconds": 14.67,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"either: (1) secure for itself and Life Technologies the right to continue using the Test in accordance with Section 8.4; (2) replace or modify the Test to make it non-infringing without degrading its performance or utility; or (3) notify Life Technologies that it will perform neither (1) nor (2), in which case either party shall thereafter have the right to terminate this Agreement immediately upon written notice to the other party.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Neither Party shall be entitled to recover from the other Party any Special, INCIDENTAL, CONSEQUENTIAL or Punitive DAMAGES in connection with this Agreement or any License granted hereunder;\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"for successive one (1) year periods (each, a \\\"Renewal Term\\\" and together with the Initial Term, the \\\"Term\\\".)\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "either: (1) secure for itself and Life Technologies the right to continue using the Test in accordance with Section 8.4; (2) replace or modify the Test to make it non-infringing without degrading its performance or utility; or (3) notify Life Technologies that it will perform neither (1) nor (2), in which case either party shall thereafter have the right to terminate this Agreement immediately upon written notice to the other party."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Neither Party shall be entitled to recover from the other Party any Special, INCIDENTAL, CONSEQUENTIAL or Punitive DAMAGES in connection with this Agreement or any License granted hereunder;"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "for successive one (1) year periods (each, a \"Renewal Term\" and together with the Initial Term, the \"Term\".)"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:26:48.848491+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "TELKOMSALTD_01_30_2003-EX-10-LICENCE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 6,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 234,
+  "latency_seconds": 14.24,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"Governing Law -This AGREEMENT shall be governed by and construed under the Laws of the Republic of South Africa.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"the name of the other in publicity, advertising, or   similar activity, without the specific prior written consent of the other as to the   content, appearance, layout and other features thereof, provided that TELKOM   may use the marks \"SAP\", and \"COMMERCE ONE INC\" and the phrase \"Powered   by Market Set\" in its websites that employ or utilise the SOFTWARE provided SAP   AFRICA and/or COMMERCE ONE INC.\"}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T18:07:36.702140+00:00"
+}

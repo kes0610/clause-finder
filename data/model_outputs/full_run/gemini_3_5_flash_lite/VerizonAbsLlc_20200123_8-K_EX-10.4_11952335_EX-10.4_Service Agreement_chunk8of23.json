@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_Service Agreement.txt",
+  "chunk_index": 8,
+  "chunk_total": 23,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3509,
+  "output_tokens_reported": 223,
+  "latency_seconds": 1.62,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Each of the Servicer and the Marketing Agent, severally and not jointly, will be liable under this Agreement only for its specific obligations under this Agreement. All other liability is expressly waived and released as a condition of, and consideration for, the execution of this Agreement by the Servicer or the Marketing Agent, as applicable. Each of the Servicer and the Marketing Agent, severally and not jointly, will be liable only for its own willful misconduct, bad faith or gross negligence in performing its obligations under this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Each of the Servicer and the Marketing Agent, severally and not jointly, will be liable under this Agreement only for its specific obligations under this Agreement. All other liability is expressly waived and released as a condition of, and consideration for, the execution of this Agreement by the Servicer or the Marketing Agent, as applicable. Each of the Servicer and the Marketing Agent, severally and not jointly, will be liable only for its own willful misconduct, bad faith or gross negligence in performing its obligations under this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:14:16.797992+00:00"
+}

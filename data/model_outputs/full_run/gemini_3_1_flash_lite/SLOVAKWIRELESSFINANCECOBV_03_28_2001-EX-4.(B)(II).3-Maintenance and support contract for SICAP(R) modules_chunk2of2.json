@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2759,
+  "prompt_input_tokens_reported": 3466,
+  "output_tokens_reported": 259,
+  "latency_seconds": 11.37,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"In case of a substantial breach of this maintenance and support contract by either party, which is not remedied within thirty days from the other party's notice thereof, the other party shall have the right to terminate this maintenance and support contract with immediate effect without juridical procedures.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"After the initial period of two years, the maintenance and support\\n      contract shall be automatically renewed for a period of one year on each\\n      renewal date\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless one of the parties terminates the maintenance and\\n      support contract through written notification to the other party in the\\n      form of a registered letter with proof of receipt, at least six (6) weeks\\n      prior to the renewal date.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In case of a substantial breach of this maintenance and support contract by either party, which is not remedied within thirty days from the other party's notice thereof, the other party shall have the right to terminate this maintenance and support contract with immediate effect without juridical procedures."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "After the initial period of two years, the maintenance and support\n      contract shall be automatically renewed for a period of one year on each\n      renewal date"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless one of the parties terminates the maintenance and\n      support contract through written notification to the other party in the\n      form of a registered letter with proof of receipt, at least six (6) weeks\n      prior to the renewal date."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:42:18.625768+00:00"
+}

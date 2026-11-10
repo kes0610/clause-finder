@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "INTERNATIONALFASTFOODCORP_04_04_1997-EX-99-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3517,
+  "output_tokens_reported": 229,
+  "latency_seconds": 4.94,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"if (a) the building is leased,  (b) the  Franchisee  is  prohibited  under the terms of the applicable  lease from  repairing  or  reconstructing  the  building as provided above,  and (c) the  Franchisee  has  exhausted its best efforts to convince the landlord to consent to such repair or reconstruction,  then the Franchisee shall be released from its  obligations  under this  Paragraph 7.2 and this  Agreement shall terminate.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "if (a) the building is leased,  (b) the  Franchisee  is  prohibited  under the terms of the applicable  lease from  repairing  or  reconstructing  the  building as provided above,  and (c) the  Franchisee  has  exhausted its best efforts to convince the landlord to consent to such repair or reconstruction,  then the Franchisee shall be released from its  obligations  under this  Paragraph 7.2 and this  Agreement shall terminate."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:55:40.451466+00:00"
+}

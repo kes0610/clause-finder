@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3501,
+  "output_tokens_reported": 236,
+  "latency_seconds": 9.75,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The appointment of the Agent hereunder shall terminate upon the earlier to occur of (a) forty-five (45) days after the last day of the Subscription and Community Offering, unless\\n\\n17\\n\\n\\n\\n\\nthe Company and the Agent agree in writing to extend such period and the OTS agrees to extend the period of time in which the Securities may be sold, or (b) the receipt and acceptance of subscriptions and purchase orders for all of the Securities, or (c) the completion of the Syndicated Community Offering.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The appointment of the Agent hereunder shall terminate upon the earlier to occur of (a) forty-five (45) days after the last day of the Subscription and Community Offering, unless\n\n17\n\n\n\n\nthe Company and the Agent agree in writing to extend such period and the OTS agrees to extend the period of time in which the Securities may be sold, or (b) the receipt and acceptance of subscriptions and purchase orders for all of the Securities, or (c) the completion of the Syndicated Community Offering."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:09:36.404805+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+  "chunk_index": 9,
+  "chunk_total": 13,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3552,
+  "output_tokens_reported": 294,
+  "latency_seconds": 1.83,
+  "error": null,
+  "raw_response": "```json\n{\n  \"termination\": {\"present\": true, \"quote\": \"If, as of the end of any period of the immediately previous four consecutive Agreement Quarters, Promotion Net Sales for such period are less than $[***], either party shall have the right to terminate this Agreement on 120 days' prior written notice to the other party, which notice may not be given before the third anniversary of the Promotion Commencement Date.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The Term of this Agreement shall be extended for subsequent one year periods upon the mutual agreement of the parties, which agreement shall be set forth in writing (in which event a party that desires to so extend the Term of this Agreement shall notify the other party at least 120 days prior to the termination of this Agreement).\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"a party that desires to so extend the Term of this Agreement shall notify the other party at least 120 days prior to the termination of this Agreement\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}\n```",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If, as of the end of any period of the immediately previous four consecutive Agreement Quarters, Promotion Net Sales for such period are less than $[***], either party shall have the right to terminate this Agreement on 120 days' prior written notice to the other party, which notice may not be given before the third anniversary of the Promotion Commencement Date."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The Term of this Agreement shall be extended for subsequent one year periods upon the mutual agreement of the parties, which agreement shall be set forth in writing (in which event a party that desires to so extend the Term of this Agreement shall notify the other party at least 120 days prior to the termination of this Agreement)."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "a party that desires to so extend the Term of this Agreement shall notify the other party at least 120 days prior to the termination of this Agreement"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:34:07.906367+00:00"
+}

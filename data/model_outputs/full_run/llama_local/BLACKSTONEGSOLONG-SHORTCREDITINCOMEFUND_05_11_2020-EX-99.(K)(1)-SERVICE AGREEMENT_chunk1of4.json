@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BLACKSTONEGSOLONG-SHORTCREDITINCOMEFUND_05_11_2020-EX-99.(K)(1)-SERVICE AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 285,
+  "latency_seconds": 14.86,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"11(a) above or by Agent pursuant to Section 11(b) above, then Client shall pay a termination fee, due and payable to Agent on or before the effective date of such termination, calculated as follows:\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"8(a) In the absence of gross negligence, bad faith or willful misconduct on its part, Agent shall not be liable for any action taken, suffered or omitted by it or for any error of judgment made by it in the performance of its duties under this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"2. Term of Agreement. Agent's appointment hereunder shall commence on the next business day after the later of (i) the date hereof, or (ii) the date Agent has confirmed that Client's records have been converted to Agent's system (the \\\"Effective Date\\\"), and shall continue for three years thereafter (the \\\"Initial Term\\\")\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "11(a) above or by Agent pursuant to Section 11(b) above, then Client shall pay a termination fee, due and payable to Agent on or before the effective date of such termination, calculated as follows:"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "8(a) In the absence of gross negligence, bad faith or willful misconduct on its part, Agent shall not be liable for any action taken, suffered or omitted by it or for any error of judgment made by it in the performance of its duties under this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "2. Term of Agreement. Agent's appointment hereunder shall commence on the next business day after the later of (i) the date hereof, or (ii) the date Agent has confirmed that Client's records have been converted to Agent's system (the \"Effective Date\"), and shall continue for three years thereafter (the \"Initial Term\")"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:09:43.510963+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 2276,
+  "prompt_input_tokens_reported": 2783,
+  "output_tokens_reported": 294,
+  "latency_seconds": 13.03,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement shall terminate by either Party by providing thirty (30) calendar days' prior written notice of termination to the other Party (such fifteen (15) Contract Year period, as may be further extended as provided herein is referred to as the \"Term\").\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"None provided\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall commence on the Effective Date and continue in full force and effect until the end of the fifteenth (15th) Contract Year, and shall continue in full force and effect thereafter until terminated by either Party by providing thirty (30) calendar days' prior written notice of termination to the other Party (such fifteen (15) Contract Year period, as may be further extended as provided herein is referred to as the \"Term\").\"}},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"thirty (30) calendar days' prior written notice of termination to the other Party.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"The laws of the State of Texas without regard to the conflicts of laws provisions thereof.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:40:12.184042+00:00"
+}

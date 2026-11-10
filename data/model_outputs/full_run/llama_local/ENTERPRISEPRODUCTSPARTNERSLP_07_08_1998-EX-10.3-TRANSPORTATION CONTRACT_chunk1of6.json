@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "ENTERPRISEPRODUCTSPARTNERSLP_07_08_1998-EX-10.3-TRANSPORTATION CONTRACT.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 205,
+  "latency_seconds": 59.28,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"upon not less than thirty (30) days prior written notice to the other party.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"this contract shall automatically continue until terminated by either party upon not less than thirty (30) days prior written notice to the other party.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"upon not less than thirty (30) days prior written notice to the other party.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"the laws of the State of Texas, excluding any binding conflict of laws rule which might refer such construction to the laws of another state.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "upon not less than thirty (30) days prior written notice to the other party."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "this contract shall automatically continue until terminated by either party upon not less than thirty (30) days prior written notice to the other party."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "upon not less than thirty (30) days prior written notice to the other party."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "the laws of the State of Texas, excluding any binding conflict of laws rule which might refer such construction to the laws of another state."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:17:53.510855+00:00"
+}

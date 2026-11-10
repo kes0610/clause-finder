@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "VerizonAbsLlc_20200123_8-K_EX-10.4_11952335_EX-10.4_Service Agreement.txt",
+  "chunk_index": 12,
+  "chunk_total": 23,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3534,
+  "output_tokens_reported": 340,
+  "latency_seconds": 1.41,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"Section 10.5 GOVERNING LAW. THIS AGREEMENT, INCLUDING THE RIGHTS AND DUTIES OF THE PARTIES HERETO, SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE INTERNAL LAWS OF THE STATE OF NEW YORK (INCLUDING SECTIONS 5-1401 AND 5-1402 OF THE GENERAL OBLIGATIONS LAW OF THE STATE OF NEW YORK, BUT WITHOUT REGARD TO ANY OTHERWISE APPLICABLE CONFLICTS OF LAW PRINCIPLES). FOR PURPOSES OF THE UCC, NEW YORK SHALL BE DEEMED TO BE THE SECURITIES INTERMEDIARY'S JURISDICTION, AND THE LAW OF THE STATE OF NEW YORK SHALL GOVERN ALL ISSUES SPECIFIED IN ARTICLE 2(1) OF THE HAGUE SECURITIES CONVENTION. NOTWITHSTANDING SECTION 10.1 OF THIS AGREEMENT, THE PARTIES WILL NOT AGREE TO AMEND THIS AGREEMENT TO CHANGE THE GOVERNING LAW TO ANY LAW OTHER THAN THE LAWS OF THE STATE OF NEW YORK.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "Section 10.5 GOVERNING LAW. THIS AGREEMENT, INCLUDING THE RIGHTS AND DUTIES OF THE PARTIES HERETO, SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE INTERNAL LAWS OF THE STATE OF NEW YORK (INCLUDING SECTIONS 5-1401 AND 5-1402 OF THE GENERAL OBLIGATIONS LAW OF THE STATE OF NEW YORK, BUT WITHOUT REGARD TO ANY OTHERWISE APPLICABLE CONFLICTS OF LAW PRINCIPLES). FOR PURPOSES OF THE UCC, NEW YORK SHALL BE DEEMED TO BE THE SECURITIES INTERMEDIARY'S JURISDICTION, AND THE LAW OF THE STATE OF NEW YORK SHALL GOVERN ALL ISSUES SPECIFIED IN ARTICLE 2(1) OF THE HAGUE SECURITIES CONVENTION. NOTWITHSTANDING SECTION 10.1 OF THIS AGREEMENT, THE PARTIES WILL NOT AGREE TO AMEND THIS AGREEMENT TO CHANGE THE GOVERNING LAW TO ANY LAW OTHER THAN THE LAWS OF THE STATE OF NEW YORK."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:14:21.303744+00:00"
+}

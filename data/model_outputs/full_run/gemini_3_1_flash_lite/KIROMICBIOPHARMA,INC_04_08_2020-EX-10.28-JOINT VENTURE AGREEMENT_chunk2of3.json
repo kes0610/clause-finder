@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3483,
+  "output_tokens_reported": 440,
+  "latency_seconds": 5.44,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Each Parties shall have the right to terminate its obligations, if one of the following events occurs: the Company (i) applies for or consents to the appointment of a receiver, trustee, custodian or liquidator of itself or substantially all of its property, (ii) becomes subject to the appointment of a receiver, trustee, custodian or liquidator of itself or substantially all of its property, (iii) makes an assignment for the benefit of creditors, (iv) institutes any proceedings under or state bankruptcy, reorganization, receivership, insolvency or other similar law affecting the rights of creditors generally, or files a petition or answer seeking reorganization or an arrangement with creditors to take advantage of any insolvency law, or files an answer admitting the material allegations of a bankruptcy, reorganization or insolvency petition filed against it, or (v) becomes subject to any involuntary proceedings under the state bankruptcy, reorganization, receivership, insolvency or other similar law affecting the rights of creditors generally, when proceeding is not dismissed within thirty (30) days of filing, or have an order for relief entered against it in any proceedings under Bankruptcy Code.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This JV Agreement shall become effective on the signing date and shall have a duration of * years, extendable for a further * years, unless notice of non- renewal is sent one year before the natural expiry date.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless notice of non- renewal is sent one year before the natural expiry date.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Sars-cov-2 - The economic rights for Europa will be an exclusive ownership of Molipharma - The economic rights in the U.S. will be an exclusive ownership of Kiromic.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Each Parties shall have the right to terminate its obligations, if one of the following events occurs: the Company (i) applies for or consents to the appointment of a receiver, trustee, custodian or liquidator of itself or substantially all of its property, (ii) becomes subject to the appointment of a receiver, trustee, custodian or liquidator of itself or substantially all of its property, (iii) makes an assignment for the benefit of creditors, (iv) institutes any proceedings under or state bankruptcy, reorganization, receivership, insolvency or other similar law affecting the rights of creditors generally, or files a petition or answer seeking reorganization or an arrangement with creditors to take advantage of any insolvency law, or files an answer admitting the material allegations of a bankruptcy, reorganization or insolvency petition filed against it, or (v) becomes subject to any involuntary proceedings under the state bankruptcy, reorganization, receivership, insolvency or other similar law affecting the rights of creditors generally, when proceeding is not dismissed within thirty (30) days of filing, or have an order for relief entered against it in any proceedings under Bankruptcy Code."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This JV Agreement shall become effective on the signing date and shall have a duration of * years, extendable for a further * years, unless notice of non- renewal is sent one year before the natural expiry date."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless notice of non- renewal is sent one year before the natural expiry date."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Sars-cov-2 - The economic rights for Europa will be an exclusive ownership of Molipharma - The economic rights in the U.S. will be an exclusive ownership of Kiromic."
+    }
+  },
+  "timestamp": "2026-11-10T17:46:11.612005+00:00"
+}

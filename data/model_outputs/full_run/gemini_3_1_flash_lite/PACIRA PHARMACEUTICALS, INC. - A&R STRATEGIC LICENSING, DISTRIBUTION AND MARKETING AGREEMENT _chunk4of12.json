@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 4,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3484,
+  "output_tokens_reported": 273,
+  "latency_seconds": 3.34,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"4.16 Non-Compete. EKR shall not, during [**], market, distribute or sell a Competing Product in the Territory unless during such time an A/B  rated generic product of the Product(s) is launched in such country of the Territory or in the event this Agreement is terminated or EKR  exercises its rights under Section 17.4 hereof.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"4.17 PPI as Exclusive Provider. During the Term, except if PPI is unable to supply Products (including, but not limited to, in connection with EKR's exercise of its rights under Section 17.5 below) or as provided in the Supply Agreement, EKR shall purchase all of its requirements  for the Product from PPI.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "4.16 Non-Compete. EKR shall not, during [**], market, distribute or sell a Competing Product in the Territory unless during such time an A/B  rated generic product of the Product(s) is launched in such country of the Territory or in the event this Agreement is terminated or EKR  exercises its rights under Section 17.4 hereof."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "4.17 PPI as Exclusive Provider. During the Term, except if PPI is unable to supply Products (including, but not limited to, in connection with EKR's exercise of its rights under Section 17.5 below) or as provided in the Supply Agreement, EKR shall purchase all of its requirements  for the Product from PPI."
+    }
+  },
+  "timestamp": "2026-11-10T18:05:03.548722+00:00"
+}

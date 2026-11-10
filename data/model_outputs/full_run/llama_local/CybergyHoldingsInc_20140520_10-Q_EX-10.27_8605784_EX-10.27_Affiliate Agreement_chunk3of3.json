@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 1260,
+  "prompt_input_tokens_reported": 1767,
+  "output_tokens_reported": 245,
+  "latency_seconds": 9.23,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Notices. Any notice required under this Agreement shall be deemed to have been given when hand- delivered or on the date of mailing when mailed by standard Mail, postage prepaid, and addressed to the party to receive such notice at the address designated below, or such other address as the party may from time to time direct in writing.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement is accepted by Company in the State of Nevada and shall be governed by and construed in accordance with the laws thereof, which laws shall prevail in the event of any conflict. For such limited purpose, MA hereby consents to the personal jurisdiction of any court of competent jurisdiction in the State of Nevada.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Notices. Any notice required under this Agreement shall be deemed to have been given when hand- delivered or on the date of mailing when mailed by standard Mail, postage prepaid, and addressed to the party to receive such notice at the address designated below, or such other address as the party may from time to time direct in writing."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement is accepted by Company in the State of Nevada and shall be governed by and construed in accordance with the laws thereof, which laws shall prevail in the event of any conflict. For such limited purpose, MA hereby consents to the personal jurisdiction of any court of competent jurisdiction in the State of Nevada."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:50:19.693513+00:00"
+}

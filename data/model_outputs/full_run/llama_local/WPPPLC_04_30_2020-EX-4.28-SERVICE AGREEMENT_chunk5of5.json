@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "WPPPLC_04_30_2020-EX-4.28-SERVICE AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 2174,
+  "prompt_input_tokens_reported": 2681,
+  "output_tokens_reported": 191,
+  "latency_seconds": 10.97,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"The Executive agrees and undertakes with the Company acting on behalf of itself and as agent for each Group Company that he will not in any Relevant Capacity at any time during the Restricted Period:\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"The Executive agrees and undertakes with the Company acting on behalf of itself and as agent for each Group Company that he will not in any Relevant Capacity at any time during the Restricted Period:\"}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "The Executive agrees and undertakes with the Company acting on behalf of itself and as agent for each Group Company that he will not in any Relevant Capacity at any time during the Restricted Period:"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "The Executive agrees and undertakes with the Company acting on behalf of itself and as agent for each Group Company that he will not in any Relevant Capacity at any time during the Restricted Period:"
+    }
+  },
+  "timestamp": "2026-11-10T19:11:52.722779+00:00"
+}

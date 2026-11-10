@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "BLACKSTONEGSOLONG-SHORTCREDITINCOMEFUND_05_11_2020-EX-99.(K)(1)-SERVICE AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3496,
+  "output_tokens_reported": 358,
+  "latency_seconds": 2.2,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Client may terminate this Agreement if (i) Agent defaults on any of its material obligations hereunder and such default remains uncured thirty (30) days after Agent's receipt of notice of such default from Client; or (ii) any proceeding in bankruptcy, reorganization, receivership or insolvency is commenced by or against Agent, Agent shall become insolvent or shall cease paying its obligations as they become due or makes any assignment for the benefit of its creditors.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Any liability of Agent will be limited in the aggregate to an amount equal to twenty four (24) times the monthly administrative fee to be paid by Client as set forth in Exhibit B hereto.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement shall automatically renew for successive additional three-year terms; provided, however, that this Agreement shall automatically terminate upon the dissolution of the client.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement shall automatically renew for successive additional three-year terms\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Client may terminate this Agreement if (i) Agent defaults on any of its material obligations hereunder and such default remains uncured thirty (30) days after Agent's receipt of notice of such default from Client; or (ii) any proceeding in bankruptcy, reorganization, receivership or insolvency is commenced by or against Agent, Agent shall become insolvent or shall cease paying its obligations as they become due or makes any assignment for the benefit of its creditors."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Any liability of Agent will be limited in the aggregate to an amount equal to twenty four (24) times the monthly administrative fee to be paid by Client as set forth in Exhibit B hereto."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement shall automatically renew for successive additional three-year terms; provided, however, that this Agreement shall automatically terminate upon the dissolution of the client."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Unless either party gives written notice of termination of this Agreement at least 60 days prior to the end of the Initial Term, or any successive three-year term, this Agreement shall automatically renew for successive additional three-year terms"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:29:18.214604+00:00"
+}

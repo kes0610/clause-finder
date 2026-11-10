@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 199,
+  "latency_seconds": 13.34,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"sublicensable (through multiple levels of sublicensees), fully paid-up right and license under all of the Company's Intellectual Property to, throughout the Territory, access, use, reproduce, perform, display, transmit, demonstrate, test, operate, port, configure, distribute, and make derivative works of, the Installed Software and Subscription Software Services solely for the purposes of:\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "sublicensable (through multiple levels of sublicensees), fully paid-up right and license under all of the Company's Intellectual Property to, throughout the Territory, access, use, reproduce, perform, display, transmit, demonstrate, test, operate, port, configure, distribute, and make derivative works of, the Installed Software and Subscription Software Services solely for the purposes of:"
+    }
+  },
+  "timestamp": "2026-11-10T18:10:52.028921+00:00"
+}

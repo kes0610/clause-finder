@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "Principal Life Insurance Company - Broker Dealer Marketing and Servicing Agreement .txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2855,
+  "prompt_input_tokens_reported": 3362,
+  "output_tokens_reported": 221,
+  "latency_seconds": 11.84,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"25. Any Party hereto may terminate this Agreement at any time upon prior written notice.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"27. This Agreement shall be governed by and construed in accordance with the laws of the State of Iowa.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"a. Confidentiality. Each Party acknowledges that, in the course of performing its duties under this Agreement or otherwise, it may receive or learn information about individuals who have applied for or purchased financial products or financial services from the other Party, including, but not limited to, personal, financial and/or health information (\"Confidential Information\").\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T16:44:41.527494+00:00"
+}

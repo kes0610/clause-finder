@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "HYDRONTECHNOLOGIESINC_03_31_1997-EX-10.47-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2638,
+  "prompt_input_tokens_reported": 3145,
+  "output_tokens_reported": 347,
+  "latency_seconds": 15.36,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"8.1(a) Without prejudice to any other rights, the Dolphins shall have the right to terminate this Agreement upon written notice to Hydron if Hydron fails to perform or comply with any term or condition of this Agreement within five (5) business days following delivery of written notice for a payment default or within thirty (30) days following written notice of any other breach of this Agreement sent to Hydron stating such failure or failures; provided that any such failure remains uncured at the end of such period.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"7.2 Insurance. The Dolphins shall, at its own expense, maintain in effect throughout the term of this Agreement, comprehensive general liability insurance policies with carriers of recognized standing, with limits of liability of at least One Million Dollars ($1,000,000), governing any and all property damage and person injury (including death) arising out of activities covered by this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"9.5 This Agreement shall be governed by and construed in accordance with the laws of the State of Florida. Jurisdiction and venue for any legal proceedings arising out of this Agreement shall exclusively lie in the state and federal courts situate in Broward County, Florida.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "8.1(a) Without prejudice to any other rights, the Dolphins shall have the right to terminate this Agreement upon written notice to Hydron if Hydron fails to perform or comply with any term or condition of this Agreement within five (5) business days following delivery of written notice for a payment default or within thirty (30) days following written notice of any other breach of this Agreement sent to Hydron stating such failure or failures; provided that any such failure remains uncured at the end of such period."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "7.2 Insurance. The Dolphins shall, at its own expense, maintain in effect throughout the term of this Agreement, comprehensive general liability insurance policies with carriers of recognized standing, with limits of liability of at least One Million Dollars ($1,000,000), governing any and all property damage and person injury (including death) arising out of activities covered by this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "9.5 This Agreement shall be governed by and construed in accordance with the laws of the State of Florida. Jurisdiction and venue for any legal proceedings arising out of this Agreement shall exclusively lie in the state and federal courts situate in Broward County, Florida."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:28:29.550260+00:00"
+}

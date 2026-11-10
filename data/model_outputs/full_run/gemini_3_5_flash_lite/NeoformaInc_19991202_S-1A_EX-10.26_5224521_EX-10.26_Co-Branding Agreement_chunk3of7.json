@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3522,
+  "output_tokens_reported": 205,
+  "latency_seconds": 1.65,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"On the Effective Date, Neoforma shall provide a copy of all listings for inclusion, at VerticalNet's reasonable business discretion and at VerticalNet's then current listing rate, in the Co-Branded Training and Education Center and, in VerticalNet's sole discretion, on any other VerticalNet Site (the \\\"Neoforma T&E Content\\\") on an exclusive basis (even as to Neoforma).\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "On the Effective Date, Neoforma shall provide a copy of all listings for inclusion, at VerticalNet's reasonable business discretion and at VerticalNet's then current listing rate, in the Co-Branded Training and Education Center and, in VerticalNet's sole discretion, on any other VerticalNet Site (the \"Neoforma T&E Content\") on an exclusive basis (even as to Neoforma)."
+    }
+  },
+  "timestamp": "2026-11-10T19:10:26.671301+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3505,
+  "output_tokens_reported": 278,
+  "latency_seconds": 12.85,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"7.2 Either Party shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"5.1 LICENSOR is the owner of all intellectual property rights, including without limitation, any and all patents, utility models, trade marks, rights in designs, trade, business or domain names, know-how, rights in databases and copyrights, rights in inventions, ideas, concepts, trade secrets and confidential information which have to be given to fulfill this contract.\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"7.1 Unless otherwise stated in the Appendix the term of this letter Agreement shall continue for twenty-four (24) months with the effective date unless terminated sooner or extended pursuant to the terms hereof (\"Initial Term\").\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"10.1 This Agreement shall be governed and construed in accordance with the laws of the United States of America.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T18:59:47.346832+00:00"
+}

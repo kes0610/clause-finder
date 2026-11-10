@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement.txt",
+  "chunk_index": 8,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3502,
+  "output_tokens_reported": 183,
+  "latency_seconds": 2.05,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"(iv) immediately terminate this Agreement.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement will be governed by and construed in accordance with the laws of England and Wales, without regard to conflict of laws principles.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"The Indemnified Party agrees that the Indemnifying Party shall have sole and exclusive control over the defense and settlement of any such third party claim.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "(iv) immediately terminate this Agreement."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement will be governed by and construed in accordance with the laws of England and Wales, without regard to conflict of laws principles."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "The Indemnified Party agrees that the Indemnifying Party shall have sole and exclusive control over the defense and settlement of any such third party claim."
+    }
+  },
+  "timestamp": "2026-11-10T19:06:56.647955+00:00"
+}

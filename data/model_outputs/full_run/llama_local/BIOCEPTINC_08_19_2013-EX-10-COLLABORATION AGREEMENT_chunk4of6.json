@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BIOCEPTINC_08_19_2013-EX-10-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 183,
+  "latency_seconds": 12.74,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"non-exclusive, worldwide, royalty-free, fully-paid license, including the right to sublicense, under Life Technologies' Intellectual Property Rights in such Developments, solely to develop, make, have made, use, sell, have sold, offer for sale, import, perform and provide the Assay.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": "null"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "non-exclusive, worldwide, royalty-free, fully-paid license, including the right to sublicense, under Life Technologies' Intellectual Property Rights in such Developments, solely to develop, make, have made, use, sell, have sold, offer for sale, import, perform and provide the Assay."
+    }
+  },
+  "timestamp": "2026-11-10T17:26:34.174542+00:00"
+}

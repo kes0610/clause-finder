@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement.txt",
+  "chunk_index": 6,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 245,
+  "latency_seconds": 35.48,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Subject to Section 6.5 and to the extent required for the Parties to give effect to Section 6.4, upon termination or expiration of this Agreement, the following shall occur:\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"8.1 Non-Competition.\\n8.1.1 Each Party agrees that, for a period of five years (\"Non-Competition Period\") from the Effective Date (\"End Date\"), no Party, nor any of their respective Affiliates, will enter into an agreement with any third party, or otherwise carry on any business, directly or indirectly, which is focused on, and targets, primarily Consumers within the PRC, and\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:14:42.291564+00:00"
+}

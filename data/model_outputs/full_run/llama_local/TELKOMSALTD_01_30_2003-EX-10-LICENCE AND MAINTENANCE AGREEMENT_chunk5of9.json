@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "TELKOMSALTD_01_30_2003-EX-10-LICENCE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 268,
+  "latency_seconds": 15.18,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"11. 1. 2       return or credit of an appropriate portion of any payment made, or to be   made, by TELKOM with respect to the defective portion, or the whole of the   SOFTWARE or Maintenance Services, but excluding the License Fee or any   portion thereof.\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"12. 6   Save as is set out in clause 11 and this clause 12, TELKOM shall have no other   claim or remedy arising from the alleged infringement of third party intellectual   property rights, against SAP AFRICA, SAP AG and their licensors.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"15. 6   Governing Law -This AGREEMENT shall be governed by and construed under the   Laws of the Republic of South Africa.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "11. 1. 2       return or credit of an appropriate portion of any payment made, or to be   made, by TELKOM with respect to the defective portion, or the whole of the   SOFTWARE or Maintenance Services, but excluding the License Fee or any   portion thereof."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "12. 6   Save as is set out in clause 11 and this clause 12, TELKOM shall have no other   claim or remedy arising from the alleged infringement of third party intellectual   property rights, against SAP AFRICA, SAP AG and their licensors."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "15. 6   Governing Law -This AGREEMENT shall be governed by and construed under the   Laws of the Republic of South Africa."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": "null"
+    }
+  },
+  "timestamp": "2026-11-10T18:07:22.450366+00:00"
+}

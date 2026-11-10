@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "MEDALISTDIVERSIFIEDREIT,INC_05_18_2020-EX-10.1-CONSULTING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3448,
+  "output_tokens_reported": 1407,
+  "latency_seconds": 36.91,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"(c) ninety (90) days following the date the Company gives CONSULTANT written notice of termination for any or no reason;\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"7.3 Noncompetition. CONSULTANT agrees that during its consultancy for REIT and for a period of twelve (12) months immediately following the termination of its consultancy with the Company for any reason, whether with or without cause, it will not: (a) have any ownership interest in, or participate in the financing, operation, management or control of, any Competitor; or (b) engage in or perform services for any Competitor, if such services either (1) are the same as or similar to (individually or in the aggregate) the services CONSULTANT performed for the Company during its consultancy with the Company, or (2) are performed with respect to products or services of the Competitor that are competitive with the products or services provided by the Company with which CONSULTANT was involved during its consultancy with the Company or about which it received Proprietary Information during its consultancy with the Company.\"\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "(c) ninety (90) days following the date the Company gives CONSULTANT written notice of termination for any or no reason;"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "7.3 Noncompetition. CONSULTANT agrees that during its consultancy for REIT and for a period of twelve (12) months immediately following the termination of its consultancy with the Company for any reason, whether with or without cause, it will not: (a) have any ownership interest in, or participate in the financing, operation, management or control of, any Competitor; or (b) engage in or perform services for any Competitor, if such services either (1) are the same as or similar to (individually or in the aggregate) the services CONSULTANT performed for the Company during its consultancy with the Company, or (2) are performed with respect to products or services of the Competitor that are competitive with the products or services provided by the Company with which CONSULTANT was involved during its consultancy with the Company or about which it received Proprietary Information during its consultancy with the Company."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:01:40.559507+00:00"
+}

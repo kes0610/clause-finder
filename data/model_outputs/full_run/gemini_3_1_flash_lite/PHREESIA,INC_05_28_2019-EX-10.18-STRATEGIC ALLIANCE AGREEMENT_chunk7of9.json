@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 7,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3549,
+  "output_tokens_reported": 592,
+  "latency_seconds": 17.85,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"25.1 Termination for Convenience. [***].\\n\\n25.2 Termination for Cause. Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party materially breaches this Agreement and such breach (a) is incapable of cure or (b) being capable of cure, remains uncured [***] after the breaching Party receives written notice from the non-breaching Party thereof.\\n\\n25.3 Termination for Insolvency. Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party (a) becomes insolvent or admits inability to pay its debts generally as they become due; (b) becomes subject, voluntarily or involuntarily, to any proceeding under any domestic or foreign bankruptcy or insolvency Law, which is not fully stayed within [***] or is not dismissed or vacated within [***] after filing; (c) is dissolved or liquidated or takes any action for such purpose; (d) makes a general assignment for the benefit of creditors; or (e) has a receiver, trustee, custodian, or similar agent appointed by order of any court of competent jurisdiction to take charge of or sell any portion of its property or business (and such appointment is not discontinued within [***] thereafter).\\n\\n25.4 Termination for Force Majeure. Subject to Section 15.2, either Party may terminate this Agreement\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"THE TOTAL CUMULATIVE LIABILITY OF EITHER PARTY FOR ANY AND ALL CLAIMS AND DAMAGES UNDER THIS AGREEMENT, WHETHER ARISING BY STATUTE, CONTRACT, TORT OR OTHERWISE, WILL NOT EXCEED THE FEES PAID BY ALLSCRIPTS TO COMPANY HEREUNDER DURING THE [***] PRECEDING THE EVENT GIVING RISE TO THE CLAIM.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"this Agreement will automatically renew for additional successive [***] terms (each a \\\"Renewal Term\\\" and together with the Initial Term, the \\\"Term\\\")\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"unless and until either Party provides written notice of non-renewal to the other Party at least [***] prior to the end of the then-current Term.\"\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "25.1 Termination for Convenience. [***].\n\n25.2 Termination for Cause. Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party materially breaches this Agreement and such breach (a) is incapable of cure or (b) being capable of cure, remains uncured [***] after the breaching Party receives written notice from the non-breaching Party thereof.\n\n25.3 Termination for Insolvency. Either Party may terminate this Agreement, immediately upon written notice to the other Party, if the other Party (a) becomes insolvent or admits inability to pay its debts generally as they become due; (b) becomes subject, voluntarily or involuntarily, to any proceeding under any domestic or foreign bankruptcy or insolvency Law, which is not fully stayed within [***] or is not dismissed or vacated within [***] after filing; (c) is dissolved or liquidated or takes any action for such purpose; (d) makes a general assignment for the benefit of creditors; or (e) has a receiver, trustee, custodian, or similar agent appointed by order of any court of competent jurisdiction to take charge of or sell any portion of its property or business (and such appointment is not discontinued within [***] thereafter).\n\n25.4 Termination for Force Majeure. Subject to Section 15.2, either Party may terminate this Agreement"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "THE TOTAL CUMULATIVE LIABILITY OF EITHER PARTY FOR ANY AND ALL CLAIMS AND DAMAGES UNDER THIS AGREEMENT, WHETHER ARISING BY STATUTE, CONTRACT, TORT OR OTHERWISE, WILL NOT EXCEED THE FEES PAID BY ALLSCRIPTS TO COMPANY HEREUNDER DURING THE [***] PRECEDING THE EVENT GIVING RISE TO THE CLAIM."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "this Agreement will automatically renew for additional successive [***] terms (each a \"Renewal Term\" and together with the Initial Term, the \"Term\")"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless and until either Party provides written notice of non-renewal to the other Party at least [***] prior to the end of the then-current Term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:07:37.048539+00:00"
+}

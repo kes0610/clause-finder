@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "INTERSECTENT,INC_05_11_2020-EX-10.1-SUPPLY AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3463,
+  "output_tokens_reported": 336,
+  "latency_seconds": 4.48,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"If the Parties cannot mutually agree, following good faith negotiations, on an equitable adjustment to pricing, then either HOVIONE or INTERSECT may terminate this Agreement for business reasons on not less than ninety (90) days prior written notice, without any further obligation to the other party; provided, however, that INTERSECT shall remain liable for all sums owed to HOVIONE for orders of API that were placed prior to the date of termination.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"During the term of this Agreement and subject to the terms and conditions set forth herein, INTERSECT shall purchase [*] of its annual API requirement, from HOVIONE and HOVIONE shall manufacture and supply API to INTERSECT (or a third party designated by INTERSECT) in such quantities as from time to time may be ordered by INTERSECT.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If the Parties cannot mutually agree, following good faith negotiations, on an equitable adjustment to pricing, then either HOVIONE or INTERSECT may terminate this Agreement for business reasons on not less than ninety (90) days prior written notice, without any further obligation to the other party; provided, however, that INTERSECT shall remain liable for all sums owed to HOVIONE for orders of API that were placed prior to the date of termination."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the term of this Agreement and subject to the terms and conditions set forth herein, INTERSECT shall purchase [*] of its annual API requirement, from HOVIONE and HOVIONE shall manufacture and supply API to INTERSECT (or a third party designated by INTERSECT) in such quantities as from time to time may be ordered by INTERSECT."
+    }
+  },
+  "timestamp": "2026-11-10T19:34:50.767384+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 198,
+  "latency_seconds": 12.16,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"4. TERM. Unless sooner terminated under the provisions hereof, this Agreement shall commence on the Effective Date and continue for a period of one (1) year (\"Term\"). provided however, that the Parties may extend the Term for an additional year period by entering into a written addendum of the Agreement extending such term.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"14 (14) days after Theismann's receipt thereof.\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"null\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T18:12:14.051820+00:00"
+}

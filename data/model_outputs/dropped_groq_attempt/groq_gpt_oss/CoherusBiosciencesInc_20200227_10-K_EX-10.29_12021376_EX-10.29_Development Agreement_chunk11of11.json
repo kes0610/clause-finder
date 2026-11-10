@@ -1,0 +1,45 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+  "chunk_index": 11,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 2898,
+  "prompt_input_tokens_reported": 3426,
+  "output_tokens_reported": 994,
+  "latency_seconds": 25.79,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Termination of this Agreement for any reason whatsoever shall not relieve Licensee of its obligations to pay all amounts payable to Bioeq which have accrued prior to, but remain unpaid as of, the date of termination hereof, or which accrue thereafter.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"true\": false,\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"16.2 Applicable Law. This Agreement shall be governed by and construed in accordance with the laws of [***], without regard to the conflicts of law principles thereof, and [***].\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Termination of this Agreement for any reason whatsoever shall not relieve Licensee of its obligations to pay all amounts payable to Bioeq which have accrued prior to, but remain unpaid as of, the date of termination hereof, or which accrue thereafter."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "true": false,
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "16.2 Applicable Law. This Agreement shall be governed by and construed in accordance with the laws of [***], without regard to the conflicts of law principles thereof, and [***]."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:00:52.426704+00:00"
+}

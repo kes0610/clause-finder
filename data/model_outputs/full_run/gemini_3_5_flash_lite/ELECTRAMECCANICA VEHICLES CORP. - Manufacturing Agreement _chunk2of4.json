@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "ELECTRAMECCANICA VEHICLES CORP. - Manufacturing Agreement .txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3478,
+  "output_tokens_reported": 205,
+  "latency_seconds": 1.04,
+  "error": null,
+  "raw_response": "```json\n{\n  \"termination\": {\"present\": true, \"quote\": \"EMV may terminate this Agreement in the event the Manufacturer fails to achieve satisfactory assessments in two consecutive assessments conducted in accordance with section 4.3 and the Manufacturer has failed to take corrective action to substantially meet the\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall have a term of four (4) years from the effective date first set forth above, and shall automatically renew for additional one year terms unless earlier terminated by either party.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}\n```",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "EMV may terminate this Agreement in the event the Manufacturer fails to achieve satisfactory assessments in two consecutive assessments conducted in accordance with section 4.3 and the Manufacturer has failed to take corrective action to substantially meet the"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall have a term of four (4) years from the effective date first set forth above, and shall automatically renew for additional one year terms unless earlier terminated by either party."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:26:19.317381+00:00"
+}

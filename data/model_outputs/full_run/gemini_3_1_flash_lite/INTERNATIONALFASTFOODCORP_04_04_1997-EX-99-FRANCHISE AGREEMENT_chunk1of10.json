@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "INTERNATIONALFASTFOODCORP_04_04_1997-EX-99-FRANCHISE AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3434,
+  "output_tokens_reported": 170,
+  "latency_seconds": 3.21,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"17.2        Termination\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"18.    Restrictive Covenant\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"2.3   No Renewal Right: No Exclusivity\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"19.3  Governing Law/Jurisdiction\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"2.3   No Renewal Right: No Exclusivity\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "17.2        Termination"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "18.    Restrictive Covenant"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "2.3   No Renewal Right: No Exclusivity"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "19.3  Governing Law/Jurisdiction"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "2.3   No Renewal Right: No Exclusivity"
+    }
+  },
+  "timestamp": "2026-11-10T17:55:29.468949+00:00"
+}

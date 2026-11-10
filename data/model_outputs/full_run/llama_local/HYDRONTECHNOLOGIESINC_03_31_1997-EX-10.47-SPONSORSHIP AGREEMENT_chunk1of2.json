@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "HYDRONTECHNOLOGIESINC_03_31_1997-EX-10.47-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 250,
+  "latency_seconds": 15.19,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"However, this Agreement may be earlier terminated in accordance with the provisions hereof.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"the term of this Agreement shall commence on the date hereof and terminate upon the conclusion of the week following the conclusion of the Dolphins 2000 regular season or post season, if applicable (the \\\"Term\\\" or \\\"Initial Term.\\\"\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"such Sponsorship Rights granted by the Dolphins to Hydron are subject to \\u00bd 1.3. In the event of any such termination of exclusivity, the non-terminated Sponsorship Rights granted to Hydron by the Dolphins shall nonetheless continue for the remainder of the Term and the provisions of Section 8.2 shall apply.\"}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "However, this Agreement may be earlier terminated in accordance with the provisions hereof."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "the term of this Agreement shall commence on the date hereof and terminate upon the conclusion of the week following the conclusion of the Dolphins 2000 regular season or post season, if applicable (the \"Term\" or \"Initial Term.\""
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "such Sponsorship Rights granted by the Dolphins to Hydron are subject to \u00bd 1.3. In the event of any such termination of exclusivity, the non-terminated Sponsorship Rights granted to Hydron by the Dolphins shall nonetheless continue for the remainder of the Term and the provisions of Section 8.2 shall apply."
+    }
+  },
+  "timestamp": "2026-11-10T17:28:14.187339+00:00"
+}

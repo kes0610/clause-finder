@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3583,
+  "output_tokens_reported": 422,
+  "latency_seconds": 5.07,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement shall be effective           through and including March 31, 2004.  Upon the expiration           of such term, this Agreement will renew automatically for           successive terms of one (1) year each unless either party to           this Agreement delivers written notice of termination to the           other party to this Agreement at least sixty (60) days prior           to the end of the original or any renewal term.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Notwithstanding the foregoing, the foregoing limitation on liability           shall not be applicable in respect of any liability of Licensor to           Licensee resulting from any misrepresentation in, or breach of, the           terms of Section 6.2 hereof or in respect of Licensor's obligation to           repay Royalty Advances pursuant to Section 3.2 hereof.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Upon the expiration           of such term, this Agreement will renew automatically for           successive terms of one (1) year each\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless either party to           this Agreement delivers written notice of termination to the           other party to this Agreement at least sixty (60) days prior           to the end of the original or any renewal term.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Licensor and Licensee do hereby agree that this Amendment shall effect a change in the nature of the distributorship granted to Licensee pursuant to the Distributor Agreement from a non-exclusive to an exclusive distributorship (provided, however, that with respect to Licensor's Partitioned Database Facility product, Licensor also may license such product to International Business Machines Corporation for sublicensing and distribution).\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement shall be effective           through and including March 31, 2004.  Upon the expiration           of such term, this Agreement will renew automatically for           successive terms of one (1) year each unless either party to           this Agreement delivers written notice of termination to the           other party to this Agreement at least sixty (60) days prior           to the end of the original or any renewal term."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Notwithstanding the foregoing, the foregoing limitation on liability           shall not be applicable in respect of any liability of Licensor to           Licensee resulting from any misrepresentation in, or breach of, the           terms of Section 6.2 hereof or in respect of Licensor's obligation to           repay Royalty Advances pursuant to Section 3.2 hereof."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Upon the expiration           of such term, this Agreement will renew automatically for           successive terms of one (1) year each"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless either party to           this Agreement delivers written notice of termination to the           other party to this Agreement at least sixty (60) days prior           to the end of the original or any renewal term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Licensor and Licensee do hereby agree that this Amendment shall effect a change in the nature of the distributorship granted to Licensee pursuant to the Distributor Agreement from a non-exclusive to an exclusive distributorship (provided, however, that with respect to Licensor's Partitioned Database Facility product, Licensor also may license such product to International Business Machines Corporation for sublicensing and distribution)."
+    }
+  },
+  "timestamp": "2026-11-10T19:01:32.295218+00:00"
+}

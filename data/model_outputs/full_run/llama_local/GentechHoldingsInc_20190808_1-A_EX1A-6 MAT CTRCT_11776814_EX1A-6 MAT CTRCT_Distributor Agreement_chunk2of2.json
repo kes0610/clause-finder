@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2647,
+  "prompt_input_tokens_reported": 3154,
+  "output_tokens_reported": 250,
+  "latency_seconds": 13.46,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following:\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall become effective on the date first written above and shall continue in effect for a period of Three (3) years.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Distributor shall have the option to renew this Agreement for an additional Three (3) year period by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement is a contract under the laws of the State of Florida and for all purposes shall be governed by and construed in accordance with the substantive laws of the State of Florida, without regard to its principles of conflicts of laws provisions.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Agreement prior to its expiration upon the occurrence of either of the following:"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall become effective on the date first written above and shall continue in effect for a period of Three (3) years."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Distributor shall have the option to renew this Agreement for an additional Three (3) year period by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement is a contract under the laws of the State of Florida and for all purposes shall be governed by and construed in accordance with the substantive laws of the State of Florida, without regard to its principles of conflicts of laws provisions."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:10:54.589190+00:00"
+}

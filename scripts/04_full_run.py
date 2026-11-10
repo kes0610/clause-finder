@@ -34,9 +34,14 @@ SAMPLE_CSV = "data/processed/sample_contracts.csv"
 CONTRACT_DIR = Path("data/raw/full_contract_txt")
 OUT_DIR = Path("data/model_outputs/full_run")
 
-# Claude is deliberately excluded here — added separately once these 4 are
-# confirmed solid, since it's the one paid model.
-MODELS_TO_RUN = ["gemini_3_5_flash_lite", "gemini_3_1_flash_lite", "groq_gpt_oss", "llama_local"]
+# Claude is deliberately excluded here — added separately once these are
+# confirmed solid, since it's the one paid model. Groq's gpt-oss-120b was
+# dropped: its hidden "reasoning" tokens blew through Groq's 200K
+# tokens/day free cap so fast the full run would've taken ~a month. The
+# only other free, non-reasoning Groq model was Alibaba's Qwen, which the
+# author wasn't comfortable sending contract text to — a legitimate
+# vendor-trust call, not a technical one, and worth noting in the memo.
+MODELS_TO_RUN = ["gemini_3_5_flash_lite", "gemini_3_1_flash_lite", "llama_local"]
 
 _print_lock = threading.Lock()
 

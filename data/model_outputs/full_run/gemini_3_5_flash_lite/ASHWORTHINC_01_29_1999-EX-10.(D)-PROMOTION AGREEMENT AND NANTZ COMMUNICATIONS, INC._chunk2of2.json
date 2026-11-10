@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2151,
+  "prompt_input_tokens_reported": 2729,
+  "output_tokens_reported": 553,
+  "latency_seconds": 1.98,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement may be terminated by any party in the following circumstances:\\n\\n18.  Upon mutual consent of the Company, on the one hand, and Nantz      Communications and Nantz, on the other hand;\\n\\n19.  Nantz's Disability or death, in which event the Agreement shall terminate      on the May 1 following such Disability or death;\\n\\n20.  Repeated misconduct of Nantz which subjects Nantz to continued public      ridicule causing a substantial loss of Nantz's positive public image;\\n\\n21.  Nantz's conviction or plea of guilty or no contest to a felony involving      moral turpitude;\\n\\n22.  A finding of insolvency or bankruptcy against the other party (which, in      the case of a desired termination by the Company, shall mean Nantz      Communications or Nantz); and\\n\\n23.  Failure to comply with the terms and conditions of this Agreement after      being given notice thereof and, where applicable, a reasonable opportunity      to cure the failure (which shall be 10 days in the event of a failure to      timely make a payment pursuant hereto; 30 days otherwise).\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"25.  GOVERNING LAW.  This Agreement and its formation, operation and performance      shall be governed, construed, performed, and enforced in accordance with      the laws of the State of California.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"EXCLUSIVITY\\n\\nDuring the Term, neither Nantz Communications nor Nantz shall enter into\\n\\n\\n\\n\\nany activity, employment, independent contract, or other business arrangement which conflicts with Nantz Communications' or Nantz's obligations under this Agreement or perform any service which reasonably appears to be an endorsement of the sportswear apparel, hats and shoes of a third party without the Company's prior written approval.  Nantz Communications and Nantz expressly agree that the Endorsement will not be granted to anyone other than the Company for use during the Term in connection with the advertisement and promotion of sportswear apparel, hats and shoes.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement may be terminated by any party in the following circumstances:\n\n18.  Upon mutual consent of the Company, on the one hand, and Nantz      Communications and Nantz, on the other hand;\n\n19.  Nantz's Disability or death, in which event the Agreement shall terminate      on the May 1 following such Disability or death;\n\n20.  Repeated misconduct of Nantz which subjects Nantz to continued public      ridicule causing a substantial loss of Nantz's positive public image;\n\n21.  Nantz's conviction or plea of guilty or no contest to a felony involving      moral turpitude;\n\n22.  A finding of insolvency or bankruptcy against the other party (which, in      the case of a desired termination by the Company, shall mean Nantz      Communications or Nantz); and\n\n23.  Failure to comply with the terms and conditions of this Agreement after      being given notice thereof and, where applicable, a reasonable opportunity      to cure the failure (which shall be 10 days in the event of a failure to      timely make a payment pursuant hereto; 30 days otherwise)."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "25.  GOVERNING LAW.  This Agreement and its formation, operation and performance      shall be governed, construed, performed, and enforced in accordance with      the laws of the State of California."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "EXCLUSIVITY\n\nDuring the Term, neither Nantz Communications nor Nantz shall enter into\n\n\n\n\nany activity, employment, independent contract, or other business arrangement which conflicts with Nantz Communications' or Nantz's obligations under this Agreement or perform any service which reasonably appears to be an endorsement of the sportswear apparel, hats and shoes of a third party without the Company's prior written approval.  Nantz Communications and Nantz expressly agree that the Endorsement will not be granted to anyone other than the Company for use during the Term in connection with the advertisement and promotion of sportswear apparel, hats and shoes."
+    }
+  },
+  "timestamp": "2026-11-10T19:05:15.569083+00:00"
+}

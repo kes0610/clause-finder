@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 280,
+  "latency_seconds": 17.9,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Upon termination, each party will return to the other or destroy, and provide written certification of destruction of, all information furnished by such other party hereunder, prior to termination and follow necessary termination instructions detailed in the Trust Agreement.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Notwithstanding anything contained herein to the contrary, the cumulative liability of the parties to one another for any claims, liabilities, losses, damages or expenses, direct or indirect, arising out of or related to this Agreement shall not exceed the lesser of $50,000 or (not including other funding amounts such as the Point value of Cards) or the amount paid by Schoolpop to AEIS for the immediately preceding twelve (12) months\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall remain in force until terminated by either party by notice given in accordance with paragraph 8, below and in accordance with Section 14(h) of the Agreement.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"\"},\n  \"exclusivity\": {\"present\": false, \"quote\": \"\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Upon termination, each party will return to the other or destroy, and provide written certification of destruction of, all information furnished by such other party hereunder, prior to termination and follow necessary termination instructions detailed in the Trust Agreement."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Notwithstanding anything contained herein to the contrary, the cumulative liability of the parties to one another for any claims, liabilities, losses, damages or expenses, direct or indirect, arising out of or related to this Agreement shall not exceed the lesser of $50,000 or (not including other funding amounts such as the Point value of Cards) or the amount paid by Schoolpop to AEIS for the immediately preceding twelve (12) months"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": ""
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall remain in force until terminated by either party by notice given in accordance with paragraph 8, below and in accordance with Section 14(h) of the Agreement."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": ""
+    },
+    "governing_law": {
+      "present": false,
+      "quote": ""
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": ""
+    }
+  },
+  "timestamp": "2026-11-10T18:18:30.847135+00:00"
+}

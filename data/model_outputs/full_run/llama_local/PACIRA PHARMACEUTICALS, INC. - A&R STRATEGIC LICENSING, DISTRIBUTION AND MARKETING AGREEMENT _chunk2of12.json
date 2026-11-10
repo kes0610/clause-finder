@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 2,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 298,
+  "latency_seconds": 14.62,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Royalty Cap\\nShall have the meaning set forth in Section 6.4;\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Means: (i) with respect to periods between the Effective Date and the Agreement Date, that certain Supply Agreement entered into by the Parties on the Effective Date and (ii) with respect to periods on or after the Agreement Date, that certain Amended and Restated Supply Agreement entered into by the Parties on the Agreement Date (as may be amended from time to time);\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"During the Term, PPI and its Affiliates shall not: (i) file for Marketing Authorization with respect to any Competing Product in any country in the Territory, (ii) manufacture or have manufactured any Competing Product in any country in the Territory, (iii) market or have marketed any Competing Product in any country in the Territory or (iv) license any Third Party to do any of the foregoing;\"}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": "null"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Royalty Cap\nShall have the meaning set forth in Section 6.4;"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": "null"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Means: (i) with respect to periods between the Effective Date and the Agreement Date, that certain Supply Agreement entered into by the Parties on the Effective Date and (ii) with respect to periods on or after the Agreement Date, that certain Amended and Restated Supply Agreement entered into by the Parties on the Agreement Date (as may be amended from time to time);"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": "null"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": "null"
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term, PPI and its Affiliates shall not: (i) file for Marketing Authorization with respect to any Competing Product in any country in the Territory, (ii) manufacture or have manufactured any Competing Product in any country in the Territory, (iii) market or have marketed any Competing Product in any country in the Territory or (iv) license any Third Party to do any of the foregoing;"
+    }
+  },
+  "timestamp": "2026-11-10T17:54:43.514310+00:00"
+}

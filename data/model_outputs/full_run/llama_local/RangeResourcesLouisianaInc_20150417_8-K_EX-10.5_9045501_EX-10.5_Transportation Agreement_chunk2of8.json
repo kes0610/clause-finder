@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 8,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 175,
+  "latency_seconds": 11.92,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If any such increase (the \"Increase\") would result in a cumulative effect exceeding thirty percent (30%) of the initial Shipper's Dedicated Rates, then Carrier may, in its sole discretion, terminate this Agreement without penalty by delivering Shipper written notice of Carrier's intent to terminate.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:47:44.520593+00:00"
+}

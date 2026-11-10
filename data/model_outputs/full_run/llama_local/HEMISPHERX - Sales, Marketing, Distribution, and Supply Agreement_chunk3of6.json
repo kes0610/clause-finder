@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 314,
+  "latency_seconds": 17.96,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"G. HEMISPHERX hereby grants to SCIEN and SCIEN hereby accepts the right, privilege and exclusive license to use of \"Interferon alfa-n3 (human leukocyte derived)\" solely in connection with the terms of the Sales, Marketing, Distribution and Supply Agreement of Product in the Territory for the Term of this Agreement.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"B. This Agreement and the transactions contemplated herein shall be governed by, and construed in accordance with, the laws of the State of Delaware, USA and disputes, if not resolved by the Parties, will be settled by binding arbitration in and under the rules of arbitration in London, England.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"G. HEMISPHERX hereby grants to SCIEN and SCIEN hereby accepts the right, privilege and exclusive license to use of \"Interferon alfa-n3 (human leukocyte derived)\" solely in connection with the terms of the Sales, Marketing, Distribution and Supply Agreement of Product in the Territory for the Term of this Agreement.\"}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T19:22:37.291009+00:00"
+}

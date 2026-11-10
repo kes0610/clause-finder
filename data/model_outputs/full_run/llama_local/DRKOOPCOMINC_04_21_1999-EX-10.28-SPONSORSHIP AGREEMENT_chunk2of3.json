@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "DRKOOPCOMINC_04_21_1999-EX-10.28-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 373,
+  "latency_seconds": 16.4,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"8.1.1. The initial term (the \\&quot;Initial Term\\&quot;; and together with all extensions and renewals, the \\&quot;Term\\&quot;) will begin on the date set forth above * * * (the \\&quot;Launch Date\\&quot;) on which: (i) each of the Sponsor Areas of the drkoop.com Website are operational in accordance with the terms of this Agreement (other than the e-commerce tile placements); and (ii) the links to the Sponsor Website or Vitamin Buzz contained in the Sponsor logos or the Sponsor banner advertisements are established in accordance with the terms of this Agreement, subject to earlier termination as set forth in this Agreement. If the Launch Date has not occurred by August 31, 1999, Sponsor shall, in its sole discretion, be entitled to terminate this Agreement without any liability and receive a full refund of all amounts paid by Sponsor to drkoop.com pursuant to this Agreement prior to the date of such termination.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"8.1.1. The initial term (the \\\"Initial Term\\\"; and together with all extensions and renewals, the \\\"Term\\\") will begin on the date set forth above * * * (the \\\"Launch Date\\\") on which:\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T16:55:44.769667+00:00"
+}

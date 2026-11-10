@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3521,
+  "output_tokens_reported": 1327,
+  "latency_seconds": 40.17,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"WHEREAS, Licensee wishes to obtain an exclusive license from Bioeq for the commercialization of Ranibizumab biosimilar products being developed by Bioeq in the United States of America in consideration for upfront, milestone and royalty payments to Bioeq, and Bioeq is willing to grant such license subject to the terms and conditions of this Agreement.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "WHEREAS, Licensee wishes to obtain an exclusive license from Bioeq for the commercialization of Ranibizumab biosimilar products being developed by Bioeq in the United States of America in consideration for upfront, milestone and royalty payments to Bioeq, and Bioeq is willing to grant such license subject to the terms and conditions of this Agreement."
+    }
+  },
+  "timestamp": "2026-11-10T16:55:57.781263+00:00"
+}

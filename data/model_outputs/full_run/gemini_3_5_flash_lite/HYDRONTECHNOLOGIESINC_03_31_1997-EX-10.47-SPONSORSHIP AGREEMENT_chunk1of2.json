@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "HYDRONTECHNOLOGIESINC_03_31_1997-EX-10.47-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3443,
+  "output_tokens_reported": 291,
+  "latency_seconds": 1.04,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Hydron shall have the right to terminate this Agreement upon written notice to Dolphins at any time between November 1, 1997 and December 15, 1997, in which event this Agreement shall be terminated following the Dolphins last 1997 regular or post-season game, if any.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"For the Term of this Agreement, Hydron shall be designated as a sponsor of the Dolphins in the Sunscreen/Skin Care Category (as defined below) and a licensee of the Marks (as defined below) in the Sunscreen/Skin Category by the Dolphins.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Hydron shall have the right to terminate this Agreement upon written notice to Dolphins at any time between November 1, 1997 and December 15, 1997, in which event this Agreement shall be terminated following the Dolphins last 1997 regular or post-season game, if any."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "For the Term of this Agreement, Hydron shall be designated as a sponsor of the Dolphins in the Sunscreen/Skin Care Category (as defined below) and a licensee of the Marks (as defined below) in the Sunscreen/Skin Category by the Dolphins."
+    }
+  },
+  "timestamp": "2026-11-10T19:13:13.675230+00:00"
+}

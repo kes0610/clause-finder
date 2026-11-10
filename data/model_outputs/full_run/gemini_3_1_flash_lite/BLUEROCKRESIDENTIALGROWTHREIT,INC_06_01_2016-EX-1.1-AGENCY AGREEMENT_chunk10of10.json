@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "BLUEROCKRESIDENTIALGROWTHREIT,INC_06_01_2016-EX-1.1-AGENCY AGREEMENT.txt",
+  "chunk_index": 10,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 1161,
+  "prompt_input_tokens_reported": 1629,
+  "output_tokens_reported": 537,
+  "latency_seconds": 1.71,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Until the Settlement Date, this Agreement may be terminated by the Agent by giving notice (in the manner prescribed by Section 9 hereof) to the Company, if (i) the Company shall have failed, refused or been unable, at or prior to the Settlement Date, to perform any agreement on its part to be performed hereunder unless the failure to perform any agreement is due to the default or omission by the Agent; (ii) any other condition of the obligations of the Agent hereunder is not fulfilled; (iii) trading in securities generally on the NYSE, NYSE MKT, or Nasdaq shall have been suspended or minimum or maximum prices shall have been established on either of such exchanges or such market by the Commission or by such exchange or other regulatory body or governmental authority having jurisdiction; (iv) trading or quotation in any of the Company's securities shall have been suspended or materially limited by the Commission or by the NYSE MKT, NYSE or Nasdaq or other regulatory body of governmental authority having jurisdiction; (v) a general banking moratorium has been declared by Federal or New York authorities; (vi) a material disruption in securities settlement, payment or clearance services in the United States shall have occurred; (vii) there shall have been any material adverse change in general economic, political or financial conditions in the United States or in international conditions on the financial markets in the United States, in each case, the effect of which is such as to make it, in the Agent's reasonable judgment, inadvisable to proceed with the delivery of the Securities; or (viii) any attack on, outbreak or escalation of hostilities, declaration of war or act of terrorism involving the United States or any other national or international calamity or emergency has occurred if, in the Agent's reasonable judgment, the effect of any such attack, outbreak, escalation, declaration, act, calamity or emergency makes it impractical or inadvisable to proceed with the completion of the placement or the delivery of the Securities.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Until the Settlement Date, this Agreement may be terminated by the Agent by giving notice (in the manner prescribed by Section 9 hereof) to the Company, if (i) the Company shall have failed, refused or been unable, at or prior to the Settlement Date, to perform any agreement on its part to be performed hereunder unless the failure to perform any agreement is due to the default or omission by the Agent; (ii) any other condition of the obligations of the Agent hereunder is not fulfilled; (iii) trading in securities generally on the NYSE, NYSE MKT, or Nasdaq shall have been suspended or minimum or maximum prices shall have been established on either of such exchanges or such market by the Commission or by such exchange or other regulatory body or governmental authority having jurisdiction; (iv) trading or quotation in any of the Company's securities shall have been suspended or materially limited by the Commission or by the NYSE MKT, NYSE or Nasdaq or other regulatory body of governmental authority having jurisdiction; (v) a general banking moratorium has been declared by Federal or New York authorities; (vi) a material disruption in securities settlement, payment or clearance services in the United States shall have occurred; (vii) there shall have been any material adverse change in general economic, political or financial conditions in the United States or in international conditions on the financial markets in the United States, in each case, the effect of which is such as to make it, in the Agent's reasonable judgment, inadvisable to proceed with the delivery of the Securities; or (viii) any attack on, outbreak or escalation of hostilities, declaration of war or act of terrorism involving the United States or any other national or international calamity or emergency has occurred if, in the Agent's reasonable judgment, the effect of any such attack, outbreak, escalation, declaration, act, calamity or emergency makes it impractical or inadvisable to proceed with the completion of the placement or the delivery of the Securities."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:52:59.037962+00:00"
+}

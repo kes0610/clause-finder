@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 533,
+  "latency_seconds": 21.9,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"11.2  Termination(a)  Either Party may terminate this Agreement upon 30 days prior written notice to the other Party if 1) such other Party breaches any material term of this Agreement, unless such breach is cured within 30 days; or 2) if any of the terms of this Agreement that require mutual approval are not mutually agreed to;\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"9.  EXCLUSIVITY\\nDuring the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site, provided however, that nothing contained herein shall prevent MediaLinx from entering into an agreement with other parties for: i) a health based web directory; or ii) other health related content whose content does not compete with the content contained on the Co-Branded Site; which in no event shall receive no more than one fifth (1/5th) of the promotion and which shall constitute no more than one fifth (1/5th) of the total health related content which resides on the home page of the Sympatico Health section.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"9.  EXCLUSIVITY\\nDuring the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site, provided however, that nothing contained herein shall prevent MediaLinx from entering into an agreement with other parties for: i) a health based web directory; or ii) other health related content whose content does not compete with the content contained on the Co-Branded Site; which in no event shall receive no more than one fifth (1/5th) of the promotion and which shall constitute no more than one fifth (1/5th) of the total health related content which resides on the home page of the Sympatico Health section.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "11.2  Termination(a)  Either Party may terminate this Agreement upon 30 days prior written notice to the other Party if 1) such other Party breaches any material term of this Agreement, unless such breach is cured within 30 days; or 2) if any of the terms of this Agreement that require mutual approval are not mutually agreed to;"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "9.  EXCLUSIVITY\nDuring the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site, provided however, that nothing contained herein shall prevent MediaLinx from entering into an agreement with other parties for: i) a health based web directory; or ii) other health related content whose content does not compete with the content contained on the Co-Branded Site; which in no event shall receive no more than one fifth (1/5th) of the promotion and which shall constitute no more than one fifth (1/5th) of the total health related content which resides on the home page of the Sympatico Health section."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "9.  EXCLUSIVITY\nDuring the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site, provided however, that nothing contained herein shall prevent MediaLinx from entering into an agreement with other parties for: i) a health based web directory; or ii) other health related content whose content does not compete with the content contained on the Co-Branded Site; which in no event shall receive no more than one fifth (1/5th) of the promotion and which shall constitute no more than one fifth (1/5th) of the total health related content which resides on the home page of the Sympatico Health section."
+    }
+  },
+  "timestamp": "2026-11-10T17:50:53.156730+00:00"
+}

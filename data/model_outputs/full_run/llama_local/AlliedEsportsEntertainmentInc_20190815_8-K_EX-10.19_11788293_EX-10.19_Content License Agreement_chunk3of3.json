@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 1967,
+  "prompt_input_tokens_reported": 2474,
+  "output_tokens_reported": 224,
+  "latency_seconds": 12.41,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"this Agreement shall thereupon immediately terminate.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement will for all purposes be governed by and interpreted in accordance with the laws of the State of California without giving effect to any conflict of laws principles that require the application of the laws of a different state.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"BY ZYNGA: Zynga shall promote the WPT brand in the following activities: \u25cf Creation of a WPT-branded Zynga Poker Tournament Mode playable in the Zynga Poker game or other such use of the WPT brand on the Zynga platform as Zynga determines\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "this Agreement shall thereupon immediately terminate."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement will for all purposes be governed by and interpreted in accordance with the laws of the State of California without giving effect to any conflict of laws principles that require the application of the laws of a different state."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "BY ZYNGA: Zynga shall promote the WPT brand in the following activities: \u25cf Creation of a WPT-branded Zynga Poker Tournament Mode playable in the Zynga Poker game or other such use of the WPT brand on the Zynga platform as Zynga determines"
+    }
+  },
+  "timestamp": "2026-11-10T17:23:52.973125+00:00"
+}

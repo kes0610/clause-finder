@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 2122,
+  "prompt_input_tokens_reported": 2629,
+  "output_tokens_reported": 255,
+  "latency_seconds": 12.56,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"In the event Licensee winds up, dissolves or otherwise ceases doing business, Licensor shall be entitled to terminate this Agreement immediately upon written notice to Licensee.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"The parties agree that it is to their mutual benefit that their respective rights and obligations under this Agreement are guided by, and their disputes hereunder are determined in accordance with, a well developed body of law. Accordingly, the parties agree that the validity, interpretation and legal effect of this Agreement shall be governed by the internal laws of the State of New York, U.S.A., applicable to contracts entered in and performed entirely within the State of New York, U.S.A. without regard to any conflict of law principles.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In the event Licensee winds up, dissolves or otherwise ceases doing business, Licensor shall be entitled to terminate this Agreement immediately upon written notice to Licensee."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "The parties agree that it is to their mutual benefit that their respective rights and obligations under this Agreement are guided by, and their disputes hereunder are determined in accordance with, a well developed body of law. Accordingly, the parties agree that the validity, interpretation and legal effect of this Agreement shall be governed by the internal laws of the State of New York, U.S.A., applicable to contracts entered in and performed entirely within the State of New York, U.S.A. without regard to any conflict of law principles."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:41:14.739003+00:00"
+}

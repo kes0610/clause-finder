@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2575,
+  "prompt_input_tokens_reported": 3082,
+  "output_tokens_reported": 194,
+  "latency_seconds": 12.06,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"10. TERMINATION.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"In this regarding, within thirty (30) days from the  execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella,  naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d. e.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "10. TERMINATION."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "In this regarding, within thirty (30) days from the  execution of this Agreement, Bizzingo will secure an insurance policy with limits of $5,000,000 per event and $ 5,000,000 umbrella,  naming Theismann as an additional insured, covering the losses and claims stated in this sub-paragraph d. e."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:12:26.123842+00:00"
+}

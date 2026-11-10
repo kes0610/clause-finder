@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 448,
+  "latency_seconds": 18.44,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"d.       Either party may terminate this Agreement with written notice                   to the other party as follows:\\n            i.       Should either party (1) admit in writing its                            inability to pay its debts generally as they become                            due; (2) make a general assignment for the benefit of                            creditors; (3) institute proceedings to be                            adjudicated a voluntary bankrupt; (4) consent to the                            filing of a petition or bankruptcy against it; (5) be                            adjudicated by a court of competent jurisdiction as                            being bankrupt or insolvent; (6) seek reorganization                            under any bankruptcy act; (7) consent to the filing                            of a petition seeking such reorganization; or (8)                            have a decree entered against it by a court of                            competent jurisdiction appointing a receiver,                            liquidator, trustee, or assignee in bankruptcy or in                            insolvency covering all or substantially all of such                            party's property or providing for the liquidation of                            such party's property or business affairs; then, in                            any such event, the other party, at its option and                            without prior notice, may terminate this Agreement                            effective immediately; or\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "d.       Either party may terminate this Agreement with written notice                   to the other party as follows:\n            i.       Should either party (1) admit in writing its                            inability to pay its debts generally as they become                            due; (2) make a general assignment for the benefit of                            creditors; (3) institute proceedings to be                            adjudicated a voluntary bankrupt; (4) consent to the                            filing of a petition or bankruptcy against it; (5) be                            adjudicated by a court of competent jurisdiction as                            being bankrupt or insolvent; (6) seek reorganization                            under any bankruptcy act; (7) consent to the filing                            of a petition seeking such reorganization; or (8)                            have a decree entered against it by a court of                            competent jurisdiction appointing a receiver,                            liquidator, trustee, or assignee in bankruptcy or in                            insolvency covering all or substantially all of such                            party's property or providing for the liquidation of                            such party's property or business affairs; then, in                            any such event, the other party, at its option and                            without prior notice, may terminate this Agreement                            effective immediately; or"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:17:19.314462+00:00"
+}

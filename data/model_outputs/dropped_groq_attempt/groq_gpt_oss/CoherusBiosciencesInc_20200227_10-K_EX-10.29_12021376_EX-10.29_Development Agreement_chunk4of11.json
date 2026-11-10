@@ -1,0 +1,44 @@
+{
+  "model": "groq_gpt_oss",
+  "contract_file": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3502,
+  "output_tokens_reported": 1721,
+  "latency_seconds": 30.0,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"Licensee shall have the sole right and obligation to conduct the Commercialization of the Licensed Products in the Field in the Territory, including the sole right to conduct the following activities: (a) developing and executing a commercial launch and pre-launch plan; (b) set-up of distribution network in the Territory, negotiation of wholesaler contracts and negotiations with buyer groups (including group purchasing organizations) and key accounts; (c) negotiating with public and private health insurance companies and governmental authorities regarding the price and reimbursement status of the Licensed Products and obtaining and maintaining pricing and reimbursement approvals; (d) marketing, medical affairs, and promotion (including by entertaining a dedicated and sufficiently qualified sales staff, providing for appropriate incentive mechanisms for such sales staff, attending relevant conferences, interacting with key opinion leaders, etc.); (e) set-up of hub services including pre-authorization and reimbursement support and co-pay assist programs; (f) booking of sales and performance of related services; (g) handling all aspects of order processing, invoicing and collection, inventory and receivables; (h) providing customer support, including handling medical queries, and performing other related functions; and (i) dealing with any Remedial Actions in relation to the Licensed Products in the Field in the Territory.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Licensee shall have the sole right and obligation to conduct the Commercialization of the Licensed Products in the Field in the Territory, including the sole right to conduct the following activities: (a) developing and executing a commercial launch and pre-launch plan; (b) set-up of distribution network in the Territory, negotiation of wholesaler contracts and negotiations with buyer groups (including group purchasing organizations) and key accounts; (c) negotiating with public and private health insurance companies and governmental authorities regarding the price and reimbursement status of the Licensed Products and obtaining and maintaining pricing and reimbursement approvals; (d) marketing, medical affairs, and promotion (including by entertaining a dedicated and sufficiently qualified sales staff, providing for appropriate incentive mechanisms for such sales staff, attending relevant conferences, interacting with key opinion leaders, etc.); (e) set-up of hub services including pre-authorization and reimbursement support and co-pay assist programs; (f) booking of sales and performance of related services; (g) handling all aspects of order processing, invoicing and collection, inventory and receivables; (h) providing customer support, including handling medical queries, and performing other related functions; and (i) dealing with any Remedial Actions in relation to the Licensed Products in the Field in the Territory."
+    }
+  },
+  "timestamp": "2026-11-10T16:57:19.336757+00:00"
+}

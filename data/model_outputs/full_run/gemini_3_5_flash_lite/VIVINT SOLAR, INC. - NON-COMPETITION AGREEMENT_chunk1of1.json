@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "VIVINT SOLAR, INC. - NON-COMPETITION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 794,
+  "prompt_input_tokens_reported": 1289,
+  "output_tokens_reported": 192,
+  "latency_seconds": 1.29,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"Section 2 of the Non-Competition Agreement shall be deleted in its entirety and the other provisions of the Non-Competition Agreement that relate to such Section 2, including, without limitation, Sections 5 and 6, shall be amended hereby to delete the applicable references, and provisions solely applicable to, Section 2, mutatis mutandis.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Section 2 of the Non-Competition Agreement shall be deleted in its entirety and the other provisions of the Non-Competition Agreement that relate to such Section 2, including, without limitation, Sections 5 and 6, shall be amended hereby to delete the applicable references, and provisions solely applicable to, Section 2, mutatis mutandis."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:22:11.363514+00:00"
+}

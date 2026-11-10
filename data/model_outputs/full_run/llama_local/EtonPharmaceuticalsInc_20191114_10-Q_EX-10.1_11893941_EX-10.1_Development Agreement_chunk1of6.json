@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 347,
+  "latency_seconds": 15.71,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Exclusive LICENSE AND PRODUCT DEVELOPMENT AGREEMENT (this \"Agreement\") is entered into as of June 12, 2019 (the \"Execution Date\") by and between Eton Pharmaceuticals, Inc., a Delaware corporation with offices at 21925 W. Field Pkwy, Suite 235, Deer Park, Illinois, USA (\"ETON\"), and Aucta Pharmaceuticals, Inc., a Delaware corporation with offices at 71 Suttons Lane, Piscataway, NJ 08854 (\"Aucta\") . EXCLUSIVE LICENSE AND PRODUCT DEVELOPMENT AGREEMENT THIS EXCLUSIVE LICENSE AND PRODUCT DEVELOPMENT AGREEMENT (this \"Agreement\") is entered into as of June 12, 2019 (the \"Execution Date\") by and between Eton Pharmaceuticals, Inc., a Delaware corporation with offices at 21925 W. Field Pkwy, Suite 235, Deer Park, Illinois, USA (\"ETON\"), and Aucta Pharmaceuticals, Inc., a Delaware corporation with offices at 71 Suttons Lane, Piscataway, NJ 08854 (\"Aucta\") .\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:51:28.418204+00:00"
+}

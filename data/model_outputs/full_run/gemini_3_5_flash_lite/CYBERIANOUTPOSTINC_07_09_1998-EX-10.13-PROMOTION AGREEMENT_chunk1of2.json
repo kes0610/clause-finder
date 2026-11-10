@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3531,
+  "output_tokens_reported": 394,
+  "latency_seconds": 2.08,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"provided that (a) either party may terminate this Agreement,      effective at any time after the first three\\n\\n       months of the Term, by giving 30 days' written notice of termination to the      other party, and (b) either party may terminate this Agreement at any time      by giving written notice of termination to the other party, if the other      party commits a material breach of its obligations hereunder that is not      cured within 30 days after notice thereof from the non-breaching party.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"During the Term, CNET will not enter into more than      two other agreements under which CNET receives consideration from a      Competing Computer Products Retailer for displaying permanent links to or      other fixed promotions for such Competing Computer Products Retailer on any      CNET Site; provided that the foregoing will not restrict the display of(a)      standard advertisements for any Competing Computer Products Retailer or its      products or (b) any promotions within COMPUTERS.COM or within CNET's Snap!\\n      Online service (which are expressly excluded from this provision).\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "provided that (a) either party may terminate this Agreement,      effective at any time after the first three\n\n       months of the Term, by giving 30 days' written notice of termination to the      other party, and (b) either party may terminate this Agreement at any time      by giving written notice of termination to the other party, if the other      party commits a material breach of its obligations hereunder that is not      cured within 30 days after notice thereof from the non-breaching party."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term, CNET will not enter into more than      two other agreements under which CNET receives consideration from a      Competing Computer Products Retailer for displaying permanent links to or      other fixed promotions for such Competing Computer Products Retailer on any      CNET Site; provided that the foregoing will not restrict the display of(a)      standard advertisements for any Competing Computer Products Retailer or its      products or (b) any promotions within COMPUTERS.COM or within CNET's Snap!\n      Online service (which are expressly excluded from this provision)."
+    }
+  },
+  "timestamp": "2026-11-10T19:29:14.952347+00:00"
+}

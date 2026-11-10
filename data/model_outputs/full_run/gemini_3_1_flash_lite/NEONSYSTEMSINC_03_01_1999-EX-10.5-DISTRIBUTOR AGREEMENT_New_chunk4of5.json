@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_New.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3588,
+  "output_tokens_reported": 422,
+  "latency_seconds": 1.69,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Either party to this Agreement may terminate this Agreement: (1) Immediately upon written notice if the other party to this Agreement becomes insolvent, is the subject of a petition in bankruptcy that is not resolved within thirty (30) days, admits in writing its inability to pay its debts, makes an assignment for the benefit of creditors, ceases doing business or attempts an unauthorized assignment of this Agreement; or (2) Immediately upon written notice if the other party to this Agreement performance of any obligation under this Agreement, including failure to promptly pay any amount due hereunder, and fails to cure such default within thirty (30) days after delivery of written notice specifying the default\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"Licensor's total liability to Licensee under any provision of this Agreement shall be limited to the amount actually paid by Licensee to Licensor for the Licensed Product giving rise to the liability.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"provided, however, that this Agreement will renew automatically for successive terms of one (1) year each\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"unless a party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term\"\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either party to this Agreement may terminate this Agreement: (1) Immediately upon written notice if the other party to this Agreement becomes insolvent, is the subject of a petition in bankruptcy that is not resolved within thirty (30) days, admits in writing its inability to pay its debts, makes an assignment for the benefit of creditors, ceases doing business or attempts an unauthorized assignment of this Agreement; or (2) Immediately upon written notice if the other party to this Agreement performance of any obligation under this Agreement, including failure to promptly pay any amount due hereunder, and fails to cure such default within thirty (30) days after delivery of written notice specifying the default"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Licensor's total liability to Licensee under any provision of this Agreement shall be limited to the amount actually paid by Licensee to Licensor for the Licensed Product giving rise to the liability."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "provided, however, that this Agreement will renew automatically for successive terms of one (1) year each"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless a party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T17:20:31.954717+00:00"
+}

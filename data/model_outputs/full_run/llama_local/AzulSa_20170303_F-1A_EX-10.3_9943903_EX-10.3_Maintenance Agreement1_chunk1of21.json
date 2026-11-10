@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.txt",
+  "chunk_index": 1,
+  "chunk_total": 21,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 221,
+  "latency_seconds": 12.38,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"5) WHEREAS, in consideration of the local repair service in Brazil and the Aircraft fleet now solely operated by AZUL, the Parties wish to terminate the GMA TRIP and the GMA AZUL, and to enter into negotiation for a new GMLA between ATR and AZUL, on the terms and conditions set forth herein.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"[*****] of the price for a brand new identical LRU and/or Main Element\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"3. DURATION AND RENEWAL\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"24. GOVERNING LAW AND ARBITRATION\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "5) WHEREAS, in consideration of the local repair service in Brazil and the Aircraft fleet now solely operated by AZUL, the Parties wish to terminate the GMA TRIP and the GMA AZUL, and to enter into negotiation for a new GMLA between ATR and AZUL, on the terms and conditions set forth herein."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "[*****] of the price for a brand new identical LRU and/or Main Element"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "3. DURATION AND RENEWAL"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "24. GOVERNING LAW AND ARBITRATION"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:02:07.112920+00:00"
+}

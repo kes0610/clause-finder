@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "EMERALDHEALTHTHERAPEUTICSINC_06_10_2020-EX-4.5-CONSULTING AGREEMENT - DR. GAETANO MORELLO N.D. INC..txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 448,
+  "latency_seconds": 22.65,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"3.3 Deductions and Remittances. Emerald shall not be obliged to deduct or retain from the Fees due to the Contractor, nor shall it be obliged to remit same to the required governmental authority, any amounts that may be required by law or regulation to be deducted, retained and remitted including, without limitation, Federal and Provincial or State Income Tax, Workers' Compensation and Pension Plan deductions and remittances.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"5.1 Term. The term of this Agreement shall commence on January 10th, 2019 and shall expire on the day that is twenty-four (24) months from that date (the \\\"Term of Engagement\\\") unless terminated earlier in accordance with this Agreement.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"8.4 Governing Law and Attornment. This Agreement will be governed by and construed inaccordance with the laws of British Columbia and the federal laws of Canada applicable in British Columbia, and the parties irrevocably submit to and accept generally and unconditionally the exclusive jurisdiction of the courts and appellate courts of British Columbia in that regard.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"4.2 While the Contractor is seconded to Portfolio Company, the Contractor may be paid his or her Fee in whole or in part by such Portfolio Company, at the discretion of Emerald.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "3.3 Deductions and Remittances. Emerald shall not be obliged to deduct or retain from the Fees due to the Contractor, nor shall it be obliged to remit same to the required governmental authority, any amounts that may be required by law or regulation to be deducted, retained and remitted including, without limitation, Federal and Provincial or State Income Tax, Workers' Compensation and Pension Plan deductions and remittances."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "5.1 Term. The term of this Agreement shall commence on January 10th, 2019 and shall expire on the day that is twenty-four (24) months from that date (the \"Term of Engagement\") unless terminated earlier in accordance with this Agreement."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "5.2 Contractor's Right to Terminate Agreement for any Reason. The Contractor may terminate this Agreement and his or her engagement for any reason at any time upon providing 30 days advance notice in writing to Emerald."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "8.4 Governing Law and Attornment. This Agreement will be governed by and construed inaccordance with the laws of British Columbia and the federal laws of Canada applicable in British Columbia, and the parties irrevocably submit to and accept generally and unconditionally the exclusive jurisdiction of the courts and appellate courts of British Columbia in that regard."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "4.2 While the Contractor is seconded to Portfolio Company, the Contractor may be paid his or her Fee in whole or in part by such Portfolio Company, at the discretion of Emerald."
+    }
+  },
+  "timestamp": "2026-11-10T17:20:41.678804+00:00"
+}

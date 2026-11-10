@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3506,
+  "output_tokens_reported": 396,
+  "latency_seconds": 20.17,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": \"null\"},\n  \"liability_cap\": {\"present\": false, \"quote\": \"null\"},\n  \"non_compete\": {\"present\": false, \"quote\": \"null\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The term of this Agreement (the \"Term\") shall commence on the date hereof (the \"Effective Date\") and shall expire upon delivery of [**] to ebix, but in no way shall this Agreement extend any later than thirty (30) months from the Effective Date regardless of the number Filled Application Forms delivered to ebix.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": \"null\"},\n  \"governing_law\": {\"present\": false, \"quote\": \"null\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"3.1   Pursuant to the terms and conditions of this Agreement, About shall, create and maintain Links within the About Network to the Insurance Center and to the ebix Site, which Links shall be accessible to About Users by means of (i) a Link on the About Site Home Page, substantially as depicted in EXHIBIT C, (ii) a Link on the Auto Channel Home Page, Family/Parenting Channel Home Page, Health Channel Home Page, Money Channel Home Page, and Real Estate Channel Home Page, substantially as depicted in EXHIBIT D; (iii) within fifty percent (50%) of the Partnership Box on each of the following About Guide Site Home Pages and all the subsequent Guide Sites Sub-Pages until the termination of this agreement as detailed in section 2.1: Personal Insurance, Senior Health, Retirement Planning, Consumer Information/Advocacy, Auto Repair, Vintage Cars, Motorcycles, 4 Wheel Drive/SUVs, Trucks, Cars, Power Boating,\"}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T19:09:29.147819+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "llama_local",
+  "contract_file": "PANDIONTHERAPEUTICSHOLDCOLLC_05_22_2020-EX-10.17-CONSULTING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 269,
+  "latency_seconds": 14.79,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Company may terminate the Consultation Period at any time for Cause (as defined below). In the event of such termination, the Consultant shall be entitled to payment hereunder and for expenses paid or incurred prior to the effective date of termination.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"During the Consultation Period and for a period of one year thereafter, the Consultant shall not, either alone or in association with others, (i) solicit, or permit any organization directly or indirectly controlled by the Consultant to solicit, any employee of the Company to leave the employ of the Company;\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"this Agreement shall automatically renew for successive one-year periods, unless the Company provides 90 days' notice of termination before any such successive period.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"the Company provides 90 days' notice of termination before any such successive period.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Company may terminate the Consultation Period at any time for Cause (as defined below). In the event of such termination, the Consultant shall be entitled to payment hereunder and for expenses paid or incurred prior to the effective date of termination."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the Consultation Period and for a period of one year thereafter, the Consultant shall not, either alone or in association with others, (i) solicit, or permit any organization directly or indirectly controlled by the Consultant to solicit, any employee of the Company to leave the employ of the Company;"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "this Agreement shall automatically renew for successive one-year periods, unless the Company provides 90 days' notice of termination before any such successive period."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "the Company provides 90 days' notice of termination before any such successive period."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:03:40.164872+00:00"
+}

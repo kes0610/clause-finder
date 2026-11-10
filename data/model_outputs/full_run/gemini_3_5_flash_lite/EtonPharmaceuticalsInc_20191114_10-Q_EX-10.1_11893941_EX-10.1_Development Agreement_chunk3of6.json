@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3500,
+  "output_tokens_reported": 512,
+  "latency_seconds": 6.46,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Agreement may be terminated by either Party by written notice to the other at any time if the other Party (the \\\"Breaching Party\\\") is in material breach or default of any of its obligations hereunder or any of its representations or warranties as follows: (i) the terminating Party shall send a written notice of the material breach or material default to the Breaching Party and (ii) the termination shall become effective a) thirty (30) days after sending notice of the breach if the breach is non-payment of amounts due hereunder, such as milestone, minimum royalty or royalties amounts and b) sixty (60) days after sending notice of the breach for all other breaches unless the Breaching Party has cured any such material breach or material default prior to the expiration of the thirty (30) or sixty (60) day period as the case may be; or if for non- payment breaches such material default or material breach is not capable of being cured within such sixty (60) day period and the Breaching Party has commenced activities reasonably expected to cure such material breach or material default within such sixty (60) day period and thereafter uses diligent efforts to complete the cure as soon as practicable, but in no event shall such period exceed ninety (90) days. 11.3 Termination for Bankruptcy. Either Party may immediately terminate the Agreement in whole or in part if the other Party: (a) makes an assignment for the benefit of creditors, admits in writing its inability to pay debts as they mature, or ceases operating in the normal course of business; (b) has a receiver or trustee appointed by a court over the Party or any substantial part of the Party's assets; (c) becomes insolvent or is unable to pay its debts as they become due; (d) authorizes, applies for or consents to the appointment of a trustee or liquidator of all or a substantial part of its assets or\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Agreement may be terminated by either Party by written notice to the other at any time if the other Party (the \"Breaching Party\") is in material breach or default of any of its obligations hereunder or any of its representations or warranties as follows: (i) the terminating Party shall send a written notice of the material breach or material default to the Breaching Party and (ii) the termination shall become effective a) thirty (30) days after sending notice of the breach if the breach is non-payment of amounts due hereunder, such as milestone, minimum royalty or royalties amounts and b) sixty (60) days after sending notice of the breach for all other breaches unless the Breaching Party has cured any such material breach or material default prior to the expiration of the thirty (30) or sixty (60) day period as the case may be; or if for non- payment breaches such material default or material breach is not capable of being cured within such sixty (60) day period and the Breaching Party has commenced activities reasonably expected to cure such material breach or material default within such sixty (60) day period and thereafter uses diligent efforts to complete the cure as soon as practicable, but in no event shall such period exceed ninety (90) days. 11.3 Termination for Bankruptcy. Either Party may immediately terminate the Agreement in whole or in part if the other Party: (a) makes an assignment for the benefit of creditors, admits in writing its inability to pay debts as they mature, or ceases operating in the normal course of business; (b) has a receiver or trustee appointed by a court over the Party or any substantial part of the Party's assets; (c) becomes insolvent or is unable to pay its debts as they become due; (d) authorizes, applies for or consents to the appointment of a trustee or liquidator of all or a substantial part of its assets or"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:21:50.412920+00:00"
+}

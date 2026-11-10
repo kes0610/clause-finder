@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "HertzGroupRealtyTrustInc_20190920_S-11A_EX-10.8_11816941_EX-10.8_Trademark License Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3527,
+  "output_tokens_reported": 287,
+  "latency_seconds": 3.17,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"3.1 Either Party may terminate this Agreement by giving the other Party thirty (30) days' prior written notice.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"4.2.2 IN NO EVENT SHALL LICENSOR OR ANY OF ITS DIRECTORS, OFFICERS, EMPLOYEES, LICENSORS, SUPPLIERS OR OTHER REPRESENTATIVES BE LIABLE FOR ANY INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF GOODWILL, COMPUTER FAILURE OR MALFUNCTION OR OTHERWISE, ARISING FROM OR RELATING TO THIS AGREEMENT OR THE LICENSED MARK, EVEN IF LICENSOR IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"The provisions of this Agreement shall be governed by and construed in accordance with the laws of the State of California (excluding any conflict of law rule or principle that would refer to the laws of another jurisdiction).\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "3.1 Either Party may terminate this Agreement by giving the other Party thirty (30) days' prior written notice."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "4.2.2 IN NO EVENT SHALL LICENSOR OR ANY OF ITS DIRECTORS, OFFICERS, EMPLOYEES, LICENSORS, SUPPLIERS OR OTHER REPRESENTATIVES BE LIABLE FOR ANY INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF GOODWILL, COMPUTER FAILURE OR MALFUNCTION OR OTHERWISE, ARISING FROM OR RELATING TO THIS AGREEMENT OR THE LICENSED MARK, EVEN IF LICENSOR IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "The provisions of this Agreement shall be governed by and construed in accordance with the laws of the State of California (excluding any conflict of law rule or principle that would refer to the laws of another jurisdiction)."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T18:03:37.271114+00:00"
+}

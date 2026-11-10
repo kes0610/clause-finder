@@ -1,0 +1,15 @@
+{
+  "model": "llama_local",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 8,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3507,
+  "output_tokens_reported": 232,
+  "latency_seconds": 14.0,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"16.1 Prior Termination by Either Party.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"15.1 This Agreement shall commence on the Effective Date and, subject to earlier termination in accordance with the provisions of Section 16, shall continue in force for a period being the longer of fifteen (15) years from first Commercial Launch of the Product in the Territory or until the expiration of the last valid claim in the PPI Patents covering the Product in any country of the Territory (the \"\"Initial Term\"\"). Thereafter the term of this Agreement shall automatically renew for consecutive periods of two (2) years each.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": false,
+  "parsed_json": null,
+  "timestamp": "2026-11-10T17:55:54.331506+00:00"
+}

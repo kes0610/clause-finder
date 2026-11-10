@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3595,
+  "output_tokens_reported": 236,
+  "latency_seconds": 0.97,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either Party may terminate this Agreement if the other Party materially breaches this Agreement and fails to remedy such breach within thirty (30) days' written notice thereof; provided, however, that if the material breach of this Agreement by the breaching Party is limited to the Licensed Copyrights, Licensed Know-How, the Arizona Licensed Patents, or the Licensed Trademarks, the non-breaching Party shall be entitled to termination solely with respect to the affected part of the license\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by the laws of the State of Delaware, its rules of conflict of laws notwithstanding.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Agreement if the other Party materially breaches this Agreement and fails to remedy such breach within thirty (30) days' written notice thereof; provided, however, that if the material breach of this Agreement by the breaching Party is limited to the Licensed Copyrights, Licensed Know-How, the Arizona Licensed Patents, or the Licensed Trademarks, the non-breaching Party shall be entitled to termination solely with respect to the affected part of the license"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by the laws of the State of Delaware, its rules of conflict of laws notwithstanding."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-10T19:10:10.677866+00:00"
+}

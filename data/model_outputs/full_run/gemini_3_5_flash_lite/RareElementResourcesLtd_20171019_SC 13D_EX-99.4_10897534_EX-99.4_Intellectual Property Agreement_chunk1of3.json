@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3530,
+  "output_tokens_reported": 224,
+  "latency_seconds": 18.26,
+  "error": null,
+  "raw_response": "```json\n{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"If the Option is exercised before the expiration of the Option Period, the license grants set forth in Articles 3.00 and 3.01 will become exclusive to Investor for a perpetual term, shall not be subject to a licensing fee, the granted licenses in favor of the Investor shall be deemed fully paid-up, and the rights granted to Investor under Articles 3.00 and 3.01 shall include the right to grant sublicenses to Third Parties.\"}\n}\n```",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "If the Option is exercised before the expiration of the Option Period, the license grants set forth in Articles 3.00 and 3.01 will become exclusive to Investor for a perpetual term, shall not be subject to a licensing fee, the granted licenses in favor of the Investor shall be deemed fully paid-up, and the rights granted to Investor under Articles 3.00 and 3.01 shall include the right to grant sublicenses to Third Parties."
+    }
+  },
+  "timestamp": "2026-11-10T19:09:12.463251+00:00"
+}
