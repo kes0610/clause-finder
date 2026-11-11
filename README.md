@@ -9,9 +9,10 @@ use, and which clause types still need a human reviewer.
 **This is not legal advice.** This project does not provide legal advice,
 and nothing here should be used to make real legal decisions.
 
-Status: Stage 4 (full evaluation) in progress. See [RESULTS.md](RESULTS.md)
-for real numbers as they're produced — nothing in this README or that file
-is invented or filled in ahead of an actual run.
+**Status: complete.** All 4 models scored on all 130 contracts, with a final
+recommendation. See [RESULTS.md](RESULTS.md) for every real number behind this
+project, [MEMO.md](MEMO.md) for the recommendation memo, and
+[DECK_OUTLINE.md](DECK_OUTLINE.md) for a slide-by-slide outline.
 
 ## Setup
 

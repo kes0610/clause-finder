@@ -263,6 +263,9 @@ AI-draftable without constant human review — i.e. the cheaper the model, the m
 the contract still needs a human, which is the real cost/accuracy tradeoff a company
 is making, not just the API price.
 
-## Stage 7 — Recommendation (not started)
+## Stage 7 — Recommendation (complete)
 
-## Stage 7 — Recommendation (not started)
+Memo: `MEMO.md`. Slide deck outline: `DECK_OUTLINE.md`. Both pull only from the actual
+numbers in this file — recommendation is Claude Sonnet 5.5 as the primary model, with
+Termination and Liability Cap requiring mandatory human review regardless of model
+choice (see Stage 6 above for the full reasoning).
