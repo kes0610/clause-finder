@@ -229,6 +229,40 @@ true/false positive/negative counts): `data/model_outputs/stage5_scoring.json`.
 - Governing Law is solved by every model (99-100% precision, 80-100% recall) —
   it's a highly standardized, easy-to-spot clause type in commercial contracts.
 
-## Stage 6 — Human-review line (not started)
+## Stage 6 — Human-review line (complete)
+
+**Decision rule** (based on Stage 5's numbers for Claude Sonnet 5.5, the strongest
+model overall — a company accepting lower accuracy for a free model should move the
+line further toward "always review," see note below):
+
+- **Trust the AI alone** — precision and recall both ≥95%
+- **AI drafts, human spot-checks a sample** — precision and recall both ≥75%, but not
+  both ≥95%
+- **Always needs human review** — precision or recall below 75% for either reason
+  (over-flagging too many false positives, or under-flagging too many real clauses)
+
+**Applied to Claude Sonnet 5.5's results:**
+
+| Clause type | Precision | Recall | Line |
+|---|---|---|---|
+| Governing Law | 99% | 99% | Trust AI alone |
+| Renewal Term | 98% | 87% | AI drafts, human spot-checks |
+| Renewal Notice | 88% | 91% | AI drafts, human spot-checks |
+| Non-Compete | 77% | 79% | AI drafts, human spot-checks |
+| Exclusivity | 84% | 84% | AI drafts, human spot-checks |
+| Termination | 72% | 93% | **Always review** — precision below 75%, over-flags for-cause terminations as "for convenience" |
+| Liability Cap | 97% | 46% | **Always review** — recall below 75%, misses roughly half the real caps |
+
+**If a company uses a free model instead of Claude** (to avoid the ~$7-11/130-contract
+cost), the line moves significantly. Using Gemini 3.5 Flash-Lite (the strongest free
+model) as the reference: Non-Compete (74%/69%) and Exclusivity (67%/88%) would also
+drop into "always review." Using Llama 3.2 instead: Non-Compete, Renewal Term, and
+Renewal Notice all fall below the 75% line on one or both metrics, meaning only
+Governing Law and Liability Cap's precision (not its recall) would be left as
+AI-draftable without constant human review — i.e. the cheaper the model, the more of
+the contract still needs a human, which is the real cost/accuracy tradeoff a company
+is making, not just the API price.
+
+## Stage 7 — Recommendation (not started)
 
 ## Stage 7 — Recommendation (not started)
