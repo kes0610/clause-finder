@@ -122,3 +122,12 @@ pieces so something important doesn't get cut exactly in half.
 text to itself before writing its final visible answer, which usually makes
 it slower and more expensive (since that hidden thinking still counts as
 tokens used) but sometimes more accurate on hard questions.
+
+**Bootstrap / bootstrap resampling** — a way to estimate a confidence
+interval when you only have one sample (like our 130 contracts) and can't
+just go collect a thousand more. You randomly re-pick 130 contracts *from
+that same 130* allowing repeats, recompute the score, and do that
+thousands of times — the spread of all those recomputed scores becomes the
+confidence interval. Example: resampling our 130 contracts 10,000 times and
+recomputing precision each time tells us how much that precision number
+could plausibly shift on a different batch of 130 real contracts.
