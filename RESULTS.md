@@ -147,7 +147,87 @@ rate-limit message that looked like a long daily block but actually cleared in ~
 minutes — the retry logic now reads the server's own suggested wait time instead of
 guessing.
 
-## Stage 5 — Scoring (not started)
+## Stage 5 — Scoring (complete)
+
+Real precision, recall, and F1 for all 4 models across all 7 clause types, computed
+over all 130 contracts — plus a 95% confidence interval for precision and recall,
+built by bootstrap resampling (resample the 130 contracts with replacement 10,000
+times, recompute the score each time, take the middle 95% of those 10,000 results).
+This answers a question the Stage 4 "preliminary" numbers couldn't: how much would
+these scores wobble on a different sample of 130 real contracts? A narrow interval
+(e.g. Governing Law, ~97-100%) means the number is solid; a wide one (e.g. Llama's
+Non-Compete, 32-76% precision) means there isn't enough data yet to trust the point
+estimate on its own. Script: `scripts/05_scoring.py`. Full numbers (including raw
+true/false positive/negative counts): `data/model_outputs/stage5_scoring.json`.
+
+**Gemini 3.5 Flash-Lite**
+
+| Clause type | Precision | 95% CI | Recall | 95% CI | F1 |
+|---|---|---|---|---|---|
+| Termination | 42% | 33-51% | 100% | 100-100% | 59% |
+| Liability Cap | 96% | 90-100% | 71% | 60-81% | 82% |
+| Non-Compete | 74% | 57-90% | 69% | 52-85% | 71% |
+| Renewal Term | 92% | 85-98% | 94% | 87-100% | 93% |
+| Renewal Notice | 78% | 64-91% | 91% | 79-100% | 84% |
+| Governing Law | 99% | 97-100% | 100% | 100-100% | 100% |
+| Exclusivity | 67% | 54-79% | 88% | 78-97% | 76% |
+
+**Gemini 3.1 Flash-Lite**
+
+| Clause type | Precision | 95% CI | Recall | 95% CI | F1 |
+|---|---|---|---|---|---|
+| Termination | 47% | 37-58% | 98% | 92-100% | 64% |
+| Liability Cap | 89% | 80-98% | 61% | 49-72% | 72% |
+| Non-Compete | 70% | 53-85% | 79% | 63-93% | 74% |
+| Renewal Term | 96% | 90-100% | 90% | 82-98% | 93% |
+| Renewal Notice | 86% | 74-97% | 97% | 89-100% | 91% |
+| Governing Law | 99% | 97-100% | 100% | 100-100% | 100% |
+| Exclusivity | 70% | 58-82% | 93% | 85-100% | 80% |
+
+**Llama 3.2 (local)**
+
+| Clause type | Precision | 95% CI | Recall | 95% CI | F1 |
+|---|---|---|---|---|---|
+| Termination | 43% | 32-54% | 82% | 70-93% | 56% |
+| Liability Cap | 83% | 70-94% | 49% | 38-61% | 62% |
+| Non-Compete | 55% | 32-76% | 38% | 21-56% | 45% |
+| Renewal Term | 60% | 46-73% | 63% | 50-76% | 62% |
+| Renewal Notice | 57% | 38-75% | 50% | 32-68% | 53% |
+| Governing Law | 99% | 97-100% | 80% | 73-88% | 89% |
+| Exclusivity | 61% | 48-74% | 77% | 63-89% | 68% |
+
+**Claude Sonnet 5.5 (paid)**
+
+| Clause type | Precision | 95% CI | Recall | 95% CI | F1 |
+|---|---|---|---|---|---|
+| Termination | 72% | 60-83% | 93% | 85-100% | 81% |
+| Liability Cap | 97% | 90-100% | 46% | 35-58% | 63% |
+| Non-Compete | 77% | 61-91% | 79% | 63-93% | 78% |
+| Renewal Term | 98% | 93-100% | 87% | 76-95% | 92% |
+| Renewal Notice | 88% | 76-97% | 91% | 79-100% | 89% |
+| Governing Law | 99% | 97-100% | 99% | 97-100% | 99% |
+| Exclusivity | 84% | 72-94% | 84% | 72-94% | 84% |
+
+**Failure patterns, confirmed across the full 130-contract dataset:**
+
+- **Termination: every model over-flags it**, precision stuck at 42-47% for the 3
+  free models (recall near-perfect, 82-100%) — they treat almost any mention of
+  ending the contract as "termination for convenience," including ordinary
+  for-cause termination clauses. Claude does noticeably better here (72% precision)
+  but still over-flags relative to its other clause types.
+- **Liability Cap: every single model has weak recall** (46-71%) despite strong
+  precision (83-97%) — all 4 models are conservative here, missing roughly a
+  third to half of the real liability caps rather than risking a false flag. This
+  is the clearest cross-model pattern in the whole dataset and likely reflects
+  how liability caps are phrased in these contracts (often buried in dense
+  indemnification language) rather than any one model's weakness.
+- **Llama is meaningfully weaker than both Gemini models and Claude** on
+  Non-Compete, Renewal Term, and Renewal Notice specifically — its confidence
+  intervals are also the widest of the 4 models on these (e.g. Non-Compete
+  precision 32-76%), meaning there's real uncertainty in its score, not just a
+  lower point estimate.
+- Governing Law is solved by every model (99-100% precision, 80-100% recall) —
+  it's a highly standardized, easy-to-spot clause type in commercial contracts.
 
 ## Stage 6 — Human-review line (not started)
 
