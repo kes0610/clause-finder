@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.txt",
+  "chunk_index": 5,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5548,
+  "output_tokens_reported": 786,
+  "latency_seconds": 6.05,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Agreement may be terminated by both Parties with a notification period of *** before the end of the Initial Term of the Agreement.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"If no termination notice is provided, the Agreement will be automatically extended for consecutive *** periods until such time as *** termination notice is provided.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"The Agreement may be terminated by both Parties with a notification period of *** before the end of the Initial Term of the Agreement.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Agreement may be terminated by both Parties with a notification period of *** before the end of the Initial Term of the Agreement."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "If no termination notice is provided, the Agreement will be automatically extended for consecutive *** periods until such time as *** termination notice is provided."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "The Agreement may be terminated by both Parties with a notification period of *** before the end of the Initial Term of the Agreement."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T23:01:32.247021+00:00"
+}

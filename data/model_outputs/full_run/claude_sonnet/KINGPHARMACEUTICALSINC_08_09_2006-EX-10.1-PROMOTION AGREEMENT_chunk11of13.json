@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+  "chunk_index": 11,
+  "chunk_total": 13,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5599,
+  "output_tokens_reported": 1201,
+  "latency_seconds": 7.05,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"Person controlled by a party, will be entitled to commercially launch in the Territory (either directly or indirectly through a marketing partner) a product containing metformin as an active pharmaceutical ingredient\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Depomed agrees to grant and hereby grants to King an exclusive option (exercisable at King's sole discretion by providing written notice of intent at any time, but in no event later than 180 days after the Effective Date) to obtain an exclusive license in the Territory to certain of Depomed's proprietary drug delivery technology in combination with both metformin hydrochloride and any other active pharmaceutical ingredients\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Person controlled by a party, will be entitled to commercially launch in the Territory (either directly or indirectly through a marketing partner) a product containing metformin as an active pharmaceutical ingredient"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Depomed agrees to grant and hereby grants to King an exclusive option (exercisable at King's sole discretion by providing written notice of intent at any time, but in no event later than 180 days after the Effective Date) to obtain an exclusive license in the Territory to certain of Depomed's proprietary drug delivery technology in combination with both metformin hydrochloride and any other active pharmaceutical ingredients"
+    }
+  },
+  "timestamp": "2026-11-11T22:56:34.027481+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "RandWorldwideInc_20010402_8-KA_EX-10.2_2102464_EX-10.2_Co-Branding Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5701,
+  "output_tokens_reported": 1164,
+  "latency_seconds": 6.55,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"EXCEPT FOR LIABILITY ARISING FROM SECTION 9.3  [Intellectual Property Infringement], IN NO EVENT SHALL EITHER PARTY BE LIABLE UNDER THIS AGREEMENT FOR AN AMOUNT GREATER THAN THE AMOUNT THAT SUCH PARTY HAS EARNED PURSUANT TO THE REVENUE SHARING PROVISIONS OF SECTION 5.4  [Share of Net Revenue] IN THE TWELVE MONTH PERIOD PRECEDING THE CLAIM.\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"During the Term of this Agreement, and for a period of one year thereafter, except as expressly provided in this Agreement, PlanetCAD shall not market any services to Customers without the prior written approval of Dassault Systemes.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The Agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"The Agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by, and construed in accordance with, the Laws of the State of New York, applicable to contracts executed in and to be performed entirely within that\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "EXCEPT FOR LIABILITY ARISING FROM SECTION 9.3  [Intellectual Property Infringement], IN NO EVENT SHALL EITHER PARTY BE LIABLE UNDER THIS AGREEMENT FOR AN AMOUNT GREATER THAN THE AMOUNT THAT SUCH PARTY HAS EARNED PURSUANT TO THE REVENUE SHARING PROVISIONS OF SECTION 5.4  [Share of Net Revenue] IN THE TWELVE MONTH PERIOD PRECEDING THE CLAIM."
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the Term of this Agreement, and for a period of one year thereafter, except as expressly provided in this Agreement, PlanetCAD shall not market any services to Customers without the prior written approval of Dassault Systemes."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The Agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "The Agreement shall automatically renew for successive one year additional terms unless terminated by either party at least six months prior to the expiration of the then-current term."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by, and construed in accordance with, the Laws of the State of New York, applicable to contracts executed in and to be performed entirely within that"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:43:32.689662+00:00"
+}

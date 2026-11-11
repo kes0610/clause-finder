@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "TELKOMSALTD_01_30_2003-EX-10-LICENCE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5343,
+  "output_tokens_reported": 336,
+  "latency_seconds": 1.96,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"SAP AFRICA'S liability for any loss or damages of whatever nature or however   arising, that may be suffered by TELKOM or AFFILIATE from USE or license of the   SOFTWARE and irrespective of the number of occurrences giving rise to such   liability, shall be limited to the aggregate of all License Fees paid by TELKOM to   SAP AFRICA in terms of this AGREEMENT, up until the date when such damages   are determined or agreed.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This AGREEMENT shall be governed by and construed under the   Laws of the Republic of South Africa.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "SAP AFRICA'S liability for any loss or damages of whatever nature or however   arising, that may be suffered by TELKOM or AFFILIATE from USE or license of the   SOFTWARE and irrespective of the number of occurrences giving rise to such   liability, shall be limited to the aggregate of all License Fees paid by TELKOM to   SAP AFRICA in terms of this AGREEMENT, up until the date when such damages   are determined or agreed."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This AGREEMENT shall be governed by and construed under the   Laws of the Republic of South Africa."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:53:59.425680+00:00"
+}

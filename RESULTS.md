@@ -95,15 +95,15 @@ Two Google free-tier daily limits are still unconfirmed (Gemini doesn't publish 
 pilot didn't hit either one, but Stage 4's full run needs to handle hitting one gracefully
 (save progress, pause, resume) rather than assume 527 requests/day is guaranteed available.
 
-## Stage 4 — Full evaluation (complete for the 3 free models)
+## Stage 4 — Full evaluation (complete — all 4 models)
 
-**Models actually run: 3 free + Claude still pending a decision.** Dropped Groq's
-gpt-oss-120b partway through — its hidden "reasoning" tokens burned through Groq's
-200,000 tokens/day free cap so fast that finishing all 130 contracts would have taken
-roughly a month at that rate. The only other free, non-reasoning model Groq hosts is
-Alibaba's Qwen, which was excluded on vendor-trust grounds — a business/data-governance
-call, not a technical one, and itself a fair thing to note in the final memo (vendor
-trust is a real factor companies weigh, not just accuracy/cost).
+**4 models run in total.** Dropped Groq's gpt-oss-120b partway through — its hidden
+"reasoning" tokens burned through Groq's 200,000 tokens/day free cap so fast that
+finishing all 130 contracts would have taken roughly a month at that rate. The only
+other free, non-reasoning model Groq hosts is Alibaba's Qwen, which was excluded on
+vendor-trust grounds — a business/data-governance call, not a technical one, and itself
+a fair thing to note in the final memo (vendor trust is a real factor companies weigh,
+not just accuracy/cost).
 
 **Final results:**
 
@@ -112,10 +112,31 @@ trust is a real factor companies weigh, not just accuracy/cost).
 | Llama 3.2 (local) | 527/527 (100%) | Complete |
 | Gemini 3.5 Flash-Lite | 527/527 (100%) | Complete — took 2 resumed runs across 2 days to clear its daily free limit (confirmed: **500 requests/day**, undocumented) |
 | Gemini 3.1 Flash-Lite | 527/527 (100%) | Complete — same, cleared over 2 days |
+| Claude Sonnet 5.5 (paid) | 527/527 (100%) | Complete — one single run, 20.5 minutes, no daily quota limits to work around (paid tier) |
 | ~~gpt-oss-120b (Groq)~~ | 44/527 (8%) | Dropped — see above. Partial output kept in `data/model_outputs/dropped_groq_attempt/` for the record, excluded from scoring |
 
-All 130 contracts now have a complete, error-free result from all 3 free models.
-Next: decide on running Claude Sonnet 5.5 (~$7-11), then Stage 5's real scoring.
+All 130 contracts now have a complete, error-free result from all 4 models actually
+scored. Next: Stage 5's rigorous scoring (confidence intervals, not just the point
+estimates below).
+
+**Preliminary precision/recall, Claude Sonnet 5.5 (all 130 contracts, unweighted point
+estimates — not the final Stage 5 numbers):**
+
+| Clause type | Precision | Recall |
+|---|---|---|
+| Termination | 72% | 93% |
+| Liability Cap | 97% | 46% |
+| Non-Compete | 77% | 79% |
+| Renewal Term | 98% | 87% |
+| Renewal Notice | 88% | 91% |
+| Governing Law | 99% | 99% |
+| Exclusivity | 84% | 84% |
+
+Clearly stronger than the 3 free models across the board, with one notable exception:
+Liability Cap recall is low (46%) despite near-perfect precision (97%) — Claude is
+conservative here, only flagging a clause as a liability cap when very confident, and
+missing over half of the real ones as a result. Worth digging into in Stage 5 (is this a
+prompt-wording issue, or a genuine model weakness on this clause type specifically).
 
 Note: ad-hoc test/debug calls to the same API key count against the same daily
 limit as the real run — worth remembering before poking at a model mid-run.

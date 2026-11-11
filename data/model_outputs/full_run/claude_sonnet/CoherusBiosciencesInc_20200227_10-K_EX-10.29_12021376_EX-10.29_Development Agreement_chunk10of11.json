@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+  "chunk_index": 10,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5410,
+  "output_tokens_reported": 684,
+  "latency_seconds": 4.2,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":false,\"quote\":null},\"liability_cap\":{\"present\":false,\"quote\":null},\"non_compete\":{\"present\":false,\"quote\":null},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":true,\"quote\":\"Licensee shall grant, and hereby grants to Bioeq an exclusive, royalty-free, fully paid, sublicenseable, license to use the Licensee-Controlled Trademarks which were actually used by Licensee to Commercialize the Licensed Products in the Territory in connection with Bioeq's Commercialization of the Licensed Products in the Territory.\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Licensee shall grant, and hereby grants to Bioeq an exclusive, royalty-free, fully paid, sublicenseable, license to use the Licensee-Controlled Trademarks which were actually used by Licensee to Commercialize the Licensed Products in the Territory in connection with Bioeq's Commercialization of the Licensed Products in the Territory."
+    }
+  },
+  "timestamp": "2026-11-11T22:43:12.212143+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt",
+  "chunk_index": 6,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 1134,
+  "prompt_input_tokens_reported": 2485,
+  "output_tokens_reported": 194,
+  "latency_seconds": 1.86,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its principles of conflicts of law.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its principles of conflicts of law."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:55:24.355236+00:00"
+}

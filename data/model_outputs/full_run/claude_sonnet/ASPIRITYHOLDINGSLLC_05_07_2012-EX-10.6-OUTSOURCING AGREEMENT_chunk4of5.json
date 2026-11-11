@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "ASPIRITYHOLDINGSLLC_05_07_2012-EX-10.6-OUTSOURCING AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5435,
+  "output_tokens_reported": 312,
+  "latency_seconds": 1.94,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Company or the Contractor may terminate this Agreement at any time in whole or in part as more  specifically provided below, and in such case, the Contractor will be paid fees incurred up to the date of such termination plus its expenses  accrued as of such date within 30 days of such termination. The Company will have the ability to terminate this Agreement by giving 60 days' prior  written notice to the Contractor. The Contractor will have the ability to terminate this Agreement by giving 90 days' prior written notice to the  Company.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Company or the Contractor may terminate this Agreement at any time in whole or in part as more  specifically provided below, and in such case, the Contractor will be paid fees incurred up to the date of such termination plus its expenses  accrued as of such date within 30 days of such termination. The Company will have the ability to terminate this Agreement by giving 60 days' prior  written notice to the Contractor. The Contractor will have the ability to terminate this Agreement by giving 90 days' prior written notice to the  Company."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:51:30.450602+00:00"
+}

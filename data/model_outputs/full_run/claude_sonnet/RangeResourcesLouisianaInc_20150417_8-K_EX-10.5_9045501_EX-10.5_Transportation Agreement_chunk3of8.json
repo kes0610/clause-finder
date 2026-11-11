@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "RangeResourcesLouisianaInc_20150417_8-K_EX-10.5_9045501_EX-10.5_Transportation Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 8,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5898,
+  "output_tokens_reported": 274,
+  "latency_seconds": 2.43,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If as a result of an event of Carrier Force Majeure, Carrier provides no Services to Shipper for a period of at least twelve (12) consecutive Months, either Party shall be entitled to terminate this Agreement by written notice to the other Party given at any time after the expiration of such twelve (12) Month period, but prior to the cessation of the applicable event of Carrier Force Majeure.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If as a result of an event of Carrier Force Majeure, Carrier provides no Services to Shipper for a period of at least twelve (12) consecutive Months, either Party shall be entitled to terminate this Agreement by written notice to the other Party given at any time after the expiration of such twelve (12) Month period, but prior to the cessation of the applicable event of Carrier Force Majeure."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:50:29.455149+00:00"
+}

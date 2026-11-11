@@ -147,7 +147,7 @@ with summary_tab:
 
     st.subheader("Models")
     st.markdown(
-        "5 considered, 3 free models fully in the run, Claude pending a cost decision, "
+        "5 considered, 4 fully in the run (3 free + Claude Sonnet 5.5, paid), "
         "Groq dropped (its free model's hidden reasoning tokens made it impractically slow, "
         "and the only non-reasoning free alternative was excluded on vendor-trust grounds)."
     )

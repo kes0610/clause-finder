@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5352,
+  "output_tokens_reported": 233,
+  "latency_seconds": 2.13,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This JV Agreement shall become effective on the signing date and shall have a duration of * years, extendable for a further * years, unless notice of non- renewal is sent one year before the natural expiry date.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless notice of non- renewal is sent one year before the natural expiry date\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This JV Agreement shall become effective on the signing date and shall have a duration of * years, extendable for a further * years, unless notice of non- renewal is sent one year before the natural expiry date."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless notice of non- renewal is sent one year before the natural expiry date"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:46:27.569445+00:00"
+}

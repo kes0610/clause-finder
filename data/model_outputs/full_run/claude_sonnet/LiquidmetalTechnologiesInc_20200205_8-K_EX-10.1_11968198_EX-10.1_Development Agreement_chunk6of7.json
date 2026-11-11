@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "LiquidmetalTechnologiesInc_20200205_8-K_EX-10.1_11968198_EX-10.1_Development Agreement.txt",
+  "chunk_index": 6,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5745,
+  "output_tokens_reported": 320,
+  "latency_seconds": 2.54,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement, the legal relations between the parties, and any action, whether contractual or non-contractual, instituted by any party with respect to matters arising under or growing out of or in connection with or in respect of this Agreement shall be governed by and construed in accordance with the internal laws of the State of Arizona (U.S.A.), excluding any choice of law rules that may direct the application of the laws of another jurisdiction, and except that questions affecting the construction and effect of any Patent shall be determined by the law of the country in which the Patent has been granted.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement, the legal relations between the parties, and any action, whether contractual or non-contractual, instituted by any party with respect to matters arising under or growing out of or in connection with or in respect of this Agreement shall be governed by and construed in accordance with the internal laws of the State of Arizona (U.S.A.), excluding any choice of law rules that may direct the application of the laws of another jurisdiction, and except that questions affecting the construction and effect of any Patent shall be determined by the law of the country in which the Patent has been granted."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:53:03.387709+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "NeuroboPharmaceuticalsInc_20190903_S-4_EX-10.36_11802165_EX-10.36_Manufacturing Agreement_ Supply Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 1601,
+  "prompt_input_tokens_reported": 3086,
+  "output_tokens_reported": 232,
+  "latency_seconds": 1.59,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "The laws of the State of New York (without giving effect to its conflicts of law principles) govern all matters arising out of or relating to this Agreement and all of the transactions it contemplates, including without limitation, its validity, interpretation, construction, performance, and enforcement."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:53:50.238061+00:00"
+}

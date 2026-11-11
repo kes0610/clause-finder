@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5220,
+  "output_tokens_reported": 227,
+  "latency_seconds": 2.11,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"During the Term, ebix shall be the exclusive integrated online insurance provider in the Channels and Guide Sites listed in Section 3.1  [DEVELOPMENT, OPERATION AND ADMINISTRATIO...] above.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term, ebix shall be the exclusive integrated online insurance provider in the Channels and Guide Sites listed in Section 3.1  [DEVELOPMENT, OPERATION AND ADMINISTRATIO...] above."
+    }
+  },
+  "timestamp": "2026-11-11T22:58:32.056640+00:00"
+}

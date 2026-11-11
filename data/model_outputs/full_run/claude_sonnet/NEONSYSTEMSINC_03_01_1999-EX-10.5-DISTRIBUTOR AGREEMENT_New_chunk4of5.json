@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_New.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5798,
+  "output_tokens_reported": 1035,
+  "latency_seconds": 6.62,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Licensor's total liability to Licensee under any provision of this Agreement shall be limited to the amount actually paid by Licensee to Licensor for the Licensed Product giving rise to the liability.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"this Agreement will renew automatically for successive terms of one (1) year each unless a party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless a party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Licensor's total liability to Licensee under any provision of this Agreement shall be limited to the amount actually paid by Licensee to Licensor for the Licensed Product giving rise to the liability."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "this Agreement will renew automatically for successive terms of one (1) year each unless a party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless a party to this Agreement delivers written notice of termination to the other party to this Agreement at least sixty (60) days prior to the end of the original or any renewal term"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:44:27.111172+00:00"
+}

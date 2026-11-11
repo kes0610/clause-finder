@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "USASYNTHETICFUELCORP_10_21_2010-EX-10.10-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5356,
+  "output_tokens_reported": 289,
+  "latency_seconds": 1.72,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall be for an initial term of five (5) years, and unless earlier terminated in accordance with this Agreement, shall automatically renew for an additional term of five (5) years thereafter.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Each Party agrees that it will not circumvent or attempt to circumvent the other by contacting or participating with any third party with respect to, or otherwise attempting to consummate, the transactions contemplated by this Agreement, except in participation with each other.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall be for an initial term of five (5) years, and unless earlier terminated in accordance with this Agreement, shall automatically renew for an additional term of five (5) years thereafter."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Each Party agrees that it will not circumvent or attempt to circumvent the other by contacting or participating with any third party with respect to, or otherwise attempting to consummate, the transactions contemplated by this Agreement, except in participation with each other."
+    }
+  },
+  "timestamp": "2026-11-11T22:46:17.745624+00:00"
+}

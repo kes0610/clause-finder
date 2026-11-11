@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT.txt",
+  "chunk_index": 5,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5679,
+  "output_tokens_reported": 340,
+  "latency_seconds": 2.58,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement shall remain in force until terminated by either party          by notice given in accordance with paragraph 8, below and in accordance with Section 14(h) of the Agreement.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"the cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement shall remain in force until terminated by either party          by notice given in accordance with paragraph 8, below and in accordance with Section 14(h) of the Agreement."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "the cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:55:46.901966+00:00"
+}

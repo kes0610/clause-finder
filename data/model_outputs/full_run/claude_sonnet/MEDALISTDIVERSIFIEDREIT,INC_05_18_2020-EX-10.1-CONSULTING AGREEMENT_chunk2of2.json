@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "MEDALISTDIVERSIFIEDREIT,INC_05_18_2020-EX-10.1-CONSULTING AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2099,
+  "prompt_input_tokens_reported": 4067,
+  "output_tokens_reported": 277,
+  "latency_seconds": 1.94,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Term: twelve (12) months from the date of the Agreement which term shall automatically renew for an additional twelve (12) months on such date if the Agreement is not otherwise terminated according to Section 8 of the Agreement.\"},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be interpreted, construed, governed, and enforced according to the laws of the Commonwealth of Virginia, without giving effect to its conflict of laws principles.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Term: twelve (12) months from the date of the Agreement which term shall automatically renew for an additional twelve (12) months on such date if the Agreement is not otherwise terminated according to Section 8 of the Agreement."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be interpreted, construed, governed, and enforced according to the laws of the Commonwealth of Virginia, without giving effect to its conflict of laws principles."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:43:20.914632+00:00"
+}

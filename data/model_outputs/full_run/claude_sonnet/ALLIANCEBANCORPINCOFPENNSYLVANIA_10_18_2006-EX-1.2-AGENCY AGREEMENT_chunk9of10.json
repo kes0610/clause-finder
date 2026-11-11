@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "ALLIANCEBANCORPINCOFPENNSYLVANIA_10_18_2006-EX-1.2-AGENCY AGREEMENT.txt",
+  "chunk_index": 9,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5425,
+  "output_tokens_reported": 370,
+  "latency_seconds": 2.72,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":true,\"quote\":\"The Agent may terminate this Agreement, by notice to the Company, at any time at or prior to Closing Time (i) if there has been, since the date of this Agreement or since the respective dates as of which information is given in the Registration Statement, any material adverse change in the financial condition, results of operations, business affairs or prospects of the Company, the MHCs or the Bank, considered as one enterprise, whether or not arising in the ordinary course of business,\"},\"liability_cap\":{\"present\":true,\"quote\":\"Notwithstanding anything to the contrary set forth herein, to the extent permitted by applicable law, in no event shall the Agent be required to contribute an aggregate amount in excess of the aggregate marketing fees to which the Agent is entitled and actually paid pursuant to this Agreement.\"},\"non_compete\":{\"present\":false,\"quote\":null},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":false,\"quote\":null}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Agent may terminate this Agreement, by notice to the Company, at any time at or prior to Closing Time (i) if there has been, since the date of this Agreement or since the respective dates as of which information is given in the Registration Statement, any material adverse change in the financial condition, results of operations, business affairs or prospects of the Company, the MHCs or the Bank, considered as one enterprise, whether or not arising in the ordinary course of business,"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Notwithstanding anything to the contrary set forth herein, to the extent permitted by applicable law, in no event shall the Agent be required to contribute an aggregate amount in excess of the aggregate marketing fees to which the Agent is entitled and actually paid pursuant to this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:52:36.431898+00:00"
+}

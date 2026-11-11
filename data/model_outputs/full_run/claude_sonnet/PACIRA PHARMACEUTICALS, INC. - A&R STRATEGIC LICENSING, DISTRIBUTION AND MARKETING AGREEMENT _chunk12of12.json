@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 12,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 1254,
+  "prompt_input_tokens_reported": 2554,
+  "output_tokens_reported": 220,
+  "latency_seconds": 2.14,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Note shall be governed by and construed in accordance with the laws of the State of New York, excluding any  conflict-of-laws rule or principle that may refer the governance, construction or interpretation of this Note to the laws of another State.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Note shall be governed by and construed in accordance with the laws of the State of New York, excluding any  conflict-of-laws rule or principle that may refer the governance, construction or interpretation of this Note to the laws of another State."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:52:18.618055+00:00"
+}

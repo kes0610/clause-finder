@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "CytodynInc_20200109_10-Q_EX-10.5_11941634_EX-10.5_License Agreement.txt",
+  "chunk_index": 12,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 2661,
+  "prompt_input_tokens_reported": 5154,
+  "output_tokens_reported": 234,
+  "latency_seconds": 1.61,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement and all disputes arising out of or related to this Agreement or any breach hereof shall be governed by and construed in accordance with the laws of the State of New York, without giving effect to any choice of law principles that would result in the application of the laws of any other jurisdiction.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement and all disputes arising out of or related to this Agreement or any breach hereof shall be governed by and construed in accordance with the laws of the State of New York, without giving effect to any choice of law principles that would result in the application of the laws of any other jurisdiction."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:50:20.947080+00:00"
+}

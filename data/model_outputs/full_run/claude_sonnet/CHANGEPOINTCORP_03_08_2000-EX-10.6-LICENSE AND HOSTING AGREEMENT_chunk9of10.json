@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "CHANGEPOINTCORP_03_08_2000-EX-10.6-LICENSE AND HOSTING AGREEMENT.txt",
+  "chunk_index": 9,
+  "chunk_total": 10,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5546,
+  "output_tokens_reported": 1177,
+  "latency_seconds": 7.56,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Following the expiry of the Warranty Period, Changepoint shall provide Customer with Maintenance Services during successive annual maintenance terms (each such term is referred to here as a \\\"Maintenance Term\\\") provided that Customer pays to Changepoint the Maintenance Fees for each Maintenance Term as and when due hereunder.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Customer or Changepoint may terminate Maintenance Services at the end of a Maintenance Term by providing the other with no less than thirty (30) days prior written notice before the end of the Maintenance Term.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by and construed in                       accordance with the laws of the State of New York without                       reference to its conflict or choice of law rules or                       principles.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Following the expiry of the Warranty Period, Changepoint shall provide Customer with Maintenance Services during successive annual maintenance terms (each such term is referred to here as a \"Maintenance Term\") provided that Customer pays to Changepoint the Maintenance Fees for each Maintenance Term as and when due hereunder."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Customer or Changepoint may terminate Maintenance Services at the end of a Maintenance Term by providing the other with no less than thirty (30) days prior written notice before the end of the Maintenance Term."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by and construed in                       accordance with the laws of the State of New York without                       reference to its conflict or choice of law rules or                       principles."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:41:52.658371+00:00"
+}

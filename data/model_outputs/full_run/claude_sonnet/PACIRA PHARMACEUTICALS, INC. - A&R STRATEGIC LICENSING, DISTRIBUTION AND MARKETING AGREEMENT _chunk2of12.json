@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 2,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5417,
+  "output_tokens_reported": 369,
+  "latency_seconds": 2.2,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"3.13 Exclusivity. During the Term, PPI and its Affiliates shall not: (i) file for Marketing Authorization with respect to any Competing Product in  any country in the Territory, (ii) manufacture or have manufactured any Competing Product in any country in the Territory, (iii) market or  have marketed any Competing Product in any country in the Territory or (iv) license any Third Party to do any of the foregoing.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"PPI hereby appoints EKR and EKR agrees to be retained as the exclusive  distributor, and Authorized Distributor of Record, of the Products in the Field in the Territory during the Term to market, distribute,  warehouse and sell the Products.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "3.13 Exclusivity. During the Term, PPI and its Affiliates shall not: (i) file for Marketing Authorization with respect to any Competing Product in  any country in the Territory, (ii) manufacture or have manufactured any Competing Product in any country in the Territory, (iii) market or  have marketed any Competing Product in any country in the Territory or (iv) license any Third Party to do any of the foregoing."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "PPI hereby appoints EKR and EKR agrees to be retained as the exclusive  distributor, and Authorized Distributor of Record, of the Products in the Field in the Territory during the Term to market, distribute,  warehouse and sell the Products."
+    }
+  },
+  "timestamp": "2026-11-11T22:51:50.635371+00:00"
+}

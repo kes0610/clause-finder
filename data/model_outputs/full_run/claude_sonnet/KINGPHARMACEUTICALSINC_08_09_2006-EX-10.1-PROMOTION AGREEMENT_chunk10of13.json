@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+  "chunk_index": 10,
+  "chunk_total": 13,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5667,
+  "output_tokens_reported": 761,
+  "latency_seconds": 5.3,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"However, in recognition of the parties' agreement to co-exclusively Promote Products, in accordance with the terms and conditions of this Agreement, Depomed agrees that if Depomed or any Affiliate thereof grants to any Affiliate or Third Party a license, covenant not to sue, right of reference, right of supply or other intellectual right\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "However, in recognition of the parties' agreement to co-exclusively Promote Products, in accordance with the terms and conditions of this Agreement, Depomed agrees that if Depomed or any Affiliate thereof grants to any Affiliate or Third Party a license, covenant not to sue, right of reference, right of supply or other intellectual right"
+    }
+  },
+  "timestamp": "2026-11-11T22:56:26.967474+00:00"
+}

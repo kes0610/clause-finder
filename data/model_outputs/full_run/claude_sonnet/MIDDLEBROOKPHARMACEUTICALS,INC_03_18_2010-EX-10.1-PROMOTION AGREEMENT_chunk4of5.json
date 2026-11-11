@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "MIDDLEBROOKPHARMACEUTICALS,INC_03_18_2010-EX-10.1-PROMOTION AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5427,
+  "output_tokens_reported": 1181,
+  "latency_seconds": 7.17,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If MBRK terminates this Agreement in the first year of the Agreement  for any reason, then MBRK will pay DD a) an Early Termination Fee plus b) the End of Agreement Fee.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"If the Agreement is terminated in years 2 or 3 by MBRK providing notice to DD  within 60 days of the then current anniversary date of its intent not to renew\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"this Agreement shall be governed by and construed and enforced in accordance with the  laws of the State of North Carolina, without giving effect to choice of law or arbitration provisions\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If MBRK terminates this Agreement in the first year of the Agreement  for any reason, then MBRK will pay DD a) an Early Termination Fee plus b) the End of Agreement Fee."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "If the Agreement is terminated in years 2 or 3 by MBRK providing notice to DD  within 60 days of the then current anniversary date of its intent not to renew"
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "this Agreement shall be governed by and construed and enforced in accordance with the  laws of the State of North Carolina, without giving effect to choice of law or arbitration provisions"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:59:13.461516+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 8,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5237,
+  "output_tokens_reported": 776,
+  "latency_seconds": 4.58,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"(b) EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Thereafter  the term of this Agreement shall automatically renew for consecutive periods of two (2) years each.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Notwithstanding the foregoing, this  Agreement can be terminated by EKR at the end of the Initial Term by delivery of written notice to PPI at least one hundred eighty (180)  days prior to the end of the Initial Term or any renewal term.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "(b) EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Thereafter  the term of this Agreement shall automatically renew for consecutive periods of two (2) years each."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Notwithstanding the foregoing, this  Agreement can be terminated by EKR at the end of the Initial Term by delivery of written notice to PPI at least one hundred eighty (180)  days prior to the end of the Initial Term or any renewal term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:52:10.294096+00:00"
+}

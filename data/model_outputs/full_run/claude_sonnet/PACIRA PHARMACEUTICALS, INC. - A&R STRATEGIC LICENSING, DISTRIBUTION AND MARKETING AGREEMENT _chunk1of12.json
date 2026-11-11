@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PACIRA PHARMACEUTICALS, INC. - A&R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT .txt",
+  "chunk_index": 1,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5440,
+  "output_tokens_reported": 716,
+  "latency_seconds": 4.51,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"PPI granted and EKR acquired the exclusive right and license to sell, offer to sell, distribute and market the Product in  the Territory (as defined below) in the Field (as defined below)\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "PPI granted and EKR acquired the exclusive right and license to sell, offer to sell, distribute and market the Product in  the Territory (as defined below) in the Field (as defined below)"
+    }
+  },
+  "timestamp": "2026-11-11T22:51:48.433773+00:00"
+}

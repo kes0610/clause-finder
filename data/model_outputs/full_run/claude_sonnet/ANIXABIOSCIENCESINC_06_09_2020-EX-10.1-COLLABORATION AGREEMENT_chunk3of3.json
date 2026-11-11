@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "ANIXABIOSCIENCESINC_06_09_2020-EX-10.1-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 2548,
+  "prompt_input_tokens_reported": 4732,
+  "output_tokens_reported": 247,
+  "latency_seconds": 1.8,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Financial reimbursements claimed according to such indemnification shall not exceed payments received by OntoChem under this contract.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement and the rights and obligations of the Parties hereunder will be governed by the laws of the State of Delaware without regard to the conflict of laws provisions of any jurisdiction.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Financial reimbursements claimed according to such indemnification shall not exceed payments received by OntoChem under this contract."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement and the rights and obligations of the Parties hereunder will be governed by the laws of the State of Delaware without regard to the conflict of laws provisions of any jurisdiction."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:42:04.869677+00:00"
+}

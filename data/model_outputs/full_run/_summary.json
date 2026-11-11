@@ -1,6 +1,6 @@
 {
   "results": {
-    "llama_local": {
+    "gemini_3_1_flash_lite": {
       "done": 0,
       "skipped_already_done": 527,
       "parse_ok": 0,
@@ -10,23 +10,32 @@
       "stop_reason": null
     },
     "gemini_3_5_flash_lite": {
-      "done": 54,
-      "skipped_already_done": 473,
-      "parse_ok": 54,
+      "done": 0,
+      "skipped_already_done": 527,
+      "parse_ok": 0,
       "parse_fail": 0,
       "errors": 0,
       "stopped_early": false,
       "stop_reason": null
     },
-    "gemini_3_1_flash_lite": {
-      "done": 121,
-      "skipped_already_done": 406,
-      "parse_ok": 121,
+    "llama_local": {
+      "done": 0,
+      "skipped_already_done": 527,
+      "parse_ok": 0,
       "parse_fail": 0,
+      "errors": 0,
+      "stopped_early": false,
+      "stop_reason": null
+    },
+    "claude_sonnet": {
+      "done": 527,
+      "skipped_already_done": 0,
+      "parse_ok": 525,
+      "parse_fail": 2,
       "errors": 0,
       "stopped_early": false,
       "stop_reason": null
     }
   },
-  "elapsed_seconds": 468.35539425
+  "elapsed_seconds": 1227.712196084
 }

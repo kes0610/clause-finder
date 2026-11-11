@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT - Escrow Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5114,
+  "output_tokens_reported": 290,
+  "latency_seconds": 2.83,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"11.2  NCC may terminate this Agreement by giving 60 days written notice to             the Owner and the Licensee.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"in such event NCC's total liability in respect             of all claims arising under or by virtue of this Agreement shall             not (except in the case of claims for personal injury or death)             exceed the sum of (pounds)500,000.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"13.1  This Agreement shall be governed by and construed in accordance with             the laws of England and Wales.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "11.2  NCC may terminate this Agreement by giving 60 days written notice to             the Owner and the Licensee."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "in such event NCC's total liability in respect             of all claims arising under or by virtue of this Agreement shall             not (except in the case of claims for personal injury or death)             exceed the sum of (pounds)500,000."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "13.1  This Agreement shall be governed by and construed in accordance with             the laws of England and Wales."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:57:54.467610+00:00"
+}

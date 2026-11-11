@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "CytodynInc_20200109_10-Q_EX-10.5_11941634_EX-10.5_License Agreement.txt",
+  "chunk_index": 7,
+  "chunk_total": 12,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5468,
+  "output_tokens_reported": 639,
+  "latency_seconds": 4.6,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":false,\"quote\":null},\"liability_cap\":{\"present\":false,\"quote\":null},\"non_compete\":{\"present\":false,\"quote\":null},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":true,\"quote\":\"As of the Effective Date and thereafter for the duration of the Term, CytoDyn shall not, and shall cause its Affiliates not to, grant to any Third Party rights that conflict with the rights granted to Vyera under this Agreement\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "As of the Effective Date and thereafter for the duration of the Term, CytoDyn shall not, and shall cause its Affiliates not to, grant to any Third Party rights that conflict with the rights granted to Vyera under this Agreement"
+    }
+  },
+  "timestamp": "2026-11-11T22:50:13.090031+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5742,
+  "output_tokens_reported": 730,
+  "latency_seconds": 5.15,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Neoforma hereby grants VerticalNet an exclusive license to use, modify, enhance, reproduce, display, perform and transmit the Neoforma T&E Content, subject to and in accordance with the terms, conditions and provisions of this Agreement.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Neoforma hereby grants VerticalNet an exclusive license to use, modify, enhance, reproduce, display, perform and transmit the Neoforma T&E Content, subject to and in accordance with the terms, conditions and provisions of this Agreement."
+    }
+  },
+  "timestamp": "2026-11-11T22:45:44.651569+00:00"
+}

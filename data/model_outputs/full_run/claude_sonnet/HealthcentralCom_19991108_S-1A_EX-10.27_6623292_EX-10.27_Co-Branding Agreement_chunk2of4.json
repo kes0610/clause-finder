@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5290,
+  "output_tokens_reported": 786,
+  "latency_seconds": 6.1,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"HCI shall not either directly or indirectly license or deliver content to or carry on or be engaged with any other Canadian portal web site, being a Web site which aggregates and markets a variety of content directed to multiple communities of interest and which offers products,\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"HCI shall be the exclusive health content partner in the health section of the Sympatico web site\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "HCI shall not either directly or indirectly license or deliver content to or carry on or be engaged with any other Canadian portal web site, being a Web site which aggregates and markets a variety of content directed to multiple communities of interest and which offers products,"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "HCI shall be the exclusive health content partner in the health section of the Sympatico web site"
+    }
+  },
+  "timestamp": "2026-11-11T22:51:08.893829+00:00"
+}

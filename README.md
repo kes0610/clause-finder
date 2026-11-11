@@ -29,21 +29,21 @@ pip install -r requirements.txt
 (Google AI Studio, Groq) plus an Anthropic key if you want to include the
 one paid model. `.env` is git-ignored — never commit real keys.
 
-## Models (Stage 2)
+## Models
 
-5 models, 4 free + 1 paid (clearly labeled):
+5 considered, 4 fully run on all 130 contracts (3 free + 1 paid, clearly labeled):
 
 | Model | Provider | Free? |
 |---|---|---|
-| Gemini 3.8 Flash | Google AI Studio | Yes |
+| Gemini 3.5 Flash-Lite | Google AI Studio | Yes |
 | Gemini 3.1 Flash-Lite | Google AI Studio | Yes |
-| openai/gpt-oss-120b | Groq (free plan) | Yes |
 | Llama 3.2 (3B) | Local, via Ollama | Yes |
-| Claude Sonnet 5.5 | Anthropic | **No — paid, ~$1-2 estimated** |
+| Claude Sonnet 5.5 | Anthropic | **No — paid, ~$7-11 for the full run** |
 
 Mistral was considered but dropped — its advertised "free" plan actually
 required upgrading (likely with a credit card) before the API key would
-work, so it didn't meet the free-only bar.
+work, so it didn't meet the free-only bar. Groq's openai/gpt-oss-120b was
+also tried and dropped partway through — see RESULTS.md for why.
 
 ## Data
 

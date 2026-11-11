@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5900,
+  "output_tokens_reported": 369,
+  "latency_seconds": 2.7,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":false,\"quote\":null},\"liability_cap\":{\"present\":false,\"quote\":null},\"non_compete\":{\"present\":true,\"quote\":\"VerticalNet shall not enter into any agreement with a Neoforma Competitor for the on-line listing of Medical Products or place any Link to the Site of a Neoforma Competitor on the VerticalNet Medical Online Communities.\"},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":true,\"quote\":\"VerticalNet hereby grants Neoforma an exclusive license, even as to\\n\\nSource: NEOFORMA INC, S-1/A, 12/2/1999\\n\\n\\n\\n\\n\\nVerticalNet, to use, modify, enhance, reproduce, display, perform and transmit the VerticalNet Medical Product Listings, subject to and in accordance with the terms, conditions and provisions of this Agreement, to the extent that VerticalNet has the right to do so.\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "VerticalNet shall not enter into any agreement with a Neoforma Competitor for the on-line listing of Medical Products or place any Link to the Site of a Neoforma Competitor on the VerticalNet Medical Online Communities."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "VerticalNet hereby grants Neoforma an exclusive license, even as to\n\nSource: NEOFORMA INC, S-1/A, 12/2/1999\n\n\n\n\n\nVerticalNet, to use, modify, enhance, reproduce, display, perform and transmit the VerticalNet Medical Product Listings, subject to and in accordance with the terms, conditions and provisions of this Agreement, to the extent that VerticalNet has the right to do so."
+    }
+  },
+  "timestamp": "2026-11-11T22:45:39.501309+00:00"
+}

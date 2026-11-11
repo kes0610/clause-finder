@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "NmfSlfIInc_20200115_10-12GA_EX-10.5_11946987_EX-10.5_Trademark License Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5414,
+  "output_tokens_reported": 415,
+  "latency_seconds": 2.67,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement shall be terminable (a) by the Licensor (i) at any time and in its sole discretion in the event that the Licensor or the Licensee receives notice of any Third Party Claim arising out of the Licensee's use of the Licensed Mark or (ii) upon sixty (60) days' written notice by the Licensor to the Licensee or (b) by the Licensee (i) at any time in the event such Licensee assigns or attempts to assign or sublicense this Agreement or any of the Licensee's rights or duties hereunder without the prior written consent of the Licensor or (ii) upon sixty (60) days' written notice by the Licensee to the Licensor.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York without giving effect to the principles of conflicts of law rules.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement shall be terminable (a) by the Licensor (i) at any time and in its sole discretion in the event that the Licensor or the Licensee receives notice of any Third Party Claim arising out of the Licensee's use of the Licensed Mark or (ii) upon sixty (60) days' written notice by the Licensor to the Licensee or (b) by the Licensee (i) at any time in the event such Licensee assigns or attempts to assign or sublicense this Agreement or any of the Licensee's rights or duties hereunder without the prior written consent of the Licensor or (ii) upon sixty (60) days' written notice by the Licensee to the Licensor."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York without giving effect to the principles of conflicts of law rules."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:58:40.701972+00:00"
+}

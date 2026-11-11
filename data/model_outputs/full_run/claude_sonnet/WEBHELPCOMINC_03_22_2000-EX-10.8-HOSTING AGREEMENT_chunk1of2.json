@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "WEBHELPCOMINC_03_22_2000-EX-10.8-HOSTING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5806,
+  "output_tokens_reported": 368,
+  "latency_seconds": 2.24,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"eGain's entire liability under this Agreement for any damages from any cause whatsoever, regardless of form or action, whether in contract, negligence or otherwise, shall in no event exceed an amount equal to the price paid for the Services out of which the claim arose.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall continue in effect from the Effective Date for a one (1) year period, unless earlier terminated as set forth below, and thereafter shall renew automatically for successive one (1) year periods unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "eGain's entire liability under this Agreement for any damages from any cause whatsoever, regardless of form or action, whether in contract, negligence or otherwise, shall in no event exceed an amount equal to the price paid for the Services out of which the claim arose."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall continue in effect from the Effective Date for a one (1) year period, unless earlier terminated as set forth below, and thereafter shall renew automatically for successive one (1) year periods unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless either party gives the other party at least thirty (30) days prior written notice of its intent not to renew the Agreement"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:48:52.289047+00:00"
+}

@@ -22,6 +22,7 @@ MODEL_LABELS = {
     "gemini_3_5_flash_lite": "Gemini 3.5 Flash-Lite",
     "gemini_3_1_flash_lite": "Gemini 3.1 Flash-Lite",
     "llama_local": "Llama 3.2 (local)",
+    "claude_sonnet": "Claude Sonnet 5.5 (paid)",
 }
 
 

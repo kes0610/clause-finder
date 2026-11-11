@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "SLOVAKWIRELESSFINANCECOBV_03_28_2001-EX-4.(B)(II).3-Maintenance and support contract for SICAP(R) modules.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2759,
+  "prompt_input_tokens_reported": 5232,
+  "output_tokens_reported": 312,
+  "latency_seconds": 1.91,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"After the initial period of two years, the maintenance and support contract shall be automatically renewed for a period of one year on each renewal date, unless one of the parties terminates the maintenance and support contract through written notification to the other party in the form of a registered letter with proof of receipt, at least six (6) weeks prior to the renewal date.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless one of the parties terminates the maintenance and support contract through written notification to the other party in the form of a registered letter with proof of receipt, at least six (6) weeks prior to the renewal date.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "After the initial period of two years, the maintenance and support contract shall be automatically renewed for a period of one year on each renewal date, unless one of the parties terminates the maintenance and support contract through written notification to the other party in the form of a registered letter with proof of receipt, at least six (6) weeks prior to the renewal date."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless one of the parties terminates the maintenance and support contract through written notification to the other party in the form of a registered letter with proof of receipt, at least six (6) weeks prior to the renewal date."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:45:21.597176+00:00"
+}

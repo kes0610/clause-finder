@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5333,
+  "output_tokens_reported": 742,
+  "latency_seconds": 4.22,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":false,\"quote\":null},\"liability_cap\":{\"present\":false,\"quote\":null},\"non_compete\":{\"present\":true,\"quote\":\"During the Term of this Agreement, and for a period of two (2) years thereafter, Aucta shall not research, develop, manufacture, file, sell, market, or distribute more than two products containing the active ingredient Lamotrigine; nor will Aucta directly or indirectly assist any other Person or entity in carrying or any such activities.\"},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":true,\"quote\":\"ETON shall be solely responsible for the Marketing of the Products and shall have sole and exclusive right to make all Marketing decisions for the Product in the Territory, including without limitation to pricing, contracting, sub-licensing, co-promoting, or any contract promotion activities.\"}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the Term of this Agreement, and for a period of two (2) years thereafter, Aucta shall not research, develop, manufacture, file, sell, market, or distribute more than two products containing the active ingredient Lamotrigine; nor will Aucta directly or indirectly assist any other Person or entity in carrying or any such activities."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "ETON shall be solely responsible for the Marketing of the Products and shall have sole and exclusive right to make all Marketing decisions for the Product in the Territory, including without limitation to pricing, contracting, sub-licensing, co-promoting, or any contract promotion activities."
+    }
+  },
+  "timestamp": "2026-11-11T22:51:18.398112+00:00"
+}

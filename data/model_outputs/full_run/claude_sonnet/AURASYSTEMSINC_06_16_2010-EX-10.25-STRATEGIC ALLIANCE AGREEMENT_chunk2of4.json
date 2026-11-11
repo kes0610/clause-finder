@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "AURASYSTEMSINC_06_16_2010-EX-10.25-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5379,
+  "output_tokens_reported": 1167,
+  "latency_seconds": 7.25,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"By either party hereto upon sixty (60) days prior written notice\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"shall prohibit competition among Zanotti and Aura with regard  to AETRU Systems\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the  Initial Term this Agreement shall automatically renew for successive terms of the same duration\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless either party gives written notice to the  other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "By either party hereto upon sixty (60) days prior written notice"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "shall prohibit competition among Zanotti and Aura with regard  to AETRU Systems"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Unless terminated prior to the natural expiration of the Initial Term, upon the expiry of the  Initial Term this Agreement shall automatically renew for successive terms of the same duration"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless either party gives written notice to the  other of such party's desire not to renew not less than ninety (90) days prior to the date of the expiration of the Initial Term or any"
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:57:14.864339+00:00"
+}

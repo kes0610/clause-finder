@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "HYDRONTECHNOLOGIESINC_03_31_1997-EX-10.47-SPONSORSHIP AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5544,
+  "output_tokens_reported": 1060,
+  "latency_seconds": 6.63,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Hydron shall have the right to terminate this Agreement upon written notice to Dolphins at any time between November 1, 1997 and December 15, 1997, in which event this Agreement shall be terminated following the Dolphins last 1997 regular or post-season game, if any.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"In the event of any such termination of exclusivity, the non-terminated Sponsorship Rights granted to Hydron by the Dolphins shall nonetheless continue for the remainder of the Term and the provisions of Section 8.2 shall apply.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Hydron shall have the right to terminate this Agreement upon written notice to Dolphins at any time between November 1, 1997 and December 15, 1997, in which event this Agreement shall be terminated following the Dolphins last 1997 regular or post-season game, if any."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "In the event of any such termination of exclusivity, the non-terminated Sponsorship Rights granted to Hydron by the Dolphins shall nonetheless continue for the remainder of the Term and the provisions of Section 8.2 shall apply."
+    }
+  },
+  "timestamp": "2026-11-11T22:47:04.405348+00:00"
+}

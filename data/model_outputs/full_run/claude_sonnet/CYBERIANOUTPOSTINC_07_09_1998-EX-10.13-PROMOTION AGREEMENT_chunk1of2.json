@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5252,
+  "output_tokens_reported": 287,
+  "latency_seconds": 1.95,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"either party may terminate this Agreement, effective at any time after the first three\\n\\n       months of the Term, by giving 30 days' written notice of termination to the      other party\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"During the Term, CNET will not enter into more than      two other agreements under which CNET receives consideration from a      Competing Computer Products Retailer for displaying permanent links to or      other fixed promotions for such Competing Computer Products Retailer on any      CNET Site\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "either party may terminate this Agreement, effective at any time after the first three\n\n       months of the Term, by giving 30 days' written notice of termination to the      other party"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "During the Term, CNET will not enter into more than      two other agreements under which CNET receives consideration from a      Competing Computer Products Retailer for displaying permanent links to or      other fixed promotions for such Competing Computer Products Retailer on any      CNET Site"
+    }
+  },
+  "timestamp": "2026-11-11T22:54:16.385494+00:00"
+}

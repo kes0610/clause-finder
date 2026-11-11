@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 7,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5742,
+  "output_tokens_reported": 434,
+  "latency_seconds": 2.91,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Schoolpop shall have the exclusive right to resell Cards in                   the NPO Marketplace.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Schoolpop shall have the exclusive right to resell Cards in                   the NPO Marketplace."
+    }
+  },
+  "timestamp": "2026-11-11T22:55:38.142242+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "WaterNowInc_20191120_10-Q_EX-10.12_11900227_EX-10.12_Distributor Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 1606,
+  "prompt_input_tokens_reported": 3348,
+  "output_tokens_reported": 310,
+  "latency_seconds": 2.51,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"THIS AGREEMENT, AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES, SHALL BE GOVERNED BY AND CONSTRUED AND ENFORCED IN ACCORDANCE WITH THE SUBSTANTIVE LAWS OF THE STATE OF TEXAS, U.S.A. WITHOUT REGARD TO ITS PRINCIPLES OF CONFLICTS OF LAWS.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "THIS AGREEMENT, AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES, SHALL BE GOVERNED BY AND CONSTRUED AND ENFORCED IN ACCORDANCE WITH THE SUBSTANTIVE LAWS OF THE STATE OF TEXAS, U.S.A. WITHOUT REGARD TO ITS PRINCIPLES OF CONFLICTS OF LAWS."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:52:48.180965+00:00"
+}

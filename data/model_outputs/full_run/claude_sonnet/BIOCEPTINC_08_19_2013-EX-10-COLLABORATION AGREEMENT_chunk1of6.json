@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "BIOCEPTINC_08_19_2013-EX-10-COLLABORATION AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5655,
+  "output_tokens_reported": 762,
+  "latency_seconds": 4.86,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Biocept will have sole responsibility for performing the Technical Component of all Tests sold by the parties, until and unless Life Technologies obtains the right from Biocept to independently develop its own Tests in accordance with all applicable FDA regulatory requirements, as provided for in Section 7.1.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Biocept will have sole responsibility for performing the Technical Component of all Tests sold by the parties, until and unless Life Technologies obtains the right from Biocept to independently develop its own Tests in accordance with all applicable FDA regulatory requirements, as provided for in Section 7.1."
+    }
+  },
+  "timestamp": "2026-11-11T22:46:34.511659+00:00"
+}

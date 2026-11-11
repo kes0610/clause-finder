@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 9,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5812,
+  "output_tokens_reported": 626,
+  "latency_seconds": 4.66,
+  "error": null,
+  "raw_response": "{\"termination\":{\"present\":false,\"quote\":null},\"liability_cap\":{\"present\":false,\"quote\":null},\"non_compete\":{\"present\":false,\"quote\":null},\"renewal_term\":{\"present\":false,\"quote\":null},\"renewal_notice\":{\"present\":false,\"quote\":null},\"governing_law\":{\"present\":false,\"quote\":null},\"exclusivity\":{\"present\":false,\"quote\":null}}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:54:31.219462+00:00"
+}

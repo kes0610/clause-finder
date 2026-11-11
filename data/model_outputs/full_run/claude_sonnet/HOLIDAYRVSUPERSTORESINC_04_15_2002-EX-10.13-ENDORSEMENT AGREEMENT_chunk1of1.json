@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2755,
+  "prompt_input_tokens_reported": 4978,
+  "output_tokens_reported": 309,
+  "latency_seconds": 1.82,
+  "error": null,
+  "raw_response": "```json\n{\n  \"termination\": {\"present\": true, \"quote\": \"In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement has been made in the State of California and shall be governed by and construed in accordance with the laws thereof without regard to principles of conflicts of laws.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}\n```",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement has been made in the State of California and shall be governed by and construed in accordance with the laws thereof without regard to principles of conflicts of laws."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:55:54.300554+00:00"
+}

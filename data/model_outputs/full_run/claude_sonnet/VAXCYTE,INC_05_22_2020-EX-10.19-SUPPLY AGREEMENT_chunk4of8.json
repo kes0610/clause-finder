@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 8,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5257,
+  "output_tokens_reported": 727,
+  "latency_seconds": 4.7,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"SutroVax agrees to purchase all its requirements of Extract from Sutro in accordance with this Agreement, except to the extent SutroVax is allowed to purchase Extract from (a) Alternate Suppliers engaged by Sutro in accordance with Section 2.15 of this Agreement; (b) a CMO engaged or established and authorized by Sutro under Section 3.l(d) of the License Agreement; or (c) a CMO authorized by Sutro under Section 3.l(e) of the License Agreement.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "SutroVax agrees to purchase all its requirements of Extract from Sutro in accordance with this Agreement, except to the extent SutroVax is allowed to purchase Extract from (a) Alternate Suppliers engaged by Sutro in accordance with Section 2.15 of this Agreement; (b) a CMO engaged or established and authorized by Sutro under Section 3.l(d) of the License Agreement; or (c) a CMO authorized by Sutro under Section 3.l(e) of the License Agreement."
+    }
+  },
+  "timestamp": "2026-11-11T22:49:24.236708+00:00"
+}

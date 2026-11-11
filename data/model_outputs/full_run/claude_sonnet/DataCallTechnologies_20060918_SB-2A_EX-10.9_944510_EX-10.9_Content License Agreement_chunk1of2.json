@@ -1,0 +1,44 @@
+{
+  "model": "claude_sonnet",
+  "contract_file": "DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 5024,
+  "output_tokens_reported": 755,
+  "latency_seconds": 5.13,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"The Initial Term shall automatically be extended for an additional period of half a year unless either party provides the other party with written notification of termination of the letter Agreement at least 60 days prior to end of such period.\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless either party provides the other party with written notification of termination of the letter Agreement at least 60 days prior to end of such period.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed and construed in accordance with the laws of the United States of America.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "The Initial Term shall automatically be extended for an additional period of half a year unless either party provides the other party with written notification of termination of the letter Agreement at least 60 days prior to end of such period."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless either party provides the other party with written notification of termination of the letter Agreement at least 60 days prior to end of such period."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed and construed in accordance with the laws of the United States of America."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:57:04.766454+00:00"
+}
