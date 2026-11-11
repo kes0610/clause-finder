@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2212,
+  "prompt_input_tokens_reported": 2868,
+  "output_tokens_reported": 373,
+  "latency_seconds": 1.29,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"TERMINATION:  except as  specifically  described  elsewhere  in this  agreement,      either ITS or COMWARE shall have the right to terminate this Agreement with      30 days written notice from the other party, for any reason whatsoever.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"4.   RENEWAL  PERIOD:  Provided  that COMWARE  purchases a minimum of $45,420.00      worth of  Products,  in any  combination,  during the Initial  Distribution     Period,  this Agreement will automatically renew for an additional 6 months      (the Renewal  Period).\"\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"13.  GOVERNED BY THE STATE OF TEXAS: This Agreement shall be interpreted and      governed by the laws of the State of Texas.\"\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"3. EXCLUSIVE RIGHTS: Upon the effective date of this agreement COMWARE shall have the exclusive right to purchase, at the DISCOUNTS described below, and resell Products to potential customers during the Initial Distribution Period, based on the following terms and conditions:\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "TERMINATION:  except as  specifically  described  elsewhere  in this  agreement,      either ITS or COMWARE shall have the right to terminate this Agreement with      30 days written notice from the other party, for any reason whatsoever."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "4.   RENEWAL  PERIOD:  Provided  that COMWARE  purchases a minimum of $45,420.00      worth of  Products,  in any  combination,  during the Initial  Distribution     Period,  this Agreement will automatically renew for an additional 6 months      (the Renewal  Period)."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "13.  GOVERNED BY THE STATE OF TEXAS: This Agreement shall be interpreted and      governed by the laws of the State of Texas."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "3. EXCLUSIVE RIGHTS: Upon the effective date of this agreement COMWARE shall have the exclusive right to purchase, at the DISCOUNTS described below, and resell Products to potential customers during the Initial Distribution Period, based on the following terms and conditions:"
+    }
+  },
+  "timestamp": "2026-11-11T22:32:12.126825+00:00"
+}

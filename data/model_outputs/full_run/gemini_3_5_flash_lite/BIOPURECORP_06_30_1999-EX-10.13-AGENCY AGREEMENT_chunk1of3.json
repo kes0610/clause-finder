@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "BIOPURECORP_06_30_1999-EX-10.13-AGENCY AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3564,
+  "output_tokens_reported": 220,
+  "latency_seconds": 1.32,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"the Company hereby appoints the Agent, and the Agent hereby accepts appointment, as an authorized distributor agent within the Territory, (Territory as outlined in section 1.2), for the promotion, sale and collection of payment for, the Products to Customers. The Company has appointed a limited number of Agents; however, the Company retains the right to itself, and/or appoint others to, promote, sell, and collect payment for, and distribute, the Products to Customers in the Territory.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "the Company hereby appoints the Agent, and the Agent hereby accepts appointment, as an authorized distributor agent within the Territory, (Territory as outlined in section 1.2), for the promotion, sale and collection of payment for, the Products to Customers. The Company has appointed a limited number of Agents; however, the Company retains the right to itself, and/or appoint others to, promote, sell, and collect payment for, and distribute, the Products to Customers in the Territory."
+    }
+  },
+  "timestamp": "2026-11-11T22:30:44.616161+00:00"
+}

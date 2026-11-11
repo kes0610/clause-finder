@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3608,
+  "output_tokens_reported": 251,
+  "latency_seconds": 1.39,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"The obligations of the Agent pursuant to this Agreement (other than those set forth in Sections 2(d), 8 and 9 hereof) shall terminate upon the completion or termination or abandonment of the Plan by the Company or upon termination of the Offering, but in no event later than the date (the \\\"End Date\\\") which is 45 days after the Closing Date (as hereinafter defined).\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The obligations of the Agent pursuant to this Agreement (other than those set forth in Sections 2(d), 8 and 9 hereof) shall terminate upon the completion or termination or abandonment of the Plan by the Company or upon termination of the Offering, but in no event later than the date (the \"End Date\") which is 45 days after the Closing Date (as hereinafter defined)."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:31:02.458887+00:00"
+}

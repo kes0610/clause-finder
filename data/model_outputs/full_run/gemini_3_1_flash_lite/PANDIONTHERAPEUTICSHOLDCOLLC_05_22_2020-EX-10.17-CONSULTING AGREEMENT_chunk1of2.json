@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "PANDIONTHERAPEUTICSHOLDCOLLC_05_22_2020-EX-10.17-CONSULTING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3538,
+  "output_tokens_reported": 231,
+  "latency_seconds": 0.93,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Consultant may terminate the Consultation Period at any time upon thirty (30) days' written notice.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"During the Consultation Period (as defined below) and for a period of one year thereafter, except in connection with his performance of the Services, the Consultant shall not engage in any activity in the field described on Schedule A to this Agreement, and he shall not assist any other person or organization that engages in any such activity.\"},\n  \"renewal_term\": {\"present\": true, \"quote\": \"shall automatically renew for successive one-year periods\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"unless the Company provides 90 days' notice of termination before any such successive period.\"},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Consultant may terminate the Consultation Period at any time upon thirty (30) days' written notice."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the Consultation Period (as defined below) and for a period of one year thereafter, except in connection with his performance of the Services, the Consultant shall not engage in any activity in the field described on Schedule A to this Agreement, and he shall not assist any other person or organization that engages in any such activity."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "shall automatically renew for successive one-year periods"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "unless the Company provides 90 days' notice of termination before any such successive period."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:32:09.680814+00:00"
+}

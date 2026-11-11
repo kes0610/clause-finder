@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3569,
+  "output_tokens_reported": 469,
+  "latency_seconds": 3.33,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Agreement terminates automatically for just cause, with no further act or action of either party if:  (a) a receiver is appointed for Distributor or its property; (b) Distributor&sbsp;makes an assignment for the benefit of its creditors; (c) any proceedings are commenced by, for, or against Distributor under any bankruptcy, insolvency, or debtor's relief law; or (d) Distributor is liquidated, dissolved, or otherwise terminates its activities.\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"Without prejudice to Sections 16.3 and 16.4, the liability of the Airspan Parties, taken as a whole, for each event or series of connected events\\n\\n\\n\\n\\narising out of or in connection with this Agreement, any purchase order placed pursuant to this Agreement, or any other collateral contract, or from or in connection with the Equipment or Software or the use thereof, or the inability to use them either separately or in combination with other equipment or software, or from any other cause, whether caused by negligence, breach of contract, strict liability, breach of warranty, on grounds of failure of essential purpose, or otherwise, shall in no circumstance exceed the total amount payable by Distributor to Airspan under this Agreement for the provision of\\n\\n- -------------------------------------------------------------------------------\\n\\nPage 19\\n\\nthe Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Agreement terminates automatically for just cause, with no further act or action of either party if:  (a) a receiver is appointed for Distributor or its property; (b) Distributor&sbsp;makes an assignment for the benefit of its creditors; (c) any proceedings are commenced by, for, or against Distributor under any bankruptcy, insolvency, or debtor's relief law; or (d) Distributor is liquidated, dissolved, or otherwise terminates its activities."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Without prejudice to Sections 16.3 and 16.4, the liability of the Airspan Parties, taken as a whole, for each event or series of connected events\n\n\n\n\narising out of or in connection with this Agreement, any purchase order placed pursuant to this Agreement, or any other collateral contract, or from or in connection with the Equipment or Software or the use thereof, or the inability to use them either separately or in combination with other equipment or software, or from any other cause, whether caused by negligence, breach of contract, strict liability, breach of warranty, on grounds of failure of essential purpose, or otherwise, shall in no circumstance exceed the total amount payable by Distributor to Airspan under this Agreement for the provision of\n\n- -------------------------------------------------------------------------------\n\nPage 19\n\nthe Equipment or Software which gave rise to the loss or damage or in connection with which the loss or damage was incurred."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:30:30.868136+00:00"
+}

@@ -95,7 +95,7 @@ Two Google free-tier daily limits are still unconfirmed (Gemini doesn't publish 
 pilot didn't hit either one, but Stage 4's full run needs to handle hitting one gracefully
 (save progress, pause, resume) rather than assume 527 requests/day is guaranteed available.
 
-## Stage 4 — Full evaluation (in progress)
+## Stage 4 — Full evaluation (complete for the 3 free models)
 
 **Models actually run: 3 free + Claude still pending a decision.** Dropped Groq's
 gpt-oss-120b partway through — its hidden "reasoning" tokens burned through Groq's
@@ -105,14 +105,17 @@ Alibaba's Qwen, which was excluded on vendor-trust grounds — a business/data-g
 call, not a technical one, and itself a fair thing to note in the final memo (vendor
 trust is a real factor companies weigh, not just accuracy/cost).
 
-**Progress as of this run:**
+**Final results:**
 
 | Model | Chunks done | Status |
 |---|---|---|
 | Llama 3.2 (local) | 527/527 (100%) | Complete |
-| Gemini 3.5 Flash-Lite | 474/527 (90%) | Hit its daily free limit (confirmed: **500 requests/day**) — resumes automatically once it resets |
-| Gemini 3.1 Flash-Lite | 407/527 (77%) | Same — resumes automatically |
+| Gemini 3.5 Flash-Lite | 527/527 (100%) | Complete — took 2 resumed runs across 2 days to clear its daily free limit (confirmed: **500 requests/day**, undocumented) |
+| Gemini 3.1 Flash-Lite | 527/527 (100%) | Complete — same, cleared over 2 days |
 | ~~gpt-oss-120b (Groq)~~ | 44/527 (8%) | Dropped — see above. Partial output kept in `data/model_outputs/dropped_groq_attempt/` for the record, excluded from scoring |
+
+All 130 contracts now have a complete, error-free result from all 3 free models.
+Next: decide on running Claude Sonnet 5.5 (~$7-11), then Stage 5's real scoring.
 
 Note: ad-hoc test/debug calls to the same API key count against the same daily
 limit as the real run — worth remembering before poking at a model mid-run.
@@ -122,10 +125,6 @@ timeout (stalled that whole model's progress silently for over an hour), and a
 rate-limit message that looked like a long daily block but actually cleared in ~2
 minutes — the retry logic now reads the server's own suggested wait time instead of
 guessing.
-
-Re-running `scripts/04_full_run.py` (now only the 3 remaining models) later will pick
-up exactly where this left off — every chunk is saved individually, so nothing already
-done gets repeated.
 
 ## Stage 5 — Scoring (not started)
 

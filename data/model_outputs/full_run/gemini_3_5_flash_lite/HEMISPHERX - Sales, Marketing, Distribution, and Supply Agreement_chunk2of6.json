@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "HEMISPHERX - Sales, Marketing, Distribution, and Supply Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3449,
+  "output_tokens_reported": 269,
+  "latency_seconds": 1.16,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"I. HEMISPHERX and/or SCIEN shall have the right to cancel, without further obligation to the other party, one or more orders for Product(s) if HEMISPHERX's or SCIEN's business is interrupted because of an event of force majeure beyond the control of HEMISPHERX or SCIEN.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"A. The Term will be 3 years from Effective Date with an automatic 2 year term extensions unless otherwise advised by one of the Parties.\"\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "I. HEMISPHERX and/or SCIEN shall have the right to cancel, without further obligation to the other party, one or more orders for Product(s) if HEMISPHERX's or SCIEN's business is interrupted because of an event of force majeure beyond the control of HEMISPHERX or SCIEN."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "A. The Term will be 3 years from Effective Date with an automatic 2 year term extensions unless otherwise advised by one of the Parties."
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:32:15.193089+00:00"
+}

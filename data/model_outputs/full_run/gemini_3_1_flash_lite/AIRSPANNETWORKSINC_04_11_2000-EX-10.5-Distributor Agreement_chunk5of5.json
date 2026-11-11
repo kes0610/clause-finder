@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement.txt",
+  "chunk_index": 5,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 2404,
+  "prompt_input_tokens_reported": 2961,
+  "output_tokens_reported": 141,
+  "latency_seconds": 0.83,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be construed in accordance with and governed by the laws of the State of South Dakota."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:35:12.548089+00:00"
+}

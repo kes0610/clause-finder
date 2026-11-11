@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+  "chunk_index": 10,
+  "chunk_total": 11,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3612,
+  "output_tokens_reported": 264,
+  "latency_seconds": 1.24,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"The Agent may terminate this Agreement by giving the notice indicated below in this Section 11 at any time after this Agreement becomes effective as follows:\\n\\n          (a)  In the  event  the  Company  fails to sell the  required  minimum                number of the Shares by _________,  2000, and in accordance  with                the provisions of the Plan or\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"It is expressly  agreed that the Agent shall not be liable for any loss, liability,  claim, damage or expense or be required  to  contribute  any amount  which in the  aggregate  exceeds the amount paid (excluding reimbursable expenses) to the Agent under this Agreement.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "The Agent may terminate this Agreement by giving the notice indicated below in this Section 11 at any time after this Agreement becomes effective as follows:\n\n          (a)  In the  event  the  Company  fails to sell the  required  minimum                number of the Shares by _________,  2000, and in accordance  with                the provisions of the Plan or"
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "It is expressly  agreed that the Agent shall not be liable for any loss, liability,  claim, damage or expense or be required  to  contribute  any amount  which in the  aggregate  exceeds the amount paid (excluding reimbursable expenses) to the Agent under this Agreement."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:36:19.038127+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "SPARKLINGSPRINGWATERHOLDINGSLTD_07_03_2002-EX-10.13-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3547,
+  "output_tokens_reported": 248,
+  "latency_seconds": 2.05,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"If Sparkling exercises its option to reject the Software in accordance with Section 7, then the parties shall forthwith carry out the following actions and this Agreement will terminate upon their completion:\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"For a renewable one-year term commencing upon the Maintenance Commencement Date, subject to payment of maintenance fees in accordance with the Fee Schedule but without additional fees or charges, Garman shall provide the following Maintenance Services:\"\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If Sparkling exercises its option to reject the Software in accordance with Section 7, then the parties shall forthwith carry out the following actions and this Agreement will terminate upon their completion:"
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "For a renewable one-year term commencing upon the Maintenance Commencement Date, subject to payment of maintenance fees in accordance with the Fee Schedule but without additional fees or charges, Garman shall provide the following Maintenance Services:"
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:30:40.321855+00:00"
+}

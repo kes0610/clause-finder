@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3600,
+  "output_tokens_reported": 195,
+  "latency_seconds": 1.01,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"In any event, Airspan shall not be liable for any direct, indirect, consequential, or special losses or damages (including, but not limited to, loss of income or profit and loss of data) that may be suffered by the Distributor or by any other person for failure to deliver or for any delay or error in delivery of Equipment or Software for any reason whatsoever.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "In any event, Airspan shall not be liable for any direct, indirect, consequential, or special losses or damages (including, but not limited to, loss of income or profit and loss of data) that may be suffered by the Distributor or by any other person for failure to deliver or for any delay or error in delivery of Equipment or Software for any reason whatsoever."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:35:09.615371+00:00"
+}

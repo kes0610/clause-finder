@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).txt",
+  "chunk_index": 3,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 2770,
+  "prompt_input_tokens_reported": 3313,
+  "output_tokens_reported": 309,
+  "latency_seconds": 1.2,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Either Party may terminate this Development Agreement by giving written notice to the other Party, (a)in the event the other Party's bankruptcy, insolvency, or the filing of a petition therefore; and (b) the other Party materially defaults in the performance of its obligations hereunder.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"Bioamber will not itself or with or through third parties engage in the development of biocatalysts other than E. coli for the production of succinic acid or salts thereof, except for the development activities under the terms and conditions of this Development Agreement.\"\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"This Development Agreement shall be governed by and construed in accordance with the laws of the State of Minnesota, United States of America, disregarding its conflicts of law rules.\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Development Agreement by giving written notice to the other Party, (a)in the event the other Party's bankruptcy, insolvency, or the filing of a petition therefore; and (b) the other Party materially defaults in the performance of its obligations hereunder."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Bioamber will not itself or with or through third parties engage in the development of biocatalysts other than E. coli for the production of succinic acid or salts thereof, except for the development activities under the terms and conditions of this Development Agreement."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Development Agreement shall be governed by and construed in accordance with the laws of the State of Minnesota, United States of America, disregarding its conflicts of law rules."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:32:09.280320+00:00"
+}

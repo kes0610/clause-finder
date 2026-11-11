@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "WORLDWIDESTRATEGIESINC_11_02_2005-EX-10-RESELLER AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3531,
+  "output_tokens_reported": 297,
+  "latency_seconds": 1.38,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Reseller acknowledges that meeting the Quotas is an essential element of this Agreement and that this Agreement may be terminated by TouchStar if, in TouchStar's reasonable opinion, Reseller will not meet the Quotas during the Term or any extension thereof.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"IN NO EVENT SHALL TOUCHSTAR BE LIABLE TO RESELLER, ANY OTHER RESELLER OR ANY CUSTOMER BY REASON OF ANY REPRESENTATION OR IMPLIED WARRANTY, CONDITION, OTHER TERM, OR ANY DUTY AT COMMON LAW, OR UNDER THE TERMS OF THIS AGREEMENT, FOR ANY DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR PUNITIVE LOSS OR DAMAGE (WHETHER FOR LOSS OF PROFIT OR OTHERWISE) ARISING OUT OF OR IN CONNECTION WITH ANY ACT OR OMISSION OF TOUCHSTAR RELATING TO THE DEVELOPMENT, MANUFACTURE, OR SUPPLY OF THE TOUCHSTAR SOFTWARE, THE SERVICES, OR THE INSTALLATION OF ANY\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Reseller acknowledges that meeting the Quotas is an essential element of this Agreement and that this Agreement may be terminated by TouchStar if, in TouchStar's reasonable opinion, Reseller will not meet the Quotas during the Term or any extension thereof."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "IN NO EVENT SHALL TOUCHSTAR BE LIABLE TO RESELLER, ANY OTHER RESELLER OR ANY CUSTOMER BY REASON OF ANY REPRESENTATION OR IMPLIED WARRANTY, CONDITION, OTHER TERM, OR ANY DUTY AT COMMON LAW, OR UNDER THE TERMS OF THIS AGREEMENT, FOR ANY DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR PUNITIVE LOSS OR DAMAGE (WHETHER FOR LOSS OF PROFIT OR OTHERWISE) ARISING OUT OF OR IN CONNECTION WITH ANY ACT OR OMISSION OF TOUCHSTAR RELATING TO THE DEVELOPMENT, MANUFACTURE, OR SUPPLY OF THE TOUCHSTAR SOFTWARE, THE SERVICES, OR THE INSTALLATION OF ANY"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:36:39.855734+00:00"
+}

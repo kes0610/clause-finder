@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "SENMIAOTECHNOLOGYLTD_02_19_2019-EX-10.5-Collaboration Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3634,
+  "output_tokens_reported": 416,
+  "latency_seconds": 1.32,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"In the event of any breach below by Party B, Party B shall immediately remedy the breach, and Party A is entitled to request Party B to pay the liquidated damages of not less than RMB50,000 (RMB FIFTY THOUSAND) based on the consequences of the breach, and send the Confirmation Letter on the Breach of the Partner of Xiaoju Online Ride-hailing Marketplace to Party B, and terminate the Agreement.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Unless any party is in violation of the confidentiality clause, in any case, neither party shall be liable for any indirect, punitive claims, or claims for losses of commercial profits, or damages for business losses of the company or any third Party Arising from this Agreement, or for any loss or inaccuracy of data of any form, whether based on Agreement, tort or any other legal principle, even though the party has been informed of the possibility of such damage.\"},\n  \"non_compete\": {\"present\": true, \"quote\": \"In consideration of the fact that Party B may have access to the relevant trade secrets of Didi during the cooperation, Party B or Party B's any affiliate cooperates with any entity competitive with Didi (including but not limited to Meituan, CAR, Yongche, izu, Caocao, Dida) in any form without prior written notice to and confirmation by Didi;\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"11.1 The execution, validation, interpretation, performance, modification and termination of this Agreement and the settlement of disputes under this Agreement shall be governed by the Laws of China.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "In the event of any breach below by Party B, Party B shall immediately remedy the breach, and Party A is entitled to request Party B to pay the liquidated damages of not less than RMB50,000 (RMB FIFTY THOUSAND) based on the consequences of the breach, and send the Confirmation Letter on the Breach of the Partner of Xiaoju Online Ride-hailing Marketplace to Party B, and terminate the Agreement."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Unless any party is in violation of the confidentiality clause, in any case, neither party shall be liable for any indirect, punitive claims, or claims for losses of commercial profits, or damages for business losses of the company or any third Party Arising from this Agreement, or for any loss or inaccuracy of data of any form, whether based on Agreement, tort or any other legal principle, even though the party has been informed of the possibility of such damage."
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "In consideration of the fact that Party B may have access to the relevant trade secrets of Didi during the cooperation, Party B or Party B's any affiliate cooperates with any entity competitive with Didi (including but not limited to Meituan, CAR, Yongche, izu, Caocao, Dida) in any form without prior written notice to and confirmation by Didi;"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "11.1 The execution, validation, interpretation, performance, modification and termination of this Agreement and the settlement of disputes under this Agreement shall be governed by the Laws of China."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:33:11.419587+00:00"
+}

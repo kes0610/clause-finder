@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSING AND WEB SITE HOSTING AGREEMENT.txt",
+  "chunk_index": 2,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3519,
+  "output_tokens_reported": 621,
+  "latency_seconds": 2.11,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Subject to Section 4 hereof, TrueLink will continue to provide the requested Hosting Services and Support Services until the last day of the month following the month in which Client provides TrueLink with a written notice of its election to terminate this Agreement.\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"IN NO EVENT SHALL TRUELINK'S LIABILITY FOR ANY MATTER ARISING UNDER OR RELATED TO SECTION 3, 4, 7 AND 11 THIS AGREEMENT (OTHER THAN DUE TO A BREACH RESULTING FROM TRUELINK'S GROSS NEGLIGENCE OR WILLFUL MISCONDUCT) EXCEED THE TOTAL COMPENSATION PAID FOR HOSTING AND SUPPORT SERVICES OVER THE IMMEDIATELY PRECEDING 12 MONTHS PERIOD.\"\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"Client hereby grants to TrueLink the nonexclusive worldwide right and license to use, distribute, disseminate, license, resell, exploit, upload, display, copy and store Credit Data subject to the limitations set forth in and in accordance with the Non-Competition Agreement.\"\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"This Agreement will take effect on the Effective Date and remain in effect for a period of 1 year; provided, that Sections 2 and 3 level shall terminate promptly upon (a) any action or omission by Client or any of its customers which constitutes a breach of or default by TrueLink under any System Agreement or Credit Repository Agreement, which breach or default has either not been cured or cannot be cured within the applicable cure period and the consequences of which is that TrueLink will lose material rights it had pursuant to said Agreements or (b) any violations or breach by Client of Sections 8a - 8c. This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year.\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year.\"\n  },\n  \"governing_law\": {\n    \"present\": true,\n    \"quote\": \"This Agreement shall be governed, construed and interpreted in accordance with the laws of the State of California (without respect to principles of conflicts of law).\"\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Subject to Section 4 hereof, TrueLink will continue to provide the requested Hosting Services and Support Services until the last day of the month following the month in which Client provides TrueLink with a written notice of its election to terminate this Agreement."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "IN NO EVENT SHALL TRUELINK'S LIABILITY FOR ANY MATTER ARISING UNDER OR RELATED TO SECTION 3, 4, 7 AND 11 THIS AGREEMENT (OTHER THAN DUE TO A BREACH RESULTING FROM TRUELINK'S GROSS NEGLIGENCE OR WILLFUL MISCONDUCT) EXCEED THE TOTAL COMPENSATION PAID FOR HOSTING AND SUPPORT SERVICES OVER THE IMMEDIATELY PRECEDING 12 MONTHS PERIOD."
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Client hereby grants to TrueLink the nonexclusive worldwide right and license to use, distribute, disseminate, license, resell, exploit, upload, display, copy and store Credit Data subject to the limitations set forth in and in accordance with the Non-Competition Agreement."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement will take effect on the Effective Date and remain in effect for a period of 1 year; provided, that Sections 2 and 3 level shall terminate promptly upon (a) any action or omission by Client or any of its customers which constitutes a breach of or default by TrueLink under any System Agreement or Credit Repository Agreement, which breach or default has either not been cured or cannot be cured within the applicable cure period and the consequences of which is that TrueLink will lose material rights it had pursuant to said Agreements or (b) any violations or breach by Client of Sections 8a - 8c. This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "This Agreement shall renew automatically thereafter for successive one year periods until terminated pursuant to Section 12 herein or unless either Client or TrueLink deliver to the other written notice of intent not to renew no later than thirty (30) days prior to the end of said year."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed, construed and interpreted in accordance with the laws of the State of California (without respect to principles of conflicts of law)."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:33:04.132809+00:00"
+}

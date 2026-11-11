@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "GentechHoldingsInc_20190808_1-A_EX1A-6 MAT CTRCT_11776814_EX1A-6 MAT CTRCT_Distributor Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 2647,
+  "prompt_input_tokens_reported": 3129,
+  "output_tokens_reported": 210,
+  "latency_seconds": 0.91,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Distributor shall have the option to renew this Agreement for an additional Three (3) year period\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement is a contract under the laws of the State of Florida and for all purposes shall be governed by and construed in accordance with the substantive laws of the State of Florida, without regard to its principles of conflicts of laws provisions.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Distributor shall have the option to renew this Agreement for an additional Three (3) year period"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "by providing prior written notice to Company within Ninety (90) days of the end of the initial period of this Agreement."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement is a contract under the laws of the State of Florida and for all purposes shall be governed by and construed in accordance with the substantive laws of the State of Florida, without regard to its principles of conflicts of laws provisions."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:34:12.558595+00:00"
+}

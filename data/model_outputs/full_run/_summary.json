@@ -10,23 +10,23 @@
       "stop_reason": null
     },
     "gemini_3_5_flash_lite": {
-      "done": 20,
-      "skipped_already_done": 454,
-      "parse_ok": 19,
+      "done": 54,
+      "skipped_already_done": 473,
+      "parse_ok": 54,
       "parse_fail": 0,
-      "errors": 1,
-      "stopped_early": true,
-      "stop_reason": "36495s wait needed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more info"
+      "errors": 0,
+      "stopped_early": false,
+      "stop_reason": null
     },
     "gemini_3_1_flash_lite": {
-      "done": 24,
-      "skipped_already_done": 383,
-      "parse_ok": 23,
+      "done": 121,
+      "skipped_already_done": 406,
+      "parse_ok": 121,
       "parse_fail": 0,
-      "errors": 1,
-      "stopped_early": true,
-      "stop_reason": "36412s wait needed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more info"
+      "errors": 0,
+      "stopped_early": false,
+      "stop_reason": null
     }
   },
-  "elapsed_seconds": 212.802170375
+  "elapsed_seconds": 468.35539425
 }

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "WORLDWIDESTRATEGIESINC_11_02_2005-EX-10-RESELLER AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3558,
+  "output_tokens_reported": 506,
+  "latency_seconds": 1.79,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"PROVIDED that TouchStar shall have the right to terminate this Agreement at any time after the Effective Date upon not less than fifteen (15) days'           prior written notice to Reseller.\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"THE SOLE OBLIGATION OF           TOUCHSTAR, AND THE SOLE REMEDY OF RESELLER OR ANY OTHER RESELLER,           UNDER THIS AGREEMENT SHALL BE (A) WITH REGARD TO THE TOUCHSTAR           SOFTWARE OR ANY CALL CENTER SYSTEM, THE REPLACEMENT OR REPAIR OF THE           TOUCHSTAR SOFTWARE OR THE CALL CENTER SYSTEM OR, AT THE OPTION OF           TOUCHSTAR, THE RETURN OF THE PURCHASE PRICE PAID BY RESELLER\\n\\n                                       14\\n\\n          FOR SUCH TOUCHSTAR SOFTWARE OR CALL CENTER SYSTEM AND (B) WITH REGARD\\n\\n\\n\\n\\n          TO SERVICES, THE REPERFORMANCE OF THE SERVICES.\"\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"Reseller, any of Reseller's officers, directors, or                 shareholders, or any entity controlling, controlled by or under                 common control with Reseller promotes, sells, or offers for sale                 any product or other item that is, in TouchStar's reasonable                 opinion, competitive with or capable of being substituted for                 any of the TouchStar Software;\"\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"Renewals for additional           terms, if any, shall not cause this Agreement to be construed as an           agreement of indefinite duration.\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"Prior to the end of the Term, each           of TouchStar and Reseller may notify the other if it desires to           negotiate a further agreement by written request received at least           ninety (90) days in advance of the termination of this Agreement.\"\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "PROVIDED that TouchStar shall have the right to terminate this Agreement at any time after the Effective Date upon not less than fifteen (15) days'           prior written notice to Reseller."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "THE SOLE OBLIGATION OF           TOUCHSTAR, AND THE SOLE REMEDY OF RESELLER OR ANY OTHER RESELLER,           UNDER THIS AGREEMENT SHALL BE (A) WITH REGARD TO THE TOUCHSTAR           SOFTWARE OR ANY CALL CENTER SYSTEM, THE REPLACEMENT OR REPAIR OF THE           TOUCHSTAR SOFTWARE OR THE CALL CENTER SYSTEM OR, AT THE OPTION OF           TOUCHSTAR, THE RETURN OF THE PURCHASE PRICE PAID BY RESELLER\n\n                                       14\n\n          FOR SUCH TOUCHSTAR SOFTWARE OR CALL CENTER SYSTEM AND (B) WITH REGARD\n\n\n\n\n          TO SERVICES, THE REPERFORMANCE OF THE SERVICES."
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Reseller, any of Reseller's officers, directors, or                 shareholders, or any entity controlling, controlled by or under                 common control with Reseller promotes, sells, or offers for sale                 any product or other item that is, in TouchStar's reasonable                 opinion, competitive with or capable of being substituted for                 any of the TouchStar Software;"
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Renewals for additional           terms, if any, shall not cause this Agreement to be construed as an           agreement of indefinite duration."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Prior to the end of the Term, each           of TouchStar and Reseller may notify the other if it desires to           negotiate a further agreement by written request received at least           ninety (90) days in advance of the termination of this Agreement."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:33:09.241754+00:00"
+}

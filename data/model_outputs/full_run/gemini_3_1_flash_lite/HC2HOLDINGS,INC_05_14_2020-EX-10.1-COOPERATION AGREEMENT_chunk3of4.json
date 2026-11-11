@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "HC2HOLDINGS,INC_05_14_2020-EX-10.1-COOPERATION AGREEMENT.txt",
+  "chunk_index": 3,
+  "chunk_total": 4,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3524,
+  "output_tokens_reported": 291,
+  "latency_seconds": 0.97,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"This Agreement will terminate upon the earlier of: (i) the conclusion of the Standstill Period or (ii) delivery of written notice by one Party to the other Party of a material breach of this Agreement by the breaching Party that is uncured after ten (10) calendar days of notice of such breach.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"Between the date of the Initial Reimbursement and the date of the 2020 Annual Meeting, the Company will reimburse the MG Capital Parties for the Expenses in an aggregate amount not exceeding $650,000 (inclusive of the Initial Reimbursement, the \\\"Cap\\\")\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"THIS AGREEMENT WILL BE GOVERNED IN ALL RESPECTS, INCLUDING VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "This Agreement will terminate upon the earlier of: (i) the conclusion of the Standstill Period or (ii) delivery of written notice by one Party to the other Party of a material breach of this Agreement by the breaching Party that is uncured after ten (10) calendar days of notice of such breach."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "Between the date of the Initial Reimbursement and the date of the 2020 Annual Meeting, the Company will reimburse the MG Capital Parties for the Expenses in an aggregate amount not exceeding $650,000 (inclusive of the Initial Reimbursement, the \"Cap\")"
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "THIS AGREEMENT WILL BE GOVERNED IN ALL RESPECTS, INCLUDING VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:30:36.096662+00:00"
+}

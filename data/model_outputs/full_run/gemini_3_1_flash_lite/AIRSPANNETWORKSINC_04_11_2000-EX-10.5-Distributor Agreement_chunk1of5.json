@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3565,
+  "output_tokens_reported": 247,
+  "latency_seconds": 1.02,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Airspan hereby appoints Distributor as an independent, exclusive distributor to assist Airspan in marketing the Airspan Products to customers in the Territory\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "During the term of this Agreement, and for a period of three (3) months following the expiration or termination of this Agreement, Distributor agrees that neither it nor any organization or entity controlled or directed by it will, without Airspan's prior, written consent, represent a manufacturer or supplier of products similar in design or performance to or which are of such a nature as to be competitive with any products contained in the Airspan Products, nor will Distributor market or otherwise promote the sale of such products."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Airspan hereby appoints Distributor as an independent, exclusive distributor to assist Airspan in marketing the Airspan Products to customers in the Territory"
+    }
+  },
+  "timestamp": "2026-11-11T22:35:08.600149+00:00"
+}

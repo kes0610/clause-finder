@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2924,
+  "prompt_input_tokens_reported": 3527,
+  "output_tokens_reported": 312,
+  "latency_seconds": 1.05,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida.\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the Agreement"
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida."
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:30:33.575544+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "WORLDWIDESTRATEGIESINC_11_02_2005-EX-10-RESELLER AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3558,
+  "output_tokens_reported": 356,
+  "latency_seconds": 1.31,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"PROVIDED that TouchStar shall have the right to terminate this Agreement at any time after the Effective Date upon not less than fifteen (15) days' prior written notice to Reseller.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"(l) Reseller, any of Reseller's officers, directors, or shareholders, or any entity controlling, controlled by or under common control with Reseller promotes, sells, or offers for sale any product or other item that is, in TouchStar's reasonable opinion, competitive with or capable of being substituted for any of the TouchStar Software; or Reseller engages in overt or subvert forms of boycott of the TouchStar Software, including the offer for sale of any product or other item that is, in TouchStar's reasonable opinion, competitive with or capable of being substituted for any of the TouchStar Software\"\n  },\n  \"renewal_term\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_notice\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"Reseller represents and warrants that Reseller has valid legal ownership and other exclusive rights to the Reseller Marks.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "PROVIDED that TouchStar shall have the right to terminate this Agreement at any time after the Effective Date upon not less than fifteen (15) days' prior written notice to Reseller."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "(l) Reseller, any of Reseller's officers, directors, or shareholders, or any entity controlling, controlled by or under common control with Reseller promotes, sells, or offers for sale any product or other item that is, in TouchStar's reasonable opinion, competitive with or capable of being substituted for any of the TouchStar Software; or Reseller engages in overt or subvert forms of boycott of the TouchStar Software, including the offer for sale of any product or other item that is, in TouchStar's reasonable opinion, competitive with or capable of being substituted for any of the TouchStar Software"
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Reseller represents and warrants that Reseller has valid legal ownership and other exclusive rights to the Reseller Marks."
+    }
+  },
+  "timestamp": "2026-11-11T22:37:02.344896+00:00"
+}

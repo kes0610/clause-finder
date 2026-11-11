@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "HUBEIMINKANGPHARMACEUTICALLTD_09_19_2006-EX-10.1-OUTSOURCING AGREEMENT.txt",
+  "chunk_index": 1,
+  "chunk_total": 1,
+  "chunk_input_tokens_est": 2387,
+  "prompt_input_tokens_reported": 2875,
+  "output_tokens_reported": 279,
+  "latency_seconds": 1.25,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": true, \"quote\": \"DGT's total liability, whether under the express or implied terms of this Agreement, in tort (including negligence), or at common law, for any loss or damage suffered by Dolphin, whether direct, indirect or special, or any other similar or like damage that may arise or does arise from any breaches of this Agreement by DGT and its Directors, Officers or agents, shall be limited to the amount of the cost of the products.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by and construed in accordance with the laws of the State of Nevada, USA in force therein without regard to its conflict of law rules.\"},\n  \"exclusivity\": {\"present\": true, \"quote\": \"Dolphin will provide photo-editing services exclusively, at DGT option, when the number of downloaded photos to be edited by Dolphin totals 50,000 in a single year;\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "DGT's total liability, whether under the express or implied terms of this Agreement, in tort (including negligence), or at common law, for any loss or damage suffered by Dolphin, whether direct, indirect or special, or any other similar or like damage that may arise or does arise from any breaches of this Agreement by DGT and its Directors, Officers or agents, shall be limited to the amount of the cost of the products."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of Nevada, USA in force therein without regard to its conflict of law rules."
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Dolphin will provide photo-editing services exclusively, at DGT option, when the number of downloaded photos to be edited by Dolphin totals 50,000 in a single year;"
+    }
+  },
+  "timestamp": "2026-11-11T22:36:24.676874+00:00"
+}

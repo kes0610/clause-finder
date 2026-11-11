@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1).txt",
+  "chunk_index": 1,
+  "chunk_total": 3,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3444,
+  "output_tokens_reported": 272,
+  "latency_seconds": 1.29,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": false, \"quote\": null},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": true, \"quote\": \"1.2.5 No other party has rights to its services as described in the Work Plan, and that a work assignment from any third party shall not be  accepted, or work by Cargill aloneshall not be conducted, to develop CB1 or other microorganisms that will be used to (a) directly  produce succinic acid and salts thereof, or (b) indirectly produce succinic acid and salts thereof (for example, Cargill may develop  microorganisms to produce precursors of succinic acid, such as fumaric acid and malic acid, so long as such precursors are not  converted to succinic acid, such as by chemical modification), for the Term (as defined in Section 10.1) of this Development  Agreement.\"},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": false,
+      "quote": null
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "1.2.5 No other party has rights to its services as described in the Work Plan, and that a work assignment from any third party shall not be  accepted, or work by Cargill aloneshall not be conducted, to develop CB1 or other microorganisms that will be used to (a) directly  produce succinic acid and salts thereof, or (b) indirectly produce succinic acid and salts thereof (for example, Cargill may develop  microorganisms to produce precursors of succinic acid, such as fumaric acid and malic acid, so long as such precursors are not  converted to succinic acid, such as by chemical modification), for the Term (as defined in Section 10.1) of this Development  Agreement."
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:32:07.196931+00:00"
+}

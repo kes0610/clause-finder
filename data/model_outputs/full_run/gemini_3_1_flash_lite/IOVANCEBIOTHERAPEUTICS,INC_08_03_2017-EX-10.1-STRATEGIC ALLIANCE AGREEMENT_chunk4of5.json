@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "IOVANCEBIOTHERAPEUTICS,INC_08_03_2017-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+  "chunk_index": 4,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3481,
+  "output_tokens_reported": 242,
+  "latency_seconds": 1.19,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Either Party may terminate this Agreement for the material breach or default of any of the terms or conditions of this Agreement by the other Party upon thirty (30) days' written notice and the opportunity to cure during such notice period; and such termination shall be in addition to any other remedies that it may have at law or in equity.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": true, \"quote\": \"As between the Parties, and without limiting MD Anderson's assistance obligations under Section 7.2(b), LBIO shall have the sole and exclusive right to file patents covering or claiming Inventions and shall bear all costs with respect to the prosecution and maintenance thereof.\"}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either Party may terminate this Agreement for the material breach or default of any of the terms or conditions of this Agreement by the other Party upon thirty (30) days' written notice and the opportunity to cure during such notice period; and such termination shall be in addition to any other remedies that it may have at law or in equity."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "As between the Parties, and without limiting MD Anderson's assistance obligations under Section 7.2(b), LBIO shall have the sole and exclusive right to file patents covering or claiming Inventions and shall bear all costs with respect to the prosecution and maintenance thereof."
+    }
+  },
+  "timestamp": "2026-11-11T22:34:04.121424+00:00"
+}

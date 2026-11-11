@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.txt",
+  "chunk_index": 1,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3538,
+  "output_tokens_reported": 335,
+  "latency_seconds": 1.11,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.\"\n  },\n  \"liability_cap\": {\n    \"present\": true,\n    \"quote\": \"THE AGGREGATE LIABILITY OF SUPPLIER UNDER, OR IN CONNECTION WITH, THIS AGREEMENT SHALL BE EQUAL TO THE LESSER OF: (i) ***; AND (ii) ***.\"\n  },\n  \"non_compete\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a \\\"Renewal Term\\\", and together with the Initial Term, the \\\"Term\\\").\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.\"\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": true,\n    \"quote\": \"Supplier hereby (i) appoints Reseller, and Reseller accepts the appointment, as a non\\u2500 exclusive reseller of the Products in the Territory.\"\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "THE AGGREGATE LIABILITY OF SUPPLIER UNDER, OR IN CONNECTION WITH, THIS AGREEMENT SHALL BE EQUAL TO THE LESSER OF: (i) ***; AND (ii) ***."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a \"Renewal Term\", and together with the Initial Term, the \"Term\")."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": true,
+      "quote": "Supplier hereby (i) appoints Reseller, and Reseller accepts the appointment, as a non\u2500 exclusive reseller of the Products in the Territory."
+    }
+  },
+  "timestamp": "2026-11-11T22:30:47.977228+00:00"
+}

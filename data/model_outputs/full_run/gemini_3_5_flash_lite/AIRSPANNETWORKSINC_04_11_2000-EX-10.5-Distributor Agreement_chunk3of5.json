@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "AIRSPANNETWORKSINC_04_11_2000-EX-10.5-Distributor Agreement.txt",
+  "chunk_index": 3,
+  "chunk_total": 5,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3549,
+  "output_tokens_reported": 375,
+  "latency_seconds": 1.46,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\n    \"present\": true,\n    \"quote\": \"Either party may terminate this Agreement at any time during the term of this Agreement if  either party fails materially to comply with any covenant, term, or provision of this Agreement, by written notice given to the other party not less than thirty (30) days prior to the effective date of such termination.\"\n  },\n  \"liability_cap\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"non_compete\": {\n    \"present\": true,\n    \"quote\": \"Accordingly, during the performance of this Agreement and for three (3) months after termination of services under this Agreement, Distributor will not offer services to third parties which compete with the services provided by Airspan under this Agreement, or otherwise use the knowledge acquired from Airspan in order to compete with Airspan or its customers.\"\n  },\n  \"renewal_term\": {\n    \"present\": true,\n    \"quote\": \"After the Initial Term, the term of the Agreement may be extended by a further period of five (5) years by mutual written agreement by the parties in the form of an amendment to this Agreement.\"\n  },\n  \"renewal_notice\": {\n    \"present\": true,\n    \"quote\": \"If Distributor wishes to extend the term of the Agreement beyond the Initial Term, it  must notify Airspan in writing at least six (6) months prior to then end of the Initial Term.\"\n  },\n  \"governing_law\": {\n    \"present\": false,\n    \"quote\": null\n  },\n  \"exclusivity\": {\n    \"present\": false,\n    \"quote\": null\n  }\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Either party may terminate this Agreement at any time during the term of this Agreement if  either party fails materially to comply with any covenant, term, or provision of this Agreement, by written notice given to the other party not less than thirty (30) days prior to the effective date of such termination."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": true,
+      "quote": "Accordingly, during the performance of this Agreement and for three (3) months after termination of services under this Agreement, Distributor will not offer services to third parties which compete with the services provided by Airspan under this Agreement, or otherwise use the knowledge acquired from Airspan in order to compete with Airspan or its customers."
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "After the Initial Term, the term of the Agreement may be extended by a further period of five (5) years by mutual written agreement by the parties in the form of an amendment to this Agreement."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "If Distributor wishes to extend the term of the Agreement beyond the Initial Term, it  must notify Airspan in writing at least six (6) months prior to then end of the Initial Term."
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:30:27.525995+00:00"
+}

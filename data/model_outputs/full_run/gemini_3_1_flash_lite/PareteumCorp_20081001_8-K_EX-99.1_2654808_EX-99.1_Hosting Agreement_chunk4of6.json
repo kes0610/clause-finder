@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_1_flash_lite",
+  "contract_file": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.txt",
+  "chunk_index": 4,
+  "chunk_total": 6,
+  "chunk_input_tokens_est": 3000,
+  "prompt_input_tokens_reported": 3535,
+  "output_tokens_reported": 352,
+  "latency_seconds": 1.21,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"If no agreement is reached by the Parties within a period of fifteen(15) Calendar Days and the force majeure event continues to have a substantial effect on the performance of the Agreement, either Party shall have the right to terminate this Agreement in whole or in part with immediate effect by written notice without incurring any financial liability to the other Party as a consequence of such termination.\"},\n  \"liability_cap\": {\"present\": true, \"quote\": \"a Party's liability for damage suffered by the other Party, attributable to the first mentioned Party or a person for whom it is liable by law, shall be limited to the following events, and the following amounts:     a)   for direct damage to physical goods (property damage or \\\"zaakschade\\\") or directly resulting from death or personal injury: up to a maximum of *** per event or series of connected events and up to a further maximum of *** for all events (connected or not) in any period of 12 calendar months;           b)   for damage directly resulting from a material breach of this Agreement: up to a maximum *** or *** as set out in Appendix 2), whatever amount is the highest, in any period of 12 calendar months.\"},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": false, \"quote\": null},\n  \"renewal_notice\": {\"present\": false, \"quote\": null},\n  \"governing_law\": {\"present\": false, \"quote\": null},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "If no agreement is reached by the Parties within a period of fifteen(15) Calendar Days and the force majeure event continues to have a substantial effect on the performance of the Agreement, either Party shall have the right to terminate this Agreement in whole or in part with immediate effect by written notice without incurring any financial liability to the other Party as a consequence of such termination."
+    },
+    "liability_cap": {
+      "present": true,
+      "quote": "a Party's liability for damage suffered by the other Party, attributable to the first mentioned Party or a person for whom it is liable by law, shall be limited to the following events, and the following amounts:     a)   for direct damage to physical goods (property damage or \"zaakschade\") or directly resulting from death or personal injury: up to a maximum of *** per event or series of connected events and up to a further maximum of *** for all events (connected or not) in any period of 12 calendar months;           b)   for damage directly resulting from a material breach of this Agreement: up to a maximum *** or *** as set out in Appendix 2), whatever amount is the highest, in any period of 12 calendar months."
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_notice": {
+      "present": false,
+      "quote": null
+    },
+    "governing_law": {
+      "present": false,
+      "quote": null
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:38:06.830866+00:00"
+}

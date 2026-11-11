@@ -1,0 +1,44 @@
+{
+  "model": "gemini_3_5_flash_lite",
+  "contract_file": "HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.txt",
+  "chunk_index": 2,
+  "chunk_total": 2,
+  "chunk_input_tokens_est": 1918,
+  "prompt_input_tokens_reported": 2481,
+  "output_tokens_reported": 253,
+  "latency_seconds": 0.96,
+  "error": null,
+  "raw_response": "{\n  \"termination\": {\"present\": true, \"quote\": \"Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.\"},\n  \"liability_cap\": {\"present\": false, \"quote\": null},\n  \"non_compete\": {\"present\": false, \"quote\": null},\n  \"renewal_term\": {\"present\": true, \"quote\": \"Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a \\\"Renewal Term\\\", and together with the Initial Term, the \\\"Term\\\").\"},\n  \"renewal_notice\": {\"present\": true, \"quote\": \"Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months.\"},\n  \"governing_law\": {\"present\": true, \"quote\": \"This Agreement shall be governed by the laws of the State of New York and all disputes and controversies arising out of or in connection with the Agreement shall be brought exclusively before the competent courts in New York County, New York;\"},\n  \"exclusivity\": {\"present\": false, \"quote\": null}\n}",
+  "parsed_ok": true,
+  "parsed_json": {
+    "termination": {
+      "present": true,
+      "quote": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months."
+    },
+    "liability_cap": {
+      "present": false,
+      "quote": null
+    },
+    "non_compete": {
+      "present": false,
+      "quote": null
+    },
+    "renewal_term": {
+      "present": true,
+      "quote": "Thereafter, this Agreement shall automatically be renewed for successive 1-year terms (each a \"Renewal Term\", and together with the Initial Term, the \"Term\")."
+    },
+    "renewal_notice": {
+      "present": true,
+      "quote": "Following the Initial Term, either Party may terminate this Agreement without cause upon written notice to the other Party of at least 3 months."
+    },
+    "governing_law": {
+      "present": true,
+      "quote": "This Agreement shall be governed by the laws of the State of New York and all disputes and controversies arising out of or in connection with the Agreement shall be brought exclusively before the competent courts in New York County, New York;"
+    },
+    "exclusivity": {
+      "present": false,
+      "quote": null
+    }
+  },
+  "timestamp": "2026-11-11T22:30:48.940047+00:00"
+}
