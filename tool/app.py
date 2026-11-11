@@ -125,10 +125,7 @@ def render_results(results: dict, model_labels: dict, ground_truth: dict | None 
 
 st.set_page_config(page_title="Contract Clause Finder", layout="wide")
 st.title("Contract Clause Finder")
-st.caption(
-    "A demo built on top of the AI Contract Review Evaluation project. "
-    "Not legal advice."
-)
+st.caption("Not legal advice.")
 
 summary_tab, browse_tab, paste_tab = st.tabs(
     ["Project summary", "Browse the 130 real results", "Paste a new contract"]
