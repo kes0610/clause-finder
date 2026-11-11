@@ -6,6 +6,8 @@ __pycache__/
 # real secrets live here, never committed — .env.example shows the shape
 .env
 
-# CUAD raw data is CC BY 4.0 but we don't commit it ourselves —
-# README.md has the exact download command instead.
-data/raw/
+# Full contract text is CC BY 4.0 but we don't commit it ourselves —
+# README.md has the exact download command instead. The lawyer-labeled
+# ground truth (master_clauses.csv) IS committed — it's small, and the
+# live tool needs it to show real accuracy comparisons.
+data/raw/full_contract_txt/
